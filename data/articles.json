@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Artificial Intelligence Detection Scores in Screening Mammography for Early Breast Cancer Alerts",
     "doi": "10.1148/radiol.251309",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Association of First-Line Stand-Alone Middle Meningeal Artery Embolization for Nonacute Subdural Hematoma with In-Hospital Outcomes",
     "doi": "10.1148/radiol.260018",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Thrombectomy in Posterior Circulation Tandem Occlusions: Multicenter Comparative Analysis of Procedural Techniques and Predictors of Clinical Outcomes",
     "doi": "10.1148/radiol.252830",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Ischemic Lesion Net Water Uptake Outperforms ASPECTS and CBF Less Than 30% in Predicting Futile Recanalization after Mechanical Thrombectomy",
     "doi": "10.1148/radiol.252487",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Pelvic MRI in Endometrial Cancer Staging: A Retrospective Evaluation of the Impact of FIGO 2023",
     "doi": "10.1148/radiol.252037",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Sex-Specific Associations between Long-term Air Pollution Exposure and Coronary Atherosclerosis at Cardiac CT",
     "doi": "10.1148/radiol.252086",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Disclosure of AI Use in Radiology: Patient Perspectives and Preferences",
     "doi": "10.1148/radiol.260450",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "AI-based Histologic Heterogeneity of Microvascular Obstruction at Cardiac MRI for Predicting MACEs: A Multicenter Study",
     "doi": "10.1148/radiol.252250",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Evaluating Accuracy of LI-RADS Nonradiation Treatment Response Algorithm v2024 and Ancillary Features at Hepatobiliary MRI versus CT",
     "doi": "10.1148/radiol.253143",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Ten-year Longitudinal Relationship between Spinal Degenerative Lesions in Axial Spondyloarthritis at MRI and Radiography in the DESIR Cohort",
     "doi": "10.1148/radiol.251715",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Planimetric and Linear MRI Markers for Progressive Supranuclear Palsy Classification: A Large Multicohort International Study",
     "doi": "10.1148/radiol.251394",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Imaging Assessment after Nonradiation Locoregional Therapy for HCC",
     "doi": "10.1148/radiol.261217",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "<sup>18</sup> F-Fluciclovine or<sup>68</sup> Ga-PSMA-11 PET/CT–guided Salvage Radiotherapy Changes in Postprostatectomy Biochemical Recurrence: Secondary Analysis of the EMPIRE-2 Trial",
     "doi": "10.1148/radiol.251874",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Radiology",
     "title": "Genicular Artery Embolization Using Rapidly Resorbable Gelatin-based Microspheres for Osteoarthritis-related Knee Pain",
     "doi": "10.1148/radiol.253312",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "date": "6/24/2026",
+    "date": "2026-06-24",
     "journal": "Radiology: Artificial Intelligence",
     "title": "Impact of Exposure Parameters on Deep Learning Models in Chest Radiography and Implications for Deployment",
     "doi": "10.1148/ryai.250731",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "date": "6/24/2026",
+    "date": "2026-06-24",
     "journal": "Radiology: Artificial Intelligence",
     "title": "Impact on Cost and Expert Time of Data-Efficient Deep Learning for Medical Image Segmentation",
     "doi": "10.1148/ryai.250200",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "date": "6/24/2026",
+    "date": "2026-06-24",
     "journal": "Radiology: Artificial Intelligence",
     "title": "Benchmarking of AI and Radiologists for Indeterminate Lung Nodule Malignancy Risk Estimation on Screening CT: The LUNA25 Challenge",
     "doi": "10.1148/ryai.260179",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "MOTDNet: Multi organ task decoupling network for cell segmentation",
     "doi": "10.1016/j.media.2026.104045",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "Foundational model-based geometric consistency monocular depth estimation framework for colonoscopy",
     "doi": "10.1016/j.media.2026.104068",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "Explicit differentiable slicing and global deformation for cardiac mesh reconstruction",
     "doi": "10.1016/j.media.2026.103999",
@@ -361,7 +361,7 @@
   },
   {
     "id": 21,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "Quantification of thyroid nodules in multiple ultrasonography systems",
     "doi": "10.1016/j.media.2026.104007",
@@ -379,7 +379,7 @@
   },
   {
     "id": 22,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "Dose-aware diffusion model for 3D PET image denoising: Multi-institutional validation with reader study and real low-dose data",
     "doi": "10.1016/j.media.2026.104039",
@@ -397,7 +397,7 @@
   },
   {
     "id": 23,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "Two -stage contrastive learning framework for vertebral compression fracture screening in frontal chest X-ray",
     "doi": "10.1016/j.media.2026.104001",
@@ -415,7 +415,7 @@
   },
   {
     "id": 24,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "FreqConvMamba: Frequency-guided hierarchical hybrid SSM-CNN for medical image segmentation",
     "doi": "10.1016/j.media.2026.104019",
@@ -433,7 +433,7 @@
   },
   {
     "id": 25,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "HOI-brain: A novel multi-channel transformers framework for brain disorder diagnosis by accurately extracting signed higher-order interactions from fMRI data",
     "doi": "10.1016/j.media.2026.104009",
@@ -451,7 +451,7 @@
   },
   {
     "id": 26,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "Neural implicit heart coordinates: 3D cardiac shape reconstruction from sparse segmentations",
     "doi": "10.1016/j.media.2026.104052",
@@ -469,7 +469,7 @@
   },
   {
     "id": 27,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "ACE-ProtoNet: Adaptive covariance eigen-gate and uncertainty-aware prototype learning for coronary artery segmentation",
     "doi": "10.1016/j.media.2026.104040",
@@ -487,7 +487,7 @@
   },
   {
     "id": 28,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "PHIVE: A physics-informed variational encoder enables rapid spectral fitting of brain metabolite mapping at 7T",
     "doi": "10.1016/j.media.2026.104014",
@@ -505,7 +505,7 @@
   },
   {
     "id": 29,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Medical Image Analysis",
     "title": "MorphoNet: Morphological sub-region-based structure learning for WSI analysis",
     "doi": "10.1016/j.media.2026.104061",
@@ -523,7 +523,7 @@
   },
   {
     "id": 30,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Laboratory Test-Guided Medical Image Generation for Multi-Modal Disease Prediction",
     "doi": "10.1109/tmi.2026.3660978",
@@ -541,7 +541,7 @@
   },
   {
     "id": 31,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Decouple, Reorganize, and Fuse: A Multimodal Framework for Cancer Survival Prediction",
     "doi": "10.1109/tmi.2026.3668773",
@@ -559,7 +559,7 @@
   },
   {
     "id": 32,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Text-Image Co-Alignment for Weakly Supervised Polyp Segmentation",
     "doi": "10.1109/tmi.2026.3674592",
@@ -577,7 +577,7 @@
   },
   {
     "id": 33,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "PGVMS: A Prompt-Guided Unified Framework for Virtual Multiplex IHC Staining With Pathological Semantic Learning",
     "doi": "10.1109/tmi.2026.3663755",
@@ -595,7 +595,7 @@
   },
   {
     "id": 34,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "DHR<sup>2</sup> -Net: A Dual-Hierarchical Relational Reasoning Framework for Surgical Action Triplet Recognition",
     "doi": "10.1109/tmi.2026.3662737",
@@ -613,7 +613,7 @@
   },
   {
     "id": 35,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Preoperative Prediction of Esophageal Cancer Survival in CT via Tumor and Lymph Node Context and Geometry Modeling",
     "doi": "10.1109/tmi.2026.3670159",
@@ -631,7 +631,7 @@
   },
   {
     "id": 36,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Uncertainty-Guided Iterative Contrastive Fusion for Reliable Survival Prediction in Rectal Cancer",
     "doi": "10.1109/tmi.2026.3660270",
@@ -649,7 +649,7 @@
   },
   {
     "id": 37,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Temporal Conditioning for Longitudinal Brain MRI Registration and Aging Analysis",
     "doi": "10.1109/tmi.2026.3674458",
@@ -667,7 +667,7 @@
   },
   {
     "id": 38,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Cogformer: A Unified Multi-Scale Brain Representation for Visual Decoding and Reconstruction From fMRI",
     "doi": "10.1109/tmi.2026.3667706",
@@ -685,7 +685,7 @@
   },
   {
     "id": 39,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Unified and Semantically Grounded Domain Adaptation for Medical Image Segmentation",
     "doi": "10.1109/tmi.2026.3672802",
@@ -703,7 +703,7 @@
   },
   {
     "id": 40,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "SynLiTS: Phase Prompting-Driven Diffusion Synthesis and Context-Aware Fusion for Unaligned Liver Tumor Segmentation",
     "doi": "10.1109/tmi.2026.3663583",
@@ -721,7 +721,7 @@
   },
   {
     "id": 41,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "From Contrast-Driven Segmentation to Central Lumbar Spinal Stenosis Grading: A Comprehensive Multi-View Spinal MRI Image Analysis",
     "doi": "10.1109/tmi.2026.3660361",
@@ -739,7 +739,7 @@
   },
   {
     "id": 42,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "FUGC: Benchmarking Semi-Supervised Learning Methods for Cervical Segmentation",
     "doi": "10.1109/tmi.2026.3666364",
@@ -757,7 +757,7 @@
   },
   {
     "id": 43,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Few-Shot Contrastive Learning for Cross-Task Stroke Prognosis Prediction With Multimodal Data",
     "doi": "10.1109/tmi.2026.3661971",
@@ -775,7 +775,7 @@
   },
   {
     "id": 44,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Masked Image Modeling for Generalizable Organelle Segmentation in Volume EM",
     "doi": "10.1109/tmi.2026.3667612",
@@ -793,7 +793,7 @@
   },
   {
     "id": 45,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Patient-Specific Background Model Estimation for Effective Brain Stroke Microwave Imaging",
     "doi": "10.1109/tmi.2026.3660568",
@@ -811,7 +811,7 @@
   },
   {
     "id": 46,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Hierarchy-Aware and Knowledge-Guided Learning for Multi-Label Classification of Retinal Diseases From Fundus Images",
     "doi": "10.1109/tmi.2026.3672477",
@@ -829,7 +829,7 @@
   },
   {
     "id": 47,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "PWD: Prior-Aware Wavelet Diffusion for Efficient Dental Limited-Angle CT Reconstruction",
     "doi": "10.1109/tmi.2026.3667384",
@@ -847,7 +847,7 @@
   },
   {
     "id": 48,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "DOSTA-Net: Domain-Shuffle Temporal Attention Network for Vessel Extraction in X-Ray Coronary Angiography Using Synthetic Data",
     "doi": "10.1109/tmi.2026.3659754",
@@ -865,7 +865,7 @@
   },
   {
     "id": 49,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Scribble-Supervised Multi-Organ Segmentation via Epistemic-Driven Hardness-Adaptive Focusing",
     "doi": "10.1109/tmi.2026.3665556",
@@ -883,7 +883,7 @@
   },
   {
     "id": 50,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Addressing Imbalanced Modal Incompleteness in Realistic Multi-Modal Medical Image Segmentation via Hierarchical Gradient Alignment",
     "doi": "10.1109/tmi.2026.3667605",
@@ -901,7 +901,7 @@
   },
   {
     "id": 51,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Universal Scale Transformer for Histology Image Segmentation",
     "doi": "10.1109/tmi.2026.3667069",
@@ -919,7 +919,7 @@
   },
   {
     "id": 52,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Distillation-SAM: Knowledge Distillation-Based Auto-Prompt Embedding Learning for Surgical Image Segmentation",
     "doi": "10.1109/tmi.2026.3674509",
@@ -937,7 +937,7 @@
   },
   {
     "id": 53,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Plane-Wave Image Reconstruction With Hy-PCF: A Novel Hybrid CNN-Transformer for Progressive Cross-Domain Fusion",
     "doi": "10.1109/tmi.2026.3667618",
@@ -955,7 +955,7 @@
   },
   {
     "id": 54,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Axon Diameter Mapping From Myelin Water Diffusion MRI",
     "doi": "10.1109/tmi.2026.3664328",
@@ -973,7 +973,7 @@
   },
   {
     "id": 55,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "MambaMatch: A Novel Model for Semi-Supervised Spinal Cortical and Cancellous Bone Segmentation",
     "doi": "10.1109/tmi.2026.3666480",
@@ -991,7 +991,7 @@
   },
   {
     "id": 56,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-Supervised Medical Image Segmentation",
     "doi": "10.1109/tmi.2026.3664940",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": 57,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "DeepSparse: A Foundation Model for Sparse-View CBCT Reconstruction",
     "doi": "10.1109/tmi.2026.3674948",
@@ -1027,7 +1027,7 @@
   },
   {
     "id": 58,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Learning Fourier-Constrained Diffusion Bridges for MRI Reconstruction",
     "doi": "10.1109/tmi.2026.3673956",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": 59,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Computed Quantitative Planar Imaging for Targeted Alpha Therapy: Model-Based Sparse Reconstruction Validated With a Novel<sup>225</sup> Ac Epoxy Phantom",
     "doi": "10.1109/tmi.2026.3670643",
@@ -1063,7 +1063,7 @@
   },
   {
     "id": 60,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Deep Image Prior-Incorporated Direct PET Parametric Image Reconstruction",
     "doi": "10.1109/tmi.2026.3662566",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": 61,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Tomographic Foundation Model—FORCE: Flow-Oriented Reconstruction Conditioning Engine",
     "doi": "10.1109/tmi.2026.3669463",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": 62,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Moving Beyond Functional Connectivity: Time-Series Modeling for fMRI-Based Brain Disorder Classification",
     "doi": "10.1109/tmi.2026.3662157",
@@ -1117,7 +1117,7 @@
   },
   {
     "id": 63,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Large-Scale Multimodality via Dual-Path Cooperative Feature Fusion Strategy for Medical Image Segmentation",
     "doi": "10.1109/tmi.2026.3667954",
@@ -1135,7 +1135,7 @@
   },
   {
     "id": 64,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Phase-Lag-Based MPS/MPI Dual-Mode Precise In Vivo Temperature Imaging Technique",
     "doi": "10.1109/tmi.2026.3670844",
@@ -1153,7 +1153,7 @@
   },
   {
     "id": 65,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Few-Shot Pulmonary Vessel Segmentation Based on Tubular-Aware Prompt-Tuning",
     "doi": "10.1109/tmi.2026.3662001",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": 66,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "LRD-ESR-Net: Pseudo-Healthy Image Synthesis Based on Low-Resolution Residual Decoupling and Edge-Prior-Guided Super-Resolution Reconstruction Module",
     "doi": "10.1109/tmi.2026.3662706",
@@ -1189,7 +1189,7 @@
   },
   {
     "id": 67,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "PET Image Reconstruction Using Deep Diffusion Image Prior",
     "doi": "10.1109/tmi.2026.3659792",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": 68,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "MARVEL: Motion-Aware Reconstruction Via Embedded Learning of Motion Prior for Time-Resolved Cardiac CT",
     "doi": "10.1109/tmi.2026.3668774",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": 69,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "QuPaS: SAM-Based Semi-Supervised Histopathological Image Segmentation With Quantum Force Field Finetuning and Adversarial Estimation",
     "doi": "10.1109/tmi.2026.3668785",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": 70,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "Keypoint-Guided Medical Video Segmentation Model With Spatiotemporal Feature Fusion",
     "doi": "10.1109/tmi.2026.3674130",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": 71,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "IEEE Transactions on Medical Imaging",
     "title": "uBrainSurf: Unified Curvature-Aware Deformation Framework for Lifespan Brain Cortical Surface Reconstruction",
     "doi": "10.1109/tmi.2026.3672432",
@@ -1279,7 +1279,7 @@
   },
   {
     "id": 72,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Journal of Nuclear Medicine",
     "title": "Dosimetry Results from the Phase 1b/3 ACTION-1 Trial of [<sup>225</sup> Ac]Ac-DOTATATE (RYZ101) in Patients with Somatostatin Receptor–Expressing, Well-Differentiated GEP-NETs",
     "doi": "10.2967/jnumed.125.270573",
@@ -1297,7 +1297,7 @@
   },
   {
     "id": 73,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Journal of Nuclear Medicine",
     "title": "Diagnostic Value of Routine Delayed Pelvic Imaging for Patients with Biochemical Recurrence of Prostate Cancer Undergoing<sup>68</sup> Ga-PSMA PET/CT",
     "doi": "10.2967/jnumed.126.272009",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": 74,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Journal of Nuclear Medicine",
     "title": "How Following Medical Artificial Intelligence Advice Can Mitigate Malpractice Liability: Cross-National Insights from a Randomized Trial",
     "doi": "10.2967/jnumed.126.272292",
@@ -1333,7 +1333,7 @@
   },
   {
     "id": 75,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Journal of Nuclear Medicine",
     "title": "Sub–0.5-mm Resolution PET Versus Autoradiography: Comparison of mGluR1 Concentrations in Mouse Brain",
     "doi": "10.2967/jnumed.125.271600",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": 76,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Journal of Nuclear Medicine",
     "title": "Imaging Modality and Outcomes of Metastasis-Directed Therapy in Oligometastatic Castration-Resistant Prostate Cancer: An Updated Analysis of the PRECISE-MDT Cohort",
     "doi": "10.2967/jnumed.125.271680",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": 77,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Journal of Nuclear Medicine",
     "title": "Somatostatin Receptor Expression on [<sup>68</sup> Ga]Ga-DOTATATE PET Among Patients with Poorly Differentiated Extrapulmonary Neuroendocrine Carcinomas: A Prospective Study",
     "doi": "10.2967/jnumed.125.271460",
@@ -1387,7 +1387,7 @@
   },
   {
     "id": 78,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Journal of Nuclear Medicine",
     "title": "PCa Detection in PI-RADS 4 and 5 Lesions: Comparison of [<sup>68</sup> Ga]Ga-PSMA-11 PET/CT–Guided Robot-Assisted Biopsy Versus mpMRI Cognitive-Fusion TRUS-Guided Prostate Biopsy",
     "doi": "10.2967/jnumed.126.272036",
@@ -1405,7 +1405,7 @@
   },
   {
     "id": 79,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Journal of Nuclear Medicine",
     "title": "Evaluation of Baseline and Interim-Therapy PET Features for Prognostication in High-Risk Pediatric Hodgkin Lymphoma: A Retrospective Analysis of the AHOD1331 Trial",
     "doi": "10.2967/jnumed.125.270791",
@@ -1423,7 +1423,7 @@
   },
   {
     "id": 80,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Journal of Nuclear Medicine",
     "title": "End-to-End PET/CT Interpretation and Quantification with an LLM-Orchestrated AI Agent: A Real-World Pilot Study",
     "doi": "10.2967/jnumed.126.272362",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": 81,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Journal of Nuclear Medicine",
     "title": "Molecular Imaging of Mechanisms of Impaired Cardiac Repair After Macrophage Depletion in Mice: A Longitudinal Multitracer Imaging Study",
     "doi": "10.2967/jnumed.125.271856",
@@ -1459,7 +1459,7 @@
   },
   {
     "id": 82,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Journal of Nuclear Medicine",
     "title": "SSTR-Targeted Radiotheranostics in Breast Cancer: A Comparison of [<sup>68</sup> Ga]Ga-DOTATOC and [<sup>68</sup> Ga]Ga-SSO120 with [<sup>18</sup> F]FDG PET",
     "doi": "10.2967/jnumed.126.272521",
@@ -1477,7 +1477,7 @@
   },
   {
     "id": 83,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Journal of Nuclear Medicine",
     "title": "Prognostic Value of Restaging [<sup>18</sup> F]FDG PET/CT in Patients with Metastatic Castration-Resistant Prostate Cancer Undergoing [<sup>177</sup> Lu]Lu-PSMA-617 Therapy",
     "doi": "10.2967/jnumed.126.272531",
@@ -1495,7 +1495,7 @@
   },
   {
     "id": 84,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Active Electromagnetic Interference Suppression for <span style=\"font-variant:small-caps;\">MRI</span> and Proton Resonance Frequency Shift Thermometry During <span style=\"font-variant:small-caps;\">MRI</span> ‐Guided Microwave Ablation",
     "doi": "10.1002/mrm.70440",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": 85,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Magnetic Resonance in Medicine",
     "title": "<span style=\"font-variant:small-caps;\">BART</span> Streams: Real‐Time Reconstruction Using a Modular Framework for Pipeline Processing",
     "doi": "10.1002/mrm.70455",
@@ -1531,7 +1531,7 @@
   },
   {
     "id": 86,
-    "date": "6/5/2026",
+    "date": "2026-06-05",
     "journal": "Magnetic Resonance in Medicine",
     "title": "High‐Temporal‐Resolution Monitoring of Creatine and Phosphocreatine Dynamics in Skeletal Muscle Using Ultrafast Z‐Spectroscopy ( <span style=\"font-variant:small-caps;\">UFZ</span> ) <span style=\"font-variant:small-caps;\">CEST MRI</span> at <span style=\"font-variant:small-caps;\">3T</span>",
     "doi": "10.1002/mrm.70464",
@@ -1549,7 +1549,7 @@
   },
   {
     "id": 87,
-    "date": "6/5/2026",
+    "date": "2026-06-05",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Quantitative Susceptibility Mapping of Kidney Stones: An Ex Vivo <span style=\"font-variant:small-caps;\">MRI</span> Phantom Study",
     "doi": "10.1002/mrm.70460",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": 88,
-    "date": "6/5/2026",
+    "date": "2026-06-05",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Short Echo‐Time Spiral <span style=\"font-variant:small-caps;\">MRSI</span> Versus Single‐Voxel Spectroscopy in the Human Brain at 3 Tesla With Semi‐ <span style=\"font-variant:small-caps;\">LASER</span> Localization",
     "doi": "10.1002/mrm.70463",
@@ -1585,7 +1585,7 @@
   },
   {
     "id": 89,
-    "date": "6/7/2026",
+    "date": "2026-06-07",
     "journal": "Magnetic Resonance in Medicine",
     "title": "A Modified Balanced Steady State Free Precession Sequence for Overhauser Magnetic Resonance Imaging",
     "doi": "10.1002/mrm.70453",
@@ -1603,7 +1603,7 @@
   },
   {
     "id": 90,
-    "date": "6/7/2026",
+    "date": "2026-06-07",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Methods for Uncertainty Quantification in Dictionary Matching to Advance Reliability of Quantitative MRI",
     "doi": "10.1002/mrm.70459",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": 91,
-    "date": "6/8/2026",
+    "date": "2026-06-08",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Locally Linearized Approximation of RF Pulse Propagators for Faster Simulation of Magnetization Dynamics With Slice Profile Effects in 2D MR Fingerprinting",
     "doi": "10.1002/mrm.70462",
@@ -1639,7 +1639,7 @@
   },
   {
     "id": 92,
-    "date": "6/8/2026",
+    "date": "2026-06-08",
     "journal": "Magnetic Resonance in Medicine",
     "title": "A Sub‐Microsecond Switch Enabling <span style=\"font-variant:small-caps;\"> SWIFT<sup>23</sup> Na </span> Imaging at 10. <span style=\"font-variant:small-caps;\">5 T</span>",
     "doi": "10.1002/mrm.70461",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": 93,
-    "date": "6/9/2026",
+    "date": "2026-06-09",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Laterally Oscillating Trajectory for Undersampling Slices: <span style=\"font-variant:small-caps;\">LOTUS</span>",
     "doi": "10.1002/mrm.70469",
@@ -1675,7 +1675,7 @@
   },
   {
     "id": 94,
-    "date": "6/10/2026",
+    "date": "2026-06-10",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Denoising of <span style=\"font-variant:small-caps;\">ASL</span> Data Using Deep Learning Priors Generated From Distribution Remapping",
     "doi": "10.1002/mrm.70471",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": 95,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Whole‐Body Oxygen‐Enhanced <span style=\"font-variant:small-caps;\">MRI</span> of Tumor‐Bearing Mice Under Hyperbaric Oxygenation",
     "doi": "10.1002/mrm.70458",
@@ -1711,7 +1711,7 @@
   },
   {
     "id": 96,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Fourier Shell Analysis: k‐Space‐Based Metrics for Assessing Super‐Resolution in <span style=\"font-variant:small-caps;\">4D</span> Flow <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70478",
@@ -1729,7 +1729,7 @@
   },
   {
     "id": 97,
-    "date": "6/12/2026",
+    "date": "2026-06-12",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Multi‐Echo SSFP: A Method for Synthetic bSSFP MRI Contrast Without Banding Artifacts at High Field",
     "doi": "10.1002/mrm.70472",
@@ -1747,7 +1747,7 @@
   },
   {
     "id": 98,
-    "date": "6/12/2026",
+    "date": "2026-06-12",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Age‐Specific Contrast Optimization of <span style=\"font-variant:small-caps;\">bSSFP</span> in Fetal Brain",
     "doi": "10.1002/mrm.70452",
@@ -1765,7 +1765,7 @@
   },
   {
     "id": 99,
-    "date": "6/12/2026",
+    "date": "2026-06-12",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Zero‐Shot Self‐Supervised Learning of Single Breath‐Hold Magnetic Resonance Cholangiopancreatography ( <span style=\"font-variant:small-caps;\">MRCP</span> ) Reconstruction",
     "doi": "10.1002/mrm.70467",
@@ -1783,7 +1783,7 @@
   },
   {
     "id": 100,
-    "date": "6/12/2026",
+    "date": "2026-06-12",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Blind Estimation Versus Direct Measurement of the Arterial Input Function in Dynamic Contrast‐Enhanced MRI of the Breast",
     "doi": "10.1002/mrm.70454",
@@ -1801,7 +1801,7 @@
   },
   {
     "id": 101,
-    "date": "6/14/2026",
+    "date": "2026-06-14",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Respiratory Motion Management in Abdominal <span style=\"font-variant:small-caps;\">MRI</span> : Revisiting the Gap Between Technical Advances and Clinical Translation",
     "doi": "10.1002/mrm.70475",
@@ -1819,7 +1819,7 @@
   },
   {
     "id": 102,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Arc‐ <span style=\"font-variant:small-caps;\">ZTE</span> : Continuously‐Slewed Zero‐ <span style=\"font-variant:small-caps;\">TE</span> Imaging With Incoherent Temporal Sampling for Near‐Silent Dynamic <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70477",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": 103,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Free‐Breathing Fat Quantification Using a Phase Error‐Corrected Cartesian Acquisition With Spiral Profile Ordering",
     "doi": "10.1002/mrm.70474",
@@ -1855,7 +1855,7 @@
   },
   {
     "id": 104,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Oxygen Response Index: A Potential <span style=\"font-variant:small-caps;\">OE‐MRI‐Derived</span> Non‐Invasive Biomarker for Assessing Radiation Treatment Efficacy",
     "doi": "10.1002/mrm.70480",
@@ -1873,7 +1873,7 @@
   },
   {
     "id": 105,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Magnetic Resonance in Medicine",
     "title": "View Order With Arbitrary Center Echoes",
     "doi": "10.1002/mrm.70482",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": 106,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Simultaneous <i>T</i><sub>2</sub> , <i>T</i><sub>2</sub> *, and <i>R</i><sub>2</sub> ′ Mapping for Multiple Sclerosis Using Nonlinear Model‐Based Reconstruction of Undersampled Radial <span style=\"font-variant:small-caps;\">RARE</span> ‐ <span style=\"font-variant:small-caps;\">EPI MRI</span>",
     "doi": "10.1002/mrm.70465",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": 107,
-    "date": "6/21/2026",
+    "date": "2026-06-21",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Real‐Time Monitoring of Tissue Oxygenation During Hyperbaric Oxygen Exposure Using In Vivo <span style=\"font-variant:small-caps;\">EPR</span> Oximetry",
     "doi": "10.1002/mrm.70444",
@@ -1927,7 +1927,7 @@
   },
   {
     "id": 108,
-    "date": "6/21/2026",
+    "date": "2026-06-21",
     "journal": "Magnetic Resonance in Medicine",
     "title": "<span style=\"font-variant:small-caps;\">SimulScan</span> and Partial Least Squares: Visualizing Swallowing Through Functional and Dynamic Imaging Correlations",
     "doi": "10.1002/mrm.70481",
@@ -1945,7 +1945,7 @@
   },
   {
     "id": 109,
-    "date": "6/21/2026",
+    "date": "2026-06-21",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Revisiting Inductively Coupled Wireless Coils in <span style=\"font-variant:small-caps;\">MRI</span> : Mitigating Over‐Coupling With Preamplifiers",
     "doi": "10.1002/mrm.70485",
@@ -1963,7 +1963,7 @@
   },
   {
     "id": 110,
-    "date": "6/21/2026",
+    "date": "2026-06-21",
     "journal": "Magnetic Resonance in Medicine",
     "title": "<span style=\"font-variant:small-caps;\">T1</span> ‐weighting in Steady‐State <span style=\"font-variant:small-caps;\">FLASH MRI</span> –Diffusion Is Not Only Supportive but Mandatory for the Contrast",
     "doi": "10.1002/mrm.70443",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": 111,
-    "date": "6/23/2026",
+    "date": "2026-06-23",
     "journal": "Magnetic Resonance in Medicine",
     "title": "The Potential for Absolute Temperature Imaging Based on Brain Metabolites Using an <span style=\"font-variant:small-caps;\">FID</span> ‐Shifting Approach in Gradient Echo Planar Spectroscopic Imaging ( <span style=\"font-variant:small-caps;\">GREPSI</span> )",
     "doi": "10.1002/mrm.70487",
@@ -1999,7 +1999,7 @@
   },
   {
     "id": 112,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Design of an 8‐Channel Transmit 32‐Channel Receive 11.7T Head Coil and Evaluation of SNR Gains",
     "doi": "10.1002/mrm.70473",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": 113,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Evaluation of Phantom Doping Materials in Quantitative Susceptibility Mapping",
     "doi": "10.1002/mrm.70427",
@@ -2035,7 +2035,7 @@
   },
   {
     "id": 114,
-    "date": "6/26/2026",
+    "date": "2026-06-26",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Triple‐Pulse <span style=\"font-variant:small-caps;\"><sup>23</sup> Na MRI </span> Sequence ( <span style=\"font-variant:small-caps;\">TriNa</span> ) for Simultaneous Acquisition of Spin‐Density‐Weighted and Fluid‐Attenuated Images",
     "doi": "10.1002/mrm.70492",
@@ -2053,7 +2053,7 @@
   },
   {
     "id": 115,
-    "date": "6/27/2026",
+    "date": "2026-06-27",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Dependence of the Extra‐Cellular Diffusion Coefficient on the Fractions of Neurites and Cell Bodies in Gray Matter",
     "doi": "10.1002/mrm.70490",
@@ -2071,7 +2071,7 @@
   },
   {
     "id": 116,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Calibration‐Free GRAPE pTx Pulses for Homogeneous Spatial‐Selective Excitation at 7T",
     "doi": "10.1002/mrm.70266",
@@ -2089,7 +2089,7 @@
   },
   {
     "id": 117,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "<span style=\"font-variant:small-caps;\">3D</span> Phase Contrast Using Balanced Steady‐State Free Precession ( <span style=\"font-variant:small-caps;\">PC</span> ‐ <span style=\"font-variant:small-caps;\">SSFP</span> ) for Improved <span style=\"font-variant:small-caps;\">4D</span> Flow at Clinical Field Strengths",
     "doi": "10.1002/mrm.70281",
@@ -2107,7 +2107,7 @@
   },
   {
     "id": 118,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Modeling the Intermediate Flow Regime in Flow‐Compensated Intravoxel Incoherent Motion <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70267",
@@ -2125,7 +2125,7 @@
   },
   {
     "id": 119,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Echo‐Planar‐Based Time‐of‐Flight Imaging Using a Modified Interleaved Flyback Trajectory",
     "doi": "10.1002/mrm.70272",
@@ -2143,7 +2143,7 @@
   },
   {
     "id": 120,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "An Open‐Source Software Toolbox for Rapid Radiofrequency Coil Design and Evaluation in <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70269",
@@ -2161,7 +2161,7 @@
   },
   {
     "id": 121,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Timing Is Everything: How Subtle Timing Changes in <span style=\"font-variant:small-caps;\">MRI</span> Echo Planar Imaging Can Significantly Alter Mechanical Vibrations and Sound Level",
     "doi": "10.1002/mrm.70271",
@@ -2179,7 +2179,7 @@
   },
   {
     "id": 122,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Quantitative Comparison of Multi‐Echo Spin Echo and Multi‐Echo Gradient Echo Myelin Water Imaging in a Panel of <span style=\"font-variant:small-caps;\"> <i>Mbp</i> </span> Enhancer‐Edited Mouse Lines",
     "doi": "10.1002/mrm.70275",
@@ -2197,7 +2197,7 @@
   },
   {
     "id": 123,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Toward Optimized Intravoxel Incoherent Motion ( <span style=\"font-variant:small-caps;\">IVIM</span> ) and Compartmental T2 Mapping in Abdominal Organs",
     "doi": "10.1002/mrm.70278",
@@ -2215,7 +2215,7 @@
   },
   {
     "id": 124,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Assessment of Lung Microvasculature Alterations in Pulmonary Fibrosis With Hyperpolarized Xenon Magnetic Resonance",
     "doi": "10.1002/mrm.70279",
@@ -2233,7 +2233,7 @@
   },
   {
     "id": 125,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Dynamic Contrast Enhanced—Magnetic Resonance Fingerprinting ( <span style=\"font-variant:small-caps;\">DCE</span> ‐ <span style=\"font-variant:small-caps;\">MRF</span> ) Improves Detection of Induced Vascular Perfusion Reduction in a Mouse Breast Cancer Model",
     "doi": "10.1002/mrm.70274",
@@ -2251,7 +2251,7 @@
   },
   {
     "id": 126,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Relaxivity of Gadobutrol and Gadoteric Acid in Cerebrospinal Fluid at <span style=\"font-variant:small-caps;\">3</span> T",
     "doi": "10.1002/mrm.70284",
@@ -2269,7 +2269,7 @@
   },
   {
     "id": 127,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Toward Super‐Resolution Reconstruction of Diffusion–Relaxation <span style=\"font-variant:small-caps;\">MRI</span> Using Slice Excitation With Random Overlap ( <span style=\"font-variant:small-caps;\">SERO</span> )",
     "doi": "10.1002/mrm.70282",
@@ -2287,7 +2287,7 @@
   },
   {
     "id": 128,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Combined caLculation of Ultra‐high field Biases ( <span style=\"font-variant:small-caps;\">CLUB</span> ) With Sandwich: Fast, Simultaneous Estimation of <span style=\"font-variant:small-caps;\"> 3D B<sub>0</sub> </span> and Multi‐Channel <span style=\"font-variant:small-caps;\"> B<sub>1</sub> </span><sup>+</sup> Maps at <span style=\"font-variant:small-caps;\">7 T</span>",
     "doi": "10.1002/mrm.70289",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": 129,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Respiratory Motion‐Corrected Model‐Based <span style=\"font-variant:small-caps;\">3D</span> Water‐Fat <span style=\"font-variant:small-caps;\">MRA</span> of the Thorax at 0.55 <span style=\"font-variant:small-caps;\">T</span>",
     "doi": "10.1002/mrm.70285",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": 130,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Automated Coregistered Segmentation for Volumetric Analysis of Multiparametric Renal <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70288",
@@ -2341,7 +2341,7 @@
   },
   {
     "id": 131,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Tensor Decomposition‐Based Multi‐Signal Matrix Pencil Method for Myelin Water Fraction Estimation",
     "doi": "10.1002/mrm.70283",
@@ -2359,7 +2359,7 @@
   },
   {
     "id": 132,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Evidence of Incoherent Cerebrospinal Fluid Flow in the Human Brain From Multidimensional <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70290",
@@ -2377,7 +2377,7 @@
   },
   {
     "id": 133,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "<span style=\"font-variant:small-caps;\">MoCo</span> + <span style=\"font-variant:small-caps;\">ROVir</span> : Synergy Between Respiratory Motion Compensation and Cardiac Receive Region Focusing for Cardiac <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70280",
@@ -2395,7 +2395,7 @@
   },
   {
     "id": 134,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Ultrafast Blood <span style=\"font-variant:small-caps;\"> T<sub>1</sub> </span> Measurement Using Golden Angle Rotated Spiral <span style=\"font-variant:small-caps;\">k‐t</span> Sparse Parallel Imaging ( <span style=\"font-variant:small-caps;\">GASSP</span> ): Evaluations in Both Pre‐ and Post‐Contrast Conditions",
     "doi": "10.1002/mrm.70286",
@@ -2413,7 +2413,7 @@
   },
   {
     "id": 135,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Spectral Representation of Neurochemicals With Phase, Frequency Offset, and Lineshape Invariance: Application to <span style=\"font-variant:small-caps;\">JPRESS</span> for In Vivo Concentration and <span style=\"font-variant:small-caps;\"> T<sub>2</sub> </span> Mapping by Deep Learning",
     "doi": "10.1002/mrm.70291",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": 136,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Assessment of Optimal T1/T2‐Weighted Combinations for Myelin Sensitivity: Effects of Echo Time and Exponents",
     "doi": "10.1002/mrm.70276",
@@ -2449,7 +2449,7 @@
   },
   {
     "id": 137,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Free‐Running Three‐Dimensional Cardiac Extracellular Volume Mapping in a Single Scan With Mid‐Scan Contrast Injection",
     "doi": "10.1002/mrm.70293",
@@ -2467,7 +2467,7 @@
   },
   {
     "id": 138,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Rosette Cardiac <span style=\"font-variant:small-caps;\">MR</span> Fingerprinting for Simultaneous <span style=\"font-variant:small-caps;\"> T<sub>1</sub> </span> , <span style=\"font-variant:small-caps;\"> T<sub>2</sub> </span> , T2*, and Fat Fraction Mapping Using a Multi‐Echo Deep Image Prior Reconstruction",
     "doi": "10.1002/mrm.70299",
@@ -2485,7 +2485,7 @@
   },
   {
     "id": 139,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Coaxial Dipole Array With Switching Transmit Sensitivities for Ultrahigh Field MRI",
     "doi": "10.1002/mrm.70243",
@@ -2503,7 +2503,7 @@
   },
   {
     "id": 140,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Rapid Tissue‐ <span style=\"font-variant:small-caps;\">CSF</span> Water Exchange in the Human Brain Revealed by Magnetization Transfer Indirect Spin Labeling",
     "doi": "10.1002/mrm.70298",
@@ -2521,7 +2521,7 @@
   },
   {
     "id": 141,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Spatiotemporal Encoding With Nonlinear Gradient Hardware Using Pulseq: From Principles to Practical Demonstration",
     "doi": "10.1002/mrm.70277",
@@ -2539,7 +2539,7 @@
   },
   {
     "id": 142,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Simultaneous Volumetric <span style=\"font-variant:small-caps;\">T1</span> and <span style=\"font-variant:small-caps;\">T2</span> Mapping With Blood‐ and Fat‐Suppression in Abdominal Aortic Aneurysms",
     "doi": "10.1002/mrm.70297",
@@ -2557,7 +2557,7 @@
   },
   {
     "id": 143,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Postexercise Lactate Clearance, <span style=\"font-variant:small-caps;\"> <i>T</i><sub>2</sub> </span> Relaxation, and <span style=\"font-variant:small-caps;\"> <i>J</i> </span> ‐Modulation in Human Skeletal Muscle Measured With Double‐Quantum Filtered <span style=\"font-variant:small-caps;\"><sup>1</sup> H MRS </span> at 7 T",
     "doi": "10.1002/mrm.70295",
@@ -2575,7 +2575,7 @@
   },
   {
     "id": 144,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "A Dynamic Shim Approach for Correcting Eddy Current Effects in Diffusion‐Prepared <span style=\"font-variant:small-caps;\">MRI</span> Acquisition Using a Multi‐Coil <span style=\"font-variant:small-caps;\">AC</span> / <span style=\"font-variant:small-caps;\">DC</span> Shim‐Array",
     "doi": "10.1002/mrm.70294",
@@ -2593,7 +2593,7 @@
   },
   {
     "id": 145,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Effects of <span style=\"font-variant:small-caps;\">RF</span> ‐Induced Heating of Orthopedic Implants Across Stages of Bone Fracture Healing and Anatomical Variability: In Silico Assessment Using Computational Human Models at 1.5 T and 3.0 T <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/mrm.70296",
@@ -2611,7 +2611,7 @@
   },
   {
     "id": 146,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Validating Numerical Simulations to Support Experimental Testing of <span style=\"font-variant:small-caps;\">MRI</span> Gradient‐Induced Heating of Passive Implants",
     "doi": "10.1002/mrm.70306",
@@ -2629,7 +2629,7 @@
   },
   {
     "id": 147,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Simultaneous Multi‐Slice Acceleration for Free‐Breathing Motion Corrected Late Gadolinium Enhancement Imaging",
     "doi": "10.1002/mrm.70200",
@@ -2647,7 +2647,7 @@
   },
   {
     "id": 148,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Complementary Sensitivity of Fixed‐Time and Fixed‐Oscillation Regimes to Exchange and Structural Disorder in the Human Brain Revealed Using Oscillating‐Gradient Diffusion <span style=\"font-variant:small-caps;\">MRI</span> With Ultra‐Strong Gradients",
     "doi": "10.1002/mrm.70300",
@@ -2665,7 +2665,7 @@
   },
   {
     "id": 149,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Model Predictive Filtering <span style=\"font-variant:small-caps;\">MR</span> Temperature Imaging for Laser‐Induced Interstitial Thermotherapy",
     "doi": "10.1002/mrm.70302",
@@ -2683,7 +2683,7 @@
   },
   {
     "id": 150,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Human Brain High‐Resolution Diffusion MRI With Optimized, Slice‐By‐Slice, Zeroth and First Order B0 Shimming in Head‐Only High‐Gradient MRI Systems",
     "doi": "10.1002/mrm.70310",
@@ -2701,7 +2701,7 @@
   },
   {
     "id": 151,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "A High‐Definition <span style=\"font-variant:small-caps;\">3D</span> ‐Printed Anthropomorphic <span style=\"font-variant:small-caps;\">MR</span> Head Phantom",
     "doi": "10.1002/mrm.70301",
@@ -2719,7 +2719,7 @@
   },
   {
     "id": 152,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "A Spatio‐Temporal Diffusion Model for Cardiac Real‐Time Imaging",
     "doi": "10.1002/mrm.70303",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": 153,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Accelerating MRI With Longitudinally‐Informed Latent Posterior Sampling",
     "doi": "10.1002/mrm.70257",
@@ -2755,7 +2755,7 @@
   },
   {
     "id": 154,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Impact of Partial Echo on 4D Flow MRI: The Insight From Synthetic MRI",
     "doi": "10.1002/mrm.70260",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": 155,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "<span style=\"font-variant:small-caps;\">FMRI</span> Approaches to Mapping Cerebrovascular Reactivity: Comparison of Gradient Echo <span style=\"font-variant:small-caps;\">BOLD</span> and Spin Echo <span style=\"font-variant:small-caps;\">BOLD</span> With Arterial Spin Labeling",
     "doi": "10.1002/mrm.70305",
@@ -2791,7 +2791,7 @@
   },
   {
     "id": 156,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Absolute Quantification of Brain Deuterium Metabolic Imaging in Healthy Volunteers and Glioblastoma Patients at <span style=\"font-variant:small-caps;\">7T</span>",
     "doi": "10.1002/mrm.70308",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": 157,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Magnetic Resonance in Medicine",
     "title": "Diffusion Weighted Fast Spin Echo With <span style=\"font-variant:small-caps;\">RF</span> ‐Encoded Slabs for Portable Low‐Field <span style=\"font-variant:small-caps;\">MRI</span> Systems",
     "doi": "10.1002/mrm.70292",
@@ -2827,7 +2827,7 @@
   },
   {
     "id": 158,
-    "date": "6/3/2026",
+    "date": "2026-06-03",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "A Data‐Driven Normalization Framework for Subject‐Specific Cerebrovascular Reactivity Assessment in Cerebrovascular Disease",
     "doi": "10.1002/jmri.70388",
@@ -2845,7 +2845,7 @@
   },
   {
     "id": 159,
-    "date": "6/5/2026",
+    "date": "2026-06-05",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Infant Brain Age Estimation With T1w/T2w Ratio <span style=\"font-variant:small-caps;\">MRI</span> : A Myelination‐Aware Deep Learning Approach",
     "doi": "10.1002/jmri.70376",
@@ -2863,7 +2863,7 @@
   },
   {
     "id": 160,
-    "date": "6/10/2026",
+    "date": "2026-06-10",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Effects of Acute Aerobic Exercise and Task Repetition on the Neural Correlates of Executive Function in Young and Older Adults: A Crossover <span style=\"font-variant:small-caps;\">fMRI</span> Study",
     "doi": "10.1002/jmri.70329",
@@ -2881,7 +2881,7 @@
   },
   {
     "id": 161,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Association Between <span style=\"font-variant:small-caps;\">HIV</span> Infection Duration and Left Ventricular Concentric Remodeling and Myocardial Fibrosis: A Cross‐Sectional Study Using Cardiac <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/jmri.70395",
@@ -2899,7 +2899,7 @@
   },
   {
     "id": 162,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "<span style=\"font-variant:small-caps;\">MR</span> Imaging‐Based Biomarkers for Strength Prediction: A Statistical Shape and Architecture Modeling of Quadriceps Muscles",
     "doi": "10.1002/jmri.70377",
@@ -2917,7 +2917,7 @@
   },
   {
     "id": 163,
-    "date": "6/11/2026",
+    "date": "2026-06-11",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Prognostic Value of <span style=\"font-variant:small-caps;\">MRI</span> ‐Based Left Ventricular Trabecular Complexity for Sudden Cardiac Death in Hypertrophic Cardiomyopathy",
     "doi": "10.1002/jmri.70380",
@@ -2935,7 +2935,7 @@
   },
   {
     "id": 164,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Free‐Breathing Dynamic, Regularized, Adaptive Cluster Optimization ( <span style=\"font-variant:small-caps;\">DRACO</span> ) Cine Cardiac <span style=\"font-variant:small-caps;\">MRI</span> in Atrial Fibrillation",
     "doi": "10.1002/jmri.70379",
@@ -2953,7 +2953,7 @@
   },
   {
     "id": 165,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Pre‐Radiotherapy Synthetic <span style=\"font-variant:small-caps;\">MRI</span> –Derived Quantitative Heterogeneity and Early Recurrence in Glioblastoma",
     "doi": "10.1002/jmri.70407",
@@ -2971,7 +2971,7 @@
   },
   {
     "id": 166,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Navigating Uncertainty in <span style=\"font-variant:small-caps;\">MRI</span> Diagnosis: A Human‐ <span style=\"font-variant:small-caps;\">AI</span> Collaborative Strategy for Stratifying Clinically Significant Prostate Cancer",
     "doi": "10.1002/jmri.70393",
@@ -2989,7 +2989,7 @@
   },
   {
     "id": 167,
-    "date": "6/17/2026",
+    "date": "2026-06-17",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "<span style=\"font-variant:small-caps;\">AI</span> ‐Assisted Prostate Cancer Diagnosis Using Biparametric <span style=\"font-variant:small-caps;\">MRI</span> and <span style=\"font-variant:small-caps;\">PI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> v2.1: Performance Comparison Between Novice‐Level and Experienced Readers",
     "doi": "10.1002/jmri.70411",
@@ -3007,7 +3007,7 @@
   },
   {
     "id": 168,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Thalamic Nuclei Atrophy in Type 1 Diabetes Mellitus Across Disease Duration",
     "doi": "10.1002/jmri.70383",
@@ -3025,7 +3025,7 @@
   },
   {
     "id": 169,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Exercise‐Induced Alterations in Lung Water Density in Heart Failure Using Single–Breath–Hold <span style=\"font-variant:small-caps;\">3D</span> Ultrashort Echo Time <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/jmri.70389",
@@ -3043,7 +3043,7 @@
   },
   {
     "id": 170,
-    "date": "6/19/2026",
+    "date": "2026-06-19",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "An Expanded <span style=\"font-variant:small-caps;\">T2</span> ‐ <span style=\"font-variant:small-caps;\">FLAIR</span> Mismatch Phenotype in <span style=\"font-variant:small-caps;\">IDH</span> ‐Mutant Astrocytomas",
     "doi": "10.1002/jmri.70404",
@@ -3061,7 +3061,7 @@
   },
   {
     "id": 171,
-    "date": "6/20/2026",
+    "date": "2026-06-20",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Pulmonary Flow Distribution in Patients Following Hemi‐Mustard and Bidirectional Glenn Using Quantitative <span style=\"font-variant:small-caps;\">4D</span> Flow Particle Tracking",
     "doi": "10.1002/jmri.70386",
@@ -3079,7 +3079,7 @@
   },
   {
     "id": 172,
-    "date": "6/22/2026",
+    "date": "2026-06-22",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Voxel‐Wise Radiomics Habitat Analysis of Posttreatment Gliomas for Noninvasive Differentiation of True Progression and Pseudoprogression",
     "doi": "10.1002/jmri.70419",
@@ -3097,7 +3097,7 @@
   },
   {
     "id": 173,
-    "date": "6/23/2026",
+    "date": "2026-06-23",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Impact of Different Degrees of Liver Iron Concentration on <span style=\"font-variant:small-caps;\">MRI</span> Feature Assessment and <span style=\"font-variant:small-caps;\">LI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> v2018 Category Assignment for Hepatocellular Carcinoma",
     "doi": "10.1002/jmri.70415",
@@ -3115,7 +3115,7 @@
   },
   {
     "id": 174,
-    "date": "6/23/2026",
+    "date": "2026-06-23",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Effect of Visualized Respiratory Training on Patient Cooperation and Image Quality in Gadoxetic Acid Disodium‐Enhanced Liver <span style=\"font-variant:small-caps;\">MRI</span> : A Randomized Controlled Trial",
     "doi": "10.1002/jmri.70423",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": 175,
-    "date": "6/23/2026",
+    "date": "2026-06-23",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Postprandial Changes in Thoracic Aortic Flow Detected by <span style=\"font-variant:small-caps;\">4D</span> Flow <span style=\"font-variant:small-caps;\">MRI</span> May Influence Study Results",
     "doi": "10.1002/jmri.70405",
@@ -3151,7 +3151,7 @@
   },
   {
     "id": 176,
-    "date": "6/23/2026",
+    "date": "2026-06-23",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Standardized <span style=\"font-variant:small-caps;\">MRI</span> ‐Based Quantification of Epicardial Adipose Tissue Volume: Reproducibility and Agreement With Cardiac Computed Tomography",
     "doi": "10.1002/jmri.70412",
@@ -3169,7 +3169,7 @@
   },
   {
     "id": 177,
-    "date": "6/24/2026",
+    "date": "2026-06-24",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Performance of Free‐Running Cardiac and Respiratory Motion‐Resolved Whole‐Heart <span style=\"font-variant:small-caps;\">5D MRI</span> in Congenital Heart Disease Patients Using a Gadolinium Enhanced Fast‐Interrupted Steady‐State Sequence",
     "doi": "10.1002/jmri.70402",
@@ -3187,7 +3187,7 @@
   },
   {
     "id": 178,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Mapping Fatty Acid Composition in the Human Knee: Short‐Term Repeatability at <span style=\"font-variant:small-caps;\">3T</span>",
     "doi": "10.1002/jmri.70396",
@@ -3205,7 +3205,7 @@
   },
   {
     "id": 179,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Multiparametric Quantitative <span style=\"font-variant:small-caps;\">MRI</span> of Peripheral Nerves to Differentiate Demyelinating From Axonal Polyneuropathies",
     "doi": "10.1002/jmri.70421",
@@ -3223,7 +3223,7 @@
   },
   {
     "id": 180,
-    "date": "6/29/2026",
+    "date": "2026-06-29",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Optimization of Respiratory Training Methods for Cardiac Magnetic Resonance Imaging",
     "doi": "10.1002/jmri.70390",
@@ -3241,7 +3241,7 @@
   },
   {
     "id": 181,
-    "date": "6/30/2026",
+    "date": "2026-06-30",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Integrating <span style=\"font-variant:small-caps;\">nnU</span> ‐Net Segmentation and Clinical–Radiomics for Multicenter <span style=\"font-variant:small-caps;\">MRI</span> ‐Based Assessment of Soft Tissue Sarcoma Grade and Ki‐67 Expression",
     "doi": "10.1002/jmri.70424",
@@ -3259,7 +3259,7 @@
   },
   {
     "id": 182,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Enhancing Study Design and Analysis of <span style=\"font-variant:small-caps;\">MR</span> Imaging Markers Through Measurement Error Modeling",
     "doi": "10.1002/jmri.70229",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": 183,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Comparison of Single‐Breath and Multi‐Breath Xe‐ <span style=\"font-variant:small-caps;\">MRI</span> in the Longitudinal Assessment of Treatment in Children With Cystic Fibrosis",
     "doi": "10.1002/jmri.70242",
@@ -3295,7 +3295,7 @@
   },
   {
     "id": 184,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Optic Nerve <span style=\"font-variant:small-caps;\">MRI</span> Signal Alterations in Dural Arteriovenous Fistulae: Correlations With Papilledema and Visual Decline",
     "doi": "10.1002/jmri.70250",
@@ -3313,7 +3313,7 @@
   },
   {
     "id": 185,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Intratumoral Spatial Heterogeneity at Dynamic Contrast‐Enhanced <span style=\"font-variant:small-caps;\">MRI</span> for Assessing Tertiary Lymphoid Structures in Hepatocellular Carcinoma",
     "doi": "10.1002/jmri.70254",
@@ -3331,7 +3331,7 @@
   },
   {
     "id": 186,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Association Between Plasma Methylglyoxal and White Matter Hyperintensities in <span style=\"font-variant:small-caps;\">MR</span> in Acute Ischemic Stroke Patients With Small Artery Occlusion",
     "doi": "10.1002/jmri.70252",
@@ -3349,7 +3349,7 @@
   },
   {
     "id": 187,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Evaluating Malignancy Detection in Small Renal Masses: Integrating the Pseudocapsule Into the Clear Cell Likelihood Score",
     "doi": "10.1002/jmri.70253",
@@ -3367,7 +3367,7 @@
   },
   {
     "id": 188,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Associations Between Excessive Daytime Sleepiness, Cognitive Impairment, and Brain Alterations in Patients With Obstructive Sleep Apnea",
     "doi": "10.1002/jmri.70255",
@@ -3385,7 +3385,7 @@
   },
   {
     "id": 189,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Asymmetrical Cerebral Mitochondrial Dysfunction Correlates With Motor Laterality in Parkinson's Disease: A <span style=\"font-variant:small-caps;\"><sup>31</sup> Phosphorus </span> Magnetic Resonance Spectroscopy Study",
     "doi": "10.1002/jmri.70265",
@@ -3403,7 +3403,7 @@
   },
   {
     "id": 190,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "T<sub>1</sub> ρ Magnetic Resonance Fingerprinting in Patients With Chronic Pancreatitis",
     "doi": "10.1002/jmri.70251",
@@ -3421,7 +3421,7 @@
   },
   {
     "id": 191,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Comparison of Virtual <span style=\"font-variant:small-caps;\">MR</span> Elastography Based on Intravoxel Incoherent Motion With <span style=\"font-variant:small-caps;\">MR</span> Elastography in the Assessment of Intratumoral Fibrosis in Rectal Cancer",
     "doi": "10.1002/jmri.70263",
@@ -3439,7 +3439,7 @@
   },
   {
     "id": 192,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Association Between Intermittent Fasting and Susceptibility‐Weighted <span style=\"font-variant:small-caps;\">MRI</span> Phase Values in Deep Gray Matter of Patients With Multiple Sclerosis: An Observational Cohort Study",
     "doi": "10.1002/jmri.70267",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": 193,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "A Mixed Methods Study of Anxiety and Patient Perception of Safety in Contrast‐Enhanced <span style=\"font-variant:small-caps;\">MRI</span>",
     "doi": "10.1002/jmri.70264",
@@ -3475,7 +3475,7 @@
   },
   {
     "id": 194,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Ultrashort Echo Time Magnetization Transfer Imaging for Dynamic Monitoring of Ankle Cartilage After Long‐Distance Running",
     "doi": "10.1002/jmri.70269",
@@ -3493,7 +3493,7 @@
   },
   {
     "id": 195,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Non‐Contrast Coronary <span style=\"font-variant:small-caps;\">MR</span> Angiography for Myocardial Bridging: Diagnostic Accuracy and Morphologic Agreement With Photon‐Counting Coronary <span style=\"font-variant:small-caps;\">CT</span> Angiography",
     "doi": "10.1002/jmri.70272",
@@ -3511,7 +3511,7 @@
   },
   {
     "id": 196,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Clinicopathologic and Prognostic Differences Between <span style=\"font-variant:small-caps;\">LI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> M Targetoid and <span style=\"font-variant:small-caps;\">LI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> M Nontargetoid Observations: A Comparative Imaging‐Based Study",
     "doi": "10.1002/jmri.70275",
@@ -3529,7 +3529,7 @@
   },
   {
     "id": 197,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Deep Learning Reconstruction on Quantitative Analysis in Brain Tumors With Diffusion‐Weighted Imaging and Dynamic Susceptibility Contrast Imaging",
     "doi": "10.1002/jmri.70286",
@@ -3547,7 +3547,7 @@
   },
   {
     "id": 198,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "<span style=\"font-variant:small-caps;\">MRI</span> for Lung Cancer Management: Any Closer to Clinical Application?",
     "doi": "10.1002/jmri.70308",
@@ -3565,7 +3565,7 @@
   },
   {
     "id": 199,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "<span style=\"font-variant:small-caps;\">MRI</span> ‐Based Habitat Analysis for Predicting Pathologic Complete Response to Neoadjuvant Chemotherapy in Breast Cancer: A Multicenter Study",
     "doi": "10.1002/jmri.70285",
@@ -3583,7 +3583,7 @@
   },
   {
     "id": 200,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Journal of Magnetic Resonance Imaging",
     "title": "Comparison of Single‐Breath and Multi‐Breath Xe‐ <span style=\"font-variant:small-caps;\">MRI</span> in the Longitudinal Assessment of Treatment in Children With Cystic Fibrosis",
     "doi": "10.1002/jmri.70360",
@@ -3601,7 +3601,7 @@
   },
   {
     "id": 201,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "American Journal of Roentgenology",
     "title": "Commercially Available Artificial Intelligence Score on Preoperative Mammography for Prediction of Future Breast Cancer After DCIS Treatment",
     "doi": "10.2214/ajr.25.34364",
@@ -3619,7 +3619,7 @@
   },
   {
     "id": 202,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "American Journal of Roentgenology",
     "title": "Late Gadolinium Enhancement on Cardiac MRI in Patients With Takotsubo Syndrome: Insights From the Multicenter EVOLUTION Registry",
     "doi": "10.2214/ajr.26.34546",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": 203,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "American Journal of Roentgenology",
     "title": "Modified O-RADS Ultrasound Classification Using Qualitative Contrast-Enhanced Ultrasound Score for Borderline and Malignant Adnexal Lesions: An External Testing Study",
     "doi": "10.2214/ajr.25.34326",
@@ -3655,7 +3655,7 @@
   },
   {
     "id": 204,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "American Journal of Roentgenology",
     "title": "Variable Performance Across Radiography Vendors of a Commercial Artificial Intelligence System for Fracture Detection: A Multisite Evaluation",
     "doi": "10.2214/ajr.26.34550",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": 205,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "American Journal of Roentgenology",
     "title": "Artificial Intelligence May Be a Useful Tool to Predict the Likelihood of Ipsilateral Breast Cancer Recurrence in Patients Treated for DCIS",
     "doi": "10.2214/ajr.26.34787",
@@ -3691,7 +3691,7 @@
   },
   {
     "id": 206,
-    "date": "6/17/2026",
+    "date": "2026-06-17",
     "journal": "American Journal of Roentgenology",
     "title": "Attenuation- and Entropy-Based Habitat Imaging for High-Risk Features in Lung Adenocarcinoma Presenting as a Part-Solid Nodule on CT: A Multicenter Study",
     "doi": "10.2214/ajr.26.34886",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": 207,
-    "date": "6/17/2026",
+    "date": "2026-06-17",
     "journal": "American Journal of Roentgenology",
     "title": "Isolated Axillary Lymphadenopathy in Women Without a Known Breast Cancer Diagnosis: A Multicenter Study of Biopsy Outcomes",
     "doi": "10.2214/ajr.26.34937",
@@ -3727,7 +3727,7 @@
   },
   {
     "id": 208,
-    "date": "6/24/2026",
+    "date": "2026-06-24",
     "journal": "American Journal of Roentgenology",
     "title": "Utilization of Emergency Department (ED) Neuroimaging From 2016 to 2025: Analysis in Over 3 Million ED Encounters from the Multicenter Cosmos EHR Dataset",
     "doi": "10.2214/ajr.26.35237",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": 209,
-    "date": "6/5/2026",
+    "date": "2026-06-05",
     "journal": "Imaging Neuroscience",
     "title": "Global search metaheuristics for neural mass model calibration",
     "doi": "10.1162/imag.a.1249",
@@ -3763,7 +3763,7 @@
   },
   {
     "id": 210,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Imaging Neuroscience",
     "title": "Towards precision EEG connectomics: Evaluating the benefits of dense sampling",
     "doi": "10.1162/imag.a.1245",
@@ -3781,7 +3781,7 @@
   },
   {
     "id": 211,
-    "date": "6/30/2026",
+    "date": "2026-06-30",
     "journal": "Imaging Neuroscience",
     "title": "Five–Year Associations Among Dopamine D2–Like Receptor Loss, Cognitive Decline, Education, and Self–Reported Leisure Activities in Healthy Older Adults",
     "doi": "10.1162/imag.a.1302",
@@ -3799,7 +3799,7 @@
   },
   {
     "id": 212,
-    "date": "6/17/2026",
+    "date": "2026-06-17",
     "journal": "Imaging Neuroscience",
     "title": "The individuality of single-frame functional brain connectivity",
     "doi": "10.1162/imag.a.1254",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": 213,
-    "date": "6/5/2026",
+    "date": "2026-06-05",
     "journal": "Imaging Neuroscience",
     "title": "Neurophysiological mechanisms of optimized graphomotor performance in biscriptuals",
     "doi": "10.1162/imag.a.1265",
@@ -3835,7 +3835,7 @@
   },
   {
     "id": 214,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "Imaging Neuroscience",
     "title": "Disentangling the unique associations of age, pubertal stage, and pubertal hormones with white matter microstructure in childhood and adolescence",
     "doi": "10.1162/imag.a.1270",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": 215,
-    "date": "6/29/2026",
+    "date": "2026-06-29",
     "journal": "Imaging Neuroscience",
     "title": "Individualized mapping of functional brain networks in older adulthood",
     "doi": "10.1162/imag.a.1285",
@@ -3871,7 +3871,7 @@
   },
   {
     "id": 216,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Imaging Neuroscience",
     "title": "Neighborhood disadvantage and brain myelination: Insights from infancy to childhood",
     "doi": "10.1162/imag.a.1288",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": 217,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Imaging Neuroscience",
     "title": "Young and old adult brains experience opposite effects of acute sleep restriction on the functional connectivity network",
     "doi": "10.1162/imag.a.1278",
@@ -3907,7 +3907,7 @@
   },
   {
     "id": 218,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Imaging Neuroscience",
     "title": "The language network responds robustly to sentences across tasks",
     "doi": "10.1162/imag.a.1283",
@@ -3925,7 +3925,7 @@
   },
   {
     "id": 219,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Imaging Neuroscience",
     "title": "Nonlinear KCCA in fMRI activation analysis: Self-supervised optimization and robust back-reconstruction",
     "doi": "10.1162/imag.a.1243",
@@ -3943,7 +3943,7 @@
   },
   {
     "id": 220,
-    "date": "6/17/2026",
+    "date": "2026-06-17",
     "journal": "Imaging Neuroscience",
     "title": "A collaborative guide to Rapid Invisible Frequency Tagging (RIFT): Methods, insights, and recommendations",
     "doi": "10.1162/imag.a.1273",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": 221,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "Imaging Neuroscience",
     "title": "Organization, fine structure, and stereotaxic maps of the human Bed nucleus of the Stria terminalis",
     "doi": "10.1162/imag.a.1260",
@@ -3979,7 +3979,7 @@
   },
   {
     "id": 222,
-    "date": "6/2/2026",
+    "date": "2026-06-02",
     "journal": "Imaging Neuroscience",
     "title": "Learning-based segmentation of diffusion-weighted MR images with arbitrary <i>q</i> -space samplings",
     "doi": "10.1162/imag.a.1183",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": 223,
-    "date": "6/8/2026",
+    "date": "2026-06-08",
     "journal": "Imaging Neuroscience",
     "title": "Real-time fMRI-triggered experience sampling: A proof-of-concept study",
     "doi": "10.1162/imag.a.1268",
@@ -4015,7 +4015,7 @@
   },
   {
     "id": 224,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Imaging Neuroscience",
     "title": "Estimating fMRI timescale maps",
     "doi": "10.1162/imag.a.1248",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": 225,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Imaging Neuroscience",
     "title": "Individual alpha frequency predicts the sensitivity of time perception",
     "doi": "10.1162/imag.a.1263",
@@ -4051,7 +4051,7 @@
   },
   {
     "id": 226,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Imaging Neuroscience",
     "title": "Gamer in the scanner: Event-related analysis of fMRI activity during retro videogame play guided by automated annotations of game content",
     "doi": "10.1162/imag.a.1256",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": 227,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Imaging Neuroscience",
     "title": "Stimulation priming and psychological state shape functional connectivity following prefrontal theta-burst stimulation",
     "doi": "10.1162/imag.a.1267",
@@ -4087,7 +4087,7 @@
   },
   {
     "id": 228,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "Imaging Neuroscience",
     "title": "Building bridges between brain and behavior: An open-source toolbox for joint modeling with fMRI",
     "doi": "10.1162/imag.a.1272",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": 229,
-    "date": "6/17/2026",
+    "date": "2026-06-17",
     "journal": "Imaging Neuroscience",
     "title": "High-resolution whole-brain magnetic resonance spectroscopic imaging in youth at risk for psychosis",
     "doi": "10.1162/imag.a.1276",
@@ -4123,7 +4123,7 @@
   },
   {
     "id": 230,
-    "date": "6/22/2026",
+    "date": "2026-06-22",
     "journal": "Imaging Neuroscience",
     "title": "Metabolic syndrome severity and the energetic cost of brain network transitions: A normative modeling study of accelerated brain aging",
     "doi": "10.1162/imag.a.1282",
@@ -4141,7 +4141,7 @@
   },
   {
     "id": 231,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Imaging Neuroscience",
     "title": "Comparison of neural signal sources for discriminating “crave” and “don’t crave” task conditions: Implications for fMRI neurofeedback",
     "doi": "10.1162/imag.a.1277",
@@ -4159,7 +4159,7 @@
   },
   {
     "id": 232,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "Imaging Neuroscience",
     "title": "QuNex recipes: Executable, human-readable workflows for reproducible neuroimaging research",
     "doi": "10.1162/imag.a.1274",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": 233,
-    "date": "6/29/2026",
+    "date": "2026-06-29",
     "journal": "Imaging Neuroscience",
     "title": "Is the whole more than the sum of its parts? Considering global and local features of the connectome improves prediction of individuals and phenotypes",
     "doi": "10.1162/imag.a.1287",
@@ -4195,7 +4195,7 @@
   },
   {
     "id": 234,
-    "date": "6/22/2026",
+    "date": "2026-06-22",
     "journal": "Imaging Neuroscience",
     "title": "Syntactic processing engages the semantic control network",
     "doi": "10.1162/imag.a.1281",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": 235,
-    "date": "6/26/2026",
+    "date": "2026-06-26",
     "journal": "Imaging Neuroscience",
     "title": "MEG-GPT: A transformer-based foundation model for magnetoencephalography data",
     "doi": "10.1162/imag.a.1301",
@@ -4231,7 +4231,7 @@
   },
   {
     "id": 236,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Imaging Neuroscience",
     "title": "Data-driven subtyping and staging of ALS: A multicenter, longitudinal, deformation-based morphometry study",
     "doi": "10.1162/imag.a.1264",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": 237,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "Imaging Neuroscience",
     "title": "Glucose metabolism echoes long-range temporal correlations in the human brain",
     "doi": "10.1162/imag.a.1275",
@@ -4267,7 +4267,7 @@
   },
   {
     "id": 238,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "Imaging Neuroscience",
     "title": "Multimodal subspace independent vector analysis effectively captures latent relationships between brain structure and function",
     "doi": "10.1162/imag.a.1266",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": 239,
-    "date": "6/4/2026",
+    "date": "2026-06-04",
     "journal": "Insights into Imaging",
     "title": "Phase-resolved functional lung magnetic resonance imaging for evaluation of lung perfusion and ventilation in fibrosing interstitial lung diseases",
     "doi": "10.1186/s13244-026-02321-5",
@@ -4303,7 +4303,7 @@
   },
   {
     "id": 240,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "Insights into Imaging",
     "title": "A radio-pathological fusion model for predicting PD-L1 expression and immunotherapy response in non-small cell lung cancer",
     "doi": "10.1186/s13244-026-02322-4",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": 241,
-    "date": "6/20/2026",
+    "date": "2026-06-20",
     "journal": "Insights into Imaging",
     "title": "Clinical relevance and governance of scout imaging data: a national survey of UK cross-sectional imaging radiographers",
     "doi": "10.1186/s13244-026-02306-4",
@@ -4339,7 +4339,7 @@
   },
   {
     "id": 242,
-    "date": "6/21/2026",
+    "date": "2026-06-21",
     "journal": "Insights into Imaging",
     "title": "CT-based vascular invasion in pancreatic ductal adenocarcinoma compared with intraoperative and histological findings",
     "doi": "10.1186/s13244-026-02318-0",
@@ -4357,7 +4357,7 @@
   },
   {
     "id": 243,
-    "date": "6/24/2026",
+    "date": "2026-06-24",
     "journal": "Insights into Imaging",
     "title": "Reduced environmental impact in body CT imaging with deep learning reconstruction: experience of a high-volume tertiary referral center",
     "doi": "10.1186/s13244-026-02333-1",
@@ -4375,7 +4375,7 @@
   },
   {
     "id": 244,
-    "date": "6/25/2026",
+    "date": "2026-06-25",
     "journal": "Insights into Imaging",
     "title": "Development and validation of an interpretable ultrasound radiomics model for benign and malignant classification of breast lesions: a multicenter large-sample study",
     "doi": "10.1186/s13244-026-02344-y",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": 245,
-    "date": "6/27/2026",
+    "date": "2026-06-27",
     "journal": "Insights into Imaging",
     "title": "MRI-based quantification of intratumoral heterogeneity for predicting recurrence risk in ER+/HER2− breast cancer",
     "doi": "10.1186/s13244-026-02342-0",
@@ -4411,7 +4411,7 @@
   },
   {
     "id": 246,
-    "date": "6/29/2026",
+    "date": "2026-06-29",
     "journal": "Insights into Imaging",
     "title": "How to optimise breast cancer staging with contrast-enhanced mammography: current evidence and clinical implications",
     "doi": "10.1186/s13244-026-02331-3",
@@ -4429,7 +4429,7 @@
   },
   {
     "id": 247,
-    "date": "6/3/2026",
+    "date": "2026-06-03",
     "journal": "European Radiology",
     "title": "Combining Node-RADS with ADC can improve diagnostic performance for lymph node metastasis in breast cancer",
     "doi": "10.1007/s00330-026-12649-7",
@@ -4447,7 +4447,7 @@
   },
   {
     "id": 248,
-    "date": "6/3/2026",
+    "date": "2026-06-03",
     "journal": "European Radiology",
     "title": "Pre-procedural disclosure of potential diagnostic errors in radiology: public perspectives in the Netherlands",
     "doi": "10.1007/s00330-026-12656-8",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": 249,
-    "date": "6/9/2026",
+    "date": "2026-06-09",
     "journal": "European Radiology",
     "title": "For want of a nail, region-based qualitative BPE",
     "doi": "10.1007/s00330-026-12673-7",
@@ -4483,7 +4483,7 @@
   },
   {
     "id": 250,
-    "date": "6/10/2026",
+    "date": "2026-06-10",
     "journal": "European Radiology",
     "title": "Evaluation of standardized DICOM labels assigned by a hybrid AI tool and its impact on radiologists’ reading times",
     "doi": "10.1007/s00330-026-12670-w",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": 251,
-    "date": "6/15/2026",
+    "date": "2026-06-15",
     "journal": "European Radiology",
     "title": "Vacuum-assisted breast biopsy vs core needle biopsy for breast tumour diagnosis",
     "doi": "10.1007/s00330-026-12691-5",
@@ -4519,7 +4519,7 @@
   },
   {
     "id": 252,
-    "date": "6/16/2026",
+    "date": "2026-06-16",
     "journal": "European Radiology",
     "title": "Beyond macrovascular recanalization: the search for a new parameter of success in endovascular thrombectomy",
     "doi": "10.1007/s00330-026-12688-0",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": 253,
-    "date": "6/18/2026",
+    "date": "2026-06-18",
     "journal": "European Radiology",
     "title": "Location of AI risk markers and associated mammographic features in screening mammograms obtained years before screen-detected breast cancer",
     "doi": "10.1007/s00330-026-12689-z",
@@ -4555,7 +4555,7 @@
   },
   {
     "id": 254,
-    "date": "6/19/2026",
+    "date": "2026-06-19",
     "journal": "European Radiology",
     "title": "Beyond detection: can vision–language models redefine chest radiograph interpretation?",
     "doi": "10.1007/s00330-026-12693-3",
@@ -4573,7 +4573,7 @@
   },
   {
     "id": 255,
-    "date": "6/27/2026",
+    "date": "2026-06-27",
     "journal": "European Radiology",
     "title": "Does adding a high-resolution 3D sequence improve the accuracy of erosion detection in pediatric sacroiliac joint MRI?",
     "doi": "10.1007/s00330-026-12709-y",
@@ -4591,7 +4591,7 @@
   },
   {
     "id": 256,
-    "date": "6/30/2026",
+    "date": "2026-06-30",
     "journal": "European Radiology",
     "title": "Adjunctive quantification for more reproducible amyloid PET interpretation",
     "doi": "10.1007/s00330-026-12692-4",
@@ -4609,7 +4609,7 @@
   },
   {
     "id": 257,
-    "date": "6/1/2026",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Quantitative Synthetic MRI in Body Imaging: Technical Basis, Current Applications, and Future Directions",
     "doi": "10.1097/rli.0000000000001297",
@@ -4627,7 +4627,7 @@
   },
   {
     "id": 258,
-    "date": "6/2/2026",
+    "date": "2026-06-02",
     "journal": "Investigative Radiology",
     "title": "Photon-counting CT in Anterior Cervical Discectomy and Fusion: Improved Metal Artifact Reduction and Impact on Bone Fusion Assessment",
     "doi": "10.1097/rli.0000000000001298",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": 259,
-    "date": "6/3/2026",
+    "date": "2026-06-03",
     "journal": "Investigative Radiology",
     "title": "Improvement of Lung Nodule Volumetric Accuracy with Photon-counting Computed Tomography Over Energy-integrating Computed Tomography in Low-dose Screening: A Phantom Study",
     "doi": "10.1097/rli.0000000000001299",
@@ -4663,7 +4663,7 @@
   },
   {
     "id": 260,
-    "date": "6/29/2026",
+    "date": "2026-06-29",
     "journal": "Investigative Radiology",
     "title": "Iodinated Contrast Media Hypersensitivity in 115,966 Patients: Risk Factors, Severity Profiles, and the Impact of Iodine Concentration on Reaction Risk",
     "doi": "10.1097/rli.0000000000001301",
@@ -4681,7 +4681,7 @@
   },
   {
     "id": 261,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Automated Field of View Prescription for Whole-body Magnetic Resonance Imaging Using Deep Learning Based Body Region Segmentations",
     "doi": "10.1097/rli.0000000000001236",
@@ -4699,7 +4699,7 @@
   },
   {
     "id": 262,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Applicability of Effective Atomic Number (Z eff) Image Analysis of Coronary Plaques Measured With Photon- Counting Computed Tomography",
     "doi": "10.1097/rli.0000000000001237",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": 263,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Optimizing MRI Protocols for Brain Radiosurgery: The Role of Sequence and Contrast Agent Timing",
     "doi": "10.1097/rli.0000000000001238",
@@ -4735,7 +4735,7 @@
   },
   {
     "id": 264,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Multicontrast Multiphase Intestinal Imaging Using Photon-Counting CT: A Feasibility Study in Rats",
     "doi": "10.1097/rli.0000000000001241",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": 265,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Improving Spatial Accuracy of MRI in the Presence of Metal-induced Geometric Distortions",
     "doi": "10.1097/rli.0000000000001240",
@@ -4771,7 +4771,7 @@
   },
   {
     "id": 266,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Reliability of Whole-Liver Liver-Fat-Quantification Between Deep Learning‐Accelerated and Standard Volumetric Interpolated Breath-hold Examination Dixon Sequences in a Prospective Oncology Cohort",
     "doi": "10.1097/rli.0000000000001242",
@@ -4789,7 +4789,7 @@
   },
   {
     "id": 267,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Optimized Variable Flip Angle Technique for Specific Absorption Rate Reduction in Metal Artifact Reduction Magnetic Resonance Imaging",
     "doi": "10.1097/rli.0000000000001249",
@@ -4807,7 +4807,7 @@
   },
   {
     "id": 268,
-    "date": "2026-06",
+    "date": "2026-06-01",
     "journal": "Investigative Radiology",
     "title": "Ready for Routine: Homogeneous, High-Resolution, and Multicontrast Whole-Brain MRI at 7 Tesla in Short Scan Time With “Plug-and-Play” pTx Sequences",
     "doi": "10.1097/rli.0000000000001252",
