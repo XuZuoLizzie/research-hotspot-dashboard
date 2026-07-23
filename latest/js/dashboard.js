@@ -581,33 +581,10 @@ function flow(a) {
 }
 
 function cards(a) {
-  $('articles').innerHTML = a
-    .slice(0, 120)
-    .map(x => {
-      /*
-       * Normalize the DOI.
-       *
-       * Supported source values:
-       * 10.2967/jnumed.126.272009
-       * https://doi.org/10.2967/jnumed.126.272009
-       */
-      const doi = String(x.doi || '')
-        .trim()
-        .replace(
-          /^https?:\/\/(?:dx\.)?doi\.org\//i,
-          ''
-        );
+  const visibleArticles = a.slice(0, 120);
 
-      /*
-       * Prefer doi_url when available.
-       * Otherwise construct the URL from doi.
-       */
-      const doiUrl = x.doi_url || (
-        doi
-          ? `https://doi.org/${encodeURI(doi)}`
-          : ''
-      );
-
+  $('articles').innerHTML = visibleArticles
+    .map((x, index) => {
       return `
         <article class="article">
           <div class="meta">
@@ -642,23 +619,93 @@ function cards(a) {
             ${esc(x.highlight)}
           </p>
 
-          ${
-            doiUrl
-              ? `
-                <div class="meta">
-                  DOI：
-                  <a
-                    class="doi-link"
-                  rel="noopener noreferrer"
-                  >${esc(doi || doiUrl)}</a>
-                </div>
-              `
-              : ''
-          }
+          <div
+            class="meta doi-container"
+            data-article-index="${index}"
+          ></div>
         </article>
       `;
     })
     .join('');
+
+  /*
+   * Create DOI links using DOM methods.
+   * This prevents malformed anchor HTML.
+   */
+  document
+    .querySelectorAll('.doi-container')
+    .forEach(container => {
+      const index = Number(
+        container.dataset.articleIndex
+      );
+
+      const article = visibleArticles[index];
+
+      if (!article) {
+        container.remove();
+        return;
+      }
+
+      /*
+       * Normalize the DOI value.
+       *
+       * Supported examples:
+       * 10.2967/jnumed.126.272009
+       * https://doi.org/10.2967/jnumed.126.272009
+       * http://dx.doi.org/10.2967/jnumed.126.272009
+       */
+      const doi = String(article.doi || '')
+        .trim()
+        .replace(
+          /^https?:\/\/(?:dx\.)?doi\.org\//i,
+          ''
+        );
+
+      /*
+       * Normalize doi_url if it is present.
+       * If doi_url contains only a DOI, add the DOI domain.
+       */
+      let doiUrl = String(
+        article.doi_url || ''
+      ).trim();
+
+      if (
+        doiUrl &&
+        !/^https?:\/\//i.test(doiUrl)
+      ) {
+        doiUrl =
+          `https://doi.org/${encodeURI(doiUrl)}`;
+      }
+
+      if (!doiUrl && doi) {
+        doiUrl =
+          `https://doi.org/${encodeURI(doi)}`;
+      }
+
+      if (!doiUrl) {
+        container.remove();
+        return;
+      }
+
+      const label = document.createElement('span');
+      label.textContent = 'DOI：';
+
+      const link = document.createElement('a');
+
+      link.className = 'doi-link';
+      link.href = doiUrl;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+
+      link.textContent =
+        doi ||
+        doiUrl.replace(
+          /^https?:\/\/(?:dx\.)?doi\.org\//i,
+          ''
+        );
+
+      container.append(label, link);
+    });
 }
 
 function update() {
