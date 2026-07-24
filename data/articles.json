@@ -15,7 +15,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "基于瑞典VAI-B数据库回顾性纳入31,394名个体（88,963次乳腺X线检查），评估三种商业AI CAD系统在乳腺癌确诊前长达10年的评分变化。在90%特异度下，AI系统在诊断前10年可标记12.7%–17.0%的癌症，诊断前4年可标记24.2%–25.2%。三种AI系统AUC为0.63–0.67，显著优于乳腺密度预测（AUC=0.57，P<.001）。表明AI评分可作为早期乳腺癌预警信号，用于补充筛查和早期发现。",
-    "doi_url": "https://doi.org/10.1148/radiol.251309"
+    "doi_url": "https://doi.org/10.1148/radiol.251309",
+    "title_chinese": "人工智能检测评分在筛查性乳腺X线摄影中用于早期乳腺癌预警"
   },
   {
     "id": 2,
@@ -33,7 +34,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "基于全国再入院数据库（2019–2022）回顾性纳入5,829例非急性硬膜下血肿患者，其中896例接受一线脑膜中动脉栓塞术（MMAE）。3:1倾向性评分匹配后，MMAE组功能独立率更高（52.8% vs 42.2%，P=.001），住院死亡率更低（3.1% vs 8.3%，P<.001），挽救手术率更低（12.9% vs 31.7%，P<.001）。早期MMAE（3天内）功能独立率最高（59.0% vs 42.2%，P<.001），表明一线MMAE可改善住院结局，尤其早期实施效果更佳。",
-    "doi_url": "https://doi.org/10.1148/radiol.260018"
+    "doi_url": "https://doi.org/10.1148/radiol.260018",
+    "title_chinese": "一线单独脑膜中动脉栓塞术治疗非急性硬膜下血肿与院内结局的关联"
   },
   {
     "id": 3,
@@ -51,7 +53,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "多中心回顾性分析15个北美中心123例后循环串联闭塞取栓患者（2016–2023），中位年龄63岁，NIHSS中位17分。成功再灌注率88.5%，症状性颅内出血8.9%，90天良好功能结局47.0%。远端优先策略与更短穿刺至再灌注时间（P=.02）和更低sICH发生率（P=.04）相关。多因素分析显示高血糖、高血压、高基线mRS和高NIHSS预测不良结局，而成功再灌注和远端优先策略预测良好结局。",
-    "doi_url": "https://doi.org/10.1148/radiol.252830"
+    "doi_url": "https://doi.org/10.1148/radiol.252830",
+    "title_chinese": "后循环串联闭塞的血栓切除术：手术技术与临床结局预测因素的多中心比较分析"
   },
   {
     "id": 4,
@@ -69,7 +72,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "回顾性纳入两个综合卒中中心530例大血管闭塞急性缺血性卒中患者（2019–2024），评估入院CT测量的缺血病灶净水分摄取（NWU）预测机械取栓后无效再通（FR）的价值。58.9%患者发生FR，FR组NWU中位值更高（7.77% vs 2.75%，P<.001）。NWU的AUC为0.89，显著优于rCBF30体积（AUC=0.66）和ASPECTS（AUC=0.65），表明NWU是预测无效再通的优越CT生物标志物。",
-    "doi_url": "https://doi.org/10.1148/radiol.252487"
+    "doi_url": "https://doi.org/10.1148/radiol.252487",
+    "title_chinese": "缺血病灶净摄水量在预测机械取栓术后无效再通方面优于ASPECTS和CBF低于30%"
   },
   {
     "id": 5,
@@ -87,7 +91,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "双中心回顾性纳入231例子宫内膜癌患者，评估FIGO 2023分期系统对术前盆腔MRI评估的影响。MRI与病理的分期一致性从FIGO 2009的86.6%降至FIGO 2023的76.2%（P<.001），亚分期一致性从74.0%降至56.3%（P<.001）。不一致主因为微小肌层浸润漏诊（36.6%）、淋巴结受累（17.8%）及组织学相关因素。分子数据使15.2%患者重新分期，差异可能改变9.5%患者的初始治疗方案。",
-    "doi_url": "https://doi.org/10.1148/radiol.252037"
+    "doi_url": "https://doi.org/10.1148/radiol.252037",
+    "title_chinese": "盆腔MRI在子宫内膜癌分期中的应用：FIGO 2023影响的回顾性评估"
   },
   {
     "id": 6,
@@ -105,7 +110,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究评估长期空气污染暴露与心脏CT冠状动脉粥样硬化的性别特异性关联。纳入11128名患者，发现PM2.5和NO2暴露与更高的冠脉钙化积分和总斑块负荷独立相关。按性别分层分析显示，长期空气污染暴露与女性阻塞性冠心病显著相关，而在男性中无显著关联。表明即使是中等水平的空气污染也会加重冠状动脉粥样硬化，且存在性别差异。",
-    "doi_url": "https://doi.org/10.1148/radiol.252086"
+    "doi_url": "https://doi.org/10.1148/radiol.252086",
+    "title_chinese": "长期空气污染暴露与心脏CT冠状动脉粥样硬化之间的性别特异性关联"
   },
   {
     "id": 7,
@@ -123,7 +129,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究通过单中心问卷调查探讨了患者对放射科使用人工智能（AI）的披露偏好。结果显示，96%的受访者希望被告知AI是否参与了解读其影像，且大多数患者倾向于通过口头（33.6%）或书面（53.4%）方式进行知情同意。这强调了在临床部署AI时尊重患者知情权和建立规范披露机制的重要性。",
-    "doi_url": "https://doi.org/10.1148/radiol.260450"
+    "doi_url": "https://doi.org/10.1148/radiol.260450",
+    "title_chinese": "放射学中AI使用的披露：患者的观点与偏好"
   },
   {
     "id": 8,
@@ -141,7 +148,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种基于AI的心脏MRI微血管阻塞（MVO）自动分割与影像组学框架，以解码微血管损伤异质性并预测主要不良心血管事件（MACEs）。在843名STEMI患者的多中心队列中，构建的影像组学评分是MACEs的独立预测因子（风险比4.20），其预后价值优于传统MVO体积量化。结合常规变量与评分后，C指数从0.77提升至0.80，有效优化了风险分层。",
-    "doi_url": "https://doi.org/10.1148/radiol.252250"
+    "doi_url": "https://doi.org/10.1148/radiol.252250",
+    "title_chinese": "基于AI的心脏MRI微血管阻塞组织学异质性预测MACEs：一项多中心研究"
   },
   {
     "id": 9,
@@ -159,7 +167,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究比较了LI-RADS无辐射治疗反应算法2024版与2017版在评估肝细胞癌局部治疗反应中的准确性。纳入245名患者，结果显示在肝胆特异性对比剂增强MRI中，结合辅助特征的v2024算法诊断敏感性（79.3%）和准确性（81.6%）最高，且优于CT（敏感性和准确性分别为64.0%和70.6%）。表明新版算法结合MRI能更准确地检测存活肿瘤，同时保持特异性。",
-    "doi_url": "https://doi.org/10.1148/radiol.253143"
+    "doi_url": "https://doi.org/10.1148/radiol.253143",
+    "title_chinese": "评估LI-RADS非放射治疗反应算法v2024及附加特征在肝胆MRI与CT中的准确性"
   },
   {
     "id": 10,
@@ -177,7 +186,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究基于DESIR前瞻性队列，对329名中轴型脊柱关节炎患者进行了10年纵向影像分析，探讨脊柱退行性病变在MRI与X线片上的时间演变关系。结果显示，MRI上的椎间盘退变与随后的椎间盘突出、高信号区及Modic病变显著相关；Modic 1型病变可预测Modic 2型病变。此外，MRI病变与后续X线片上同水平的退行性改变相关，揭示了脊柱退变的进行性特征。",
-    "doi_url": "https://doi.org/10.1148/radiol.251715"
+    "doi_url": "https://doi.org/10.1148/radiol.251715",
+    "title_chinese": "DESIR队列中轴型脊柱关节炎脊柱退行性病变在MRI与X线摄影之间的10年纵向关系"
   },
   {
     "id": 11,
@@ -195,7 +205,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究比较多种MRI标志物用于进行性核上性麻痹(PSP)与非PSP帕金森综合征的鉴别。在纳入2111名参与者的多队列国际研究中，提出新的双线中脑PSP指数(DMPI)。结果显示DMPI和midbrain area表现最佳，AUC分别达0.97和0.95，且DMPI在早期和病理确诊患者中同样表现优异，为PSP的常规鉴别诊断提供了简单、可推广的MRI标志物。",
-    "doi_url": "https://doi.org/10.1148/radiol.251394"
+    "doi_url": "https://doi.org/10.1148/radiol.251394",
+    "title_chinese": "进行性核上性麻痹分类的平面测量和线性MRI标志物：一项大型多队列国际研究"
   },
   {
     "id": 12,
@@ -213,7 +224,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1148/radiol.261217"
+    "doi_url": "https://doi.org/10.1148/radiol.261217",
+    "title_chinese": "HCC非辐射局部区域治疗后的影像学评估"
   },
   {
     "id": 13,
@@ -231,7 +243,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究评估18F-Fluciclovine和68Ga-PSMA-11 PET/CT对前列腺癌根治术后生化复发患者挽救性放疗计划的影响。纳入140名参与者，结果显示两种示踪剂均导致显著的治疗决策改变（分别为29%和42%），但两者间无显著差异。18F-Fluciclovine在治疗野和/或加量改变方面更为常见，为PET/CT引导下的个体化放疗提供了重要依据。",
-    "doi_url": "https://doi.org/10.1148/radiol.251874"
+    "doi_url": "https://doi.org/10.1148/radiol.251874",
+    "title_chinese": "<sup>18</sup> F-Fluciclovine或<sup>68</sup> Ga-PSMA-11 PET/CT引导的补救性放疗在前列腺切除术后生化复发中的变化：EMPIRE-2试验的二次分析"
   },
   {
     "id": 14,
@@ -249,7 +262,8 @@
     "hindex": 357,
     "watchlist_matched": true,
     "highlight": "本研究评估使用快速可吸收明胶微球进行膝动脉栓塞(GAE)治疗膝骨关节炎相关疼痛的安全性和临床效果。纳入194名参与者进行239次GAE手术，技术成功率100%。12个月随访显示，中位NRS疼痛评分从7降至3，55%-80%参与者在所有KOOS子评分上超过最小临床重要差异，表明该方法安全且能带来有临床意义的改善。",
-    "doi_url": "https://doi.org/10.1148/radiol.253312"
+    "doi_url": "https://doi.org/10.1148/radiol.253312",
+    "title_chinese": "使用快速可吸收明胶微球的膝动脉栓塞术治疗骨关节炎相关膝关节疼痛"
   },
   {
     "id": 15,
@@ -267,7 +281,8 @@
     "hindex": 56,
     "watchlist_matched": true,
     "highlight": "本研究探讨胸部X线摄影中深度学习模型是否依赖曝光参数作为捷径特征。分析727,604张来自三个数据集的X线片，发现当曝光参数分布不匹配时，气胸检测、COVID-19诊断和种族分类的AUC显著下降（如气胸下降0.38）。研究表明模型可能利用曝光参数作为捷径特征，建议在临床部署前进行曝光方案审计以标记高风险条件。",
-    "doi_url": "https://doi.org/10.1148/ryai.250731"
+    "doi_url": "https://doi.org/10.1148/ryai.250731",
+    "title_chinese": "胸部X线摄影中曝光参数对深度学习模型的影响及其对部署的启示"
   },
   {
     "id": 16,
@@ -285,7 +300,8 @@
     "hindex": 56,
     "watchlist_matched": true,
     "highlight": "本研究开发并系统评估了专家引导的标注循环，用于高效医学图像分割。包含10个数据集共1948例CT或MRI检查，采用nnU-Net迭代训练。结果显示，最终模型Dice分数在0.67-0.97之间，肾脏分割专家时间最多节省90.3%，肿瘤分割节省48.2%，每次检查分别节省约14.30美元和5.63美元。该无代码工作流已在临床环境中实施，有效降低了标注成本和时间。",
-    "doi_url": "https://doi.org/10.1148/ryai.250200"
+    "doi_url": "https://doi.org/10.1148/ryai.250200",
+    "title_chinese": "医学图像分割中数据高效深度学习对成本和专家时间的影响"
   },
   {
     "id": 17,
@@ -303,7 +319,8 @@
     "hindex": 56,
     "watchlist_matched": true,
     "highlight": "本研究比较了AI与放射科医生在低剂量CT上对不确定大小肺结节（5-15 mm）的恶性风险估计能力。基于NLST数据开发并在463例欧洲筛查试验扫描上外部测试。结果显示，最优AI系统的AUC（0.78）显著优于65名放射科医生平均水平（0.70）。在相同特异性下AI多正确分类12%的恶性结节，相同敏感性下假阳性减少20%，证明AI在肺结节恶性风险评估中优于放射科医生。",
-    "doi_url": "https://doi.org/10.1148/ryai.260179"
+    "doi_url": "https://doi.org/10.1148/ryai.260179",
+    "title_chinese": "AI与放射科医生在筛查CT上对不确定性肺结节恶性风险估计的基准测试：LUNA25挑战赛"
   },
   {
     "id": 18,
@@ -321,7 +338,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104045"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104045",
+    "title_chinese": "MOTDNet：用于细胞分割的多器官任务解耦网络"
   },
   {
     "id": 19,
@@ -339,7 +357,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104068"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104068",
+    "title_chinese": "用于结肠镜检查的基于基础模型的几何一致性单目深度估计框架"
   },
   {
     "id": 20,
@@ -357,7 +376,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.103999"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.103999",
+    "title_chinese": "用于心脏网格重建的显式可微切片与全局变形"
   },
   {
     "id": 21,
@@ -375,7 +395,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104007"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104007",
+    "title_chinese": "多超声系统中的甲状腺结节定量评估"
   },
   {
     "id": 22,
@@ -393,7 +414,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104039"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104039",
+    "title_chinese": "用于3D PET图像去噪的剂量感知扩散模型：结合阅片研究与真实低剂量数据的多机构验证"
   },
   {
     "id": 23,
@@ -411,7 +433,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104001"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104001",
+    "title_chinese": "用于胸部正位X线片椎体压缩性骨折筛查的两阶段对比学习框架"
   },
   {
     "id": 24,
@@ -429,7 +452,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104019"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104019",
+    "title_chinese": "FreqConvMamba：用于医学图像分割的频率引导分层混合SSM-CNN"
   },
   {
     "id": 25,
@@ -447,7 +471,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104009"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104009",
+    "title_chinese": "HOI-brain：通过从fMRI数据中准确提取带符号高阶交互作用以诊断脑疾病的新型多通道transformers框架"
   },
   {
     "id": 26,
@@ -465,7 +490,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104052"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104052",
+    "title_chinese": "神经隐式心脏坐标：基于稀疏分割的3D心脏形状重建"
   },
   {
     "id": 27,
@@ -483,7 +509,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104040"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104040",
+    "title_chinese": "ACE-ProtoNet：用于冠状动脉分割的自适应协方差特征门与不确定性感知原型学习"
   },
   {
     "id": 28,
@@ -501,7 +528,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104014"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104014",
+    "title_chinese": "PHIVE：物理信息变分编码器实现7T下脑代谢物映射的快速光谱拟合"
   },
   {
     "id": 29,
@@ -519,7 +547,8 @@
     "hindex": 201,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1016/j.media.2026.104061"
+    "doi_url": "https://doi.org/10.1016/j.media.2026.104061",
+    "title_chinese": "MorphoNet：用于WSI分析的基于形态学子区域的结构学习"
   },
   {
     "id": 30,
@@ -537,7 +566,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3660978"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3660978",
+    "title_chinese": "用于多模态疾病预测的实验室检查引导的医学图像生成"
   },
   {
     "id": 31,
@@ -555,7 +585,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3668773"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3668773",
+    "title_chinese": "解耦、重组与融合：一种用于癌症生存预测的多模态框架"
   },
   {
     "id": 32,
@@ -573,7 +604,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3674592"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3674592",
+    "title_chinese": "用于弱监督息肉分割的文本-图像协同对齐"
   },
   {
     "id": 33,
@@ -591,7 +623,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3663755"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3663755",
+    "title_chinese": "PGVMS：一种结合病理语义学习的提示引导虚拟多重IHC染色统一框架"
   },
   {
     "id": 34,
@@ -609,7 +642,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3662737"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3662737",
+    "title_chinese": "DHR<sup>2</sup>-Net：一种用于手术动作三元组识别的双层级关系推理框架"
   },
   {
     "id": 35,
@@ -627,7 +661,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3670159"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3670159",
+    "title_chinese": "基于肿瘤与淋巴结上下文及几何建模的CT食管癌术前生存预测"
   },
   {
     "id": 36,
@@ -645,7 +680,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3660270"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3660270",
+    "title_chinese": "用于直肠癌可靠生存预测的不确定性引导迭代对比融合"
   },
   {
     "id": 37,
@@ -663,7 +699,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3674458"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3674458",
+    "title_chinese": "用于纵向脑部MRI配准与衰老分析的时间条件约束"
   },
   {
     "id": 38,
@@ -681,7 +718,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667706"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667706",
+    "title_chinese": "Cogformer：一种用于从fMRI进行视觉解码与重建的统一多尺度脑表征"
   },
   {
     "id": 39,
@@ -699,7 +737,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3672802"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3672802",
+    "title_chinese": "用于医学图像分割的统一且语义对齐的域适应"
   },
   {
     "id": 40,
@@ -717,7 +756,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3663583"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3663583",
+    "title_chinese": "SynLiTS：用于未对齐肝脏肿瘤分割的阶段提示驱动扩散合成与上下文感知融合"
   },
   {
     "id": 41,
@@ -735,7 +775,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3660361"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3660361",
+    "title_chinese": "从对比度驱动分割到中央型腰椎管狭窄分级：综合多视角脊柱MRI图像分析"
   },
   {
     "id": 42,
@@ -753,7 +794,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3666364"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3666364",
+    "title_chinese": "FUGC：宫颈分割半监督学习方法基准测试"
   },
   {
     "id": 43,
@@ -771,7 +813,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3661971"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3661971",
+    "title_chinese": "面向多模态数据跨任务卒中预后预测的小样本对比学习"
   },
   {
     "id": 44,
@@ -789,7 +832,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667612"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667612",
+    "title_chinese": "面向体积电镜中可泛化细胞器分割的掩码图像建模"
   },
   {
     "id": 45,
@@ -807,7 +851,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3660568"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3660568",
+    "title_chinese": "用于有效脑卒中微波成像的患者特异性背景模型估计"
   },
   {
     "id": 46,
@@ -825,7 +870,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3672477"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3672477",
+    "title_chinese": "面向眼底图像视网膜疾病多标签分类的层次感知与知识引导学习"
   },
   {
     "id": 47,
@@ -843,7 +889,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667384"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667384",
+    "title_chinese": "PWD：用于高效牙科有限角度CT重建的先验感知小波扩散"
   },
   {
     "id": 48,
@@ -861,7 +908,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3659754"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3659754",
+    "title_chinese": "DOSTA-Net：利用合成数据进行X射线冠状动脉造影血管提取的域混洗时序注意力网络"
   },
   {
     "id": 49,
@@ -879,7 +927,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3665556"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3665556",
+    "title_chinese": "基于认知驱动难度自适应聚焦的涂鸦监督多器官分割"
   },
   {
     "id": 50,
@@ -897,7 +946,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667605"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667605",
+    "title_chinese": "通过分层梯度对齐解决真实场景多模态医学图像分割中的不平衡模态不完整性"
   },
   {
     "id": 51,
@@ -915,7 +965,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667069"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667069",
+    "title_chinese": "用于组织学图像分割的通用尺度Transformer"
   },
   {
     "id": 52,
@@ -933,7 +984,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3674509"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3674509",
+    "title_chinese": "Distillation-SAM：用于手术图像分割的基于知识蒸馏的自动提示嵌入学习"
   },
   {
     "id": 53,
@@ -951,7 +1003,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667618"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667618",
+    "title_chinese": "使用Hy-PCF的平面波图像重建：一种用于渐进式跨域融合的新型混合CNN-Transformer"
   },
   {
     "id": 54,
@@ -969,7 +1022,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3664328"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3664328",
+    "title_chinese": "基于髓鞘水扩散MRI的轴突直径映射"
   },
   {
     "id": 55,
@@ -987,7 +1041,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3666480"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3666480",
+    "title_chinese": "MambaMatch：一种用于半监督脊柱皮质骨与松质骨分割的新模型"
   },
   {
     "id": 56,
@@ -1005,7 +1060,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3664940"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3664940",
+    "title_chinese": "协调泛化与特化：用于半监督医学图像分割的基于不确定性的协作学习"
   },
   {
     "id": 57,
@@ -1023,7 +1079,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3674948"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3674948",
+    "title_chinese": "DeepSparse：一种用于稀疏视图CBCT重建的基础模型"
   },
   {
     "id": 58,
@@ -1041,7 +1098,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3673956"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3673956",
+    "title_chinese": "用于MRI重建的傅里叶约束扩散桥学习"
   },
   {
     "id": 59,
@@ -1059,7 +1117,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3670643"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3670643",
+    "title_chinese": "用于靶向α治疗的计算定量平面成像：通过新型<sup>225</sup>Ac环氧树脂体模验证的基于模型的稀疏重建"
   },
   {
     "id": 60,
@@ -1077,7 +1136,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3662566"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3662566",
+    "title_chinese": "结合深度图像先验的直接PET参数图像重建"
   },
   {
     "id": 61,
@@ -1095,7 +1155,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3669463"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3669463",
+    "title_chinese": "断层扫描基础模型—FORCE：面向流的重建条件引擎"
   },
   {
     "id": 62,
@@ -1113,7 +1174,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3662157"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3662157",
+    "title_chinese": "超越功能连接：用于基于fMRI的脑疾病分类的时间序列建模"
   },
   {
     "id": 63,
@@ -1131,7 +1193,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3667954"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3667954",
+    "title_chinese": "用于医学图像分割的大规模多模态双路径协同特征融合策略"
   },
   {
     "id": 64,
@@ -1149,7 +1212,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3670844"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3670844",
+    "title_chinese": "基于相位滞后的MPS/MPI双模态精确体内温度成像技术"
   },
   {
     "id": 65,
@@ -1167,7 +1231,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3662001"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3662001",
+    "title_chinese": "基于管状感知提示微调的小样本肺血管分割"
   },
   {
     "id": 66,
@@ -1185,7 +1250,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3662706"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3662706",
+    "title_chinese": "LRD-ESR-Net：基于低分辨率残差解耦与边缘先验引导超分辨率重建模块的伪健康图像合成"
   },
   {
     "id": 67,
@@ -1203,7 +1269,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3659792"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3659792",
+    "title_chinese": "使用深度扩散图像先验的PET图像重建"
   },
   {
     "id": 68,
@@ -1221,7 +1288,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3668774"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3668774",
+    "title_chinese": "MARVEL：用于时间分辨心脏CT的基于运动先验嵌入式学习的运动感知重建"
   },
   {
     "id": 69,
@@ -1239,7 +1307,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3668785"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3668785",
+    "title_chinese": "QuPaS：结合量子力场微调与对抗估计的基于SAM的半监督组织病理学图像分割"
   },
   {
     "id": 70,
@@ -1257,7 +1326,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3674130"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3674130",
+    "title_chinese": "结合时空特征融合的关键点引导医学视频分割模型"
   },
   {
     "id": 71,
@@ -1275,7 +1345,8 @@
     "hindex": 283,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1109/tmi.2026.3672432"
+    "doi_url": "https://doi.org/10.1109/tmi.2026.3672432",
+    "title_chinese": "uBrainSurf：用于生命周期大脑皮层表面重建的统一曲率感知形变框架"
   },
   {
     "id": 72,
@@ -1293,7 +1364,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.125.270573"
+    "doi_url": "https://doi.org/10.2967/jnumed.125.270573",
+    "title_chinese": "表达生长抑素受体的高分化GEP-NETs患者中[<sup>225</sup> Ac]Ac-DOTATATE（RYZ101）1b/3期ACTION-1试验的剂量学结果"
   },
   {
     "id": 73,
@@ -1311,7 +1383,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.126.272009"
+    "doi_url": "https://doi.org/10.2967/jnumed.126.272009",
+    "title_chinese": "接受<sup>68</sup> Ga-PSMA PET/CT检查的前列腺癌生化复发患者常规延迟盆腔成像的诊断价值"
   },
   {
     "id": 74,
@@ -1329,7 +1402,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.126.272292"
+    "doi_url": "https://doi.org/10.2967/jnumed.126.272292",
+    "title_chinese": "遵循医疗人工智能建议如何减轻医疗事故责任：来自一项随机试验的跨国见解"
   },
   {
     "id": 75,
@@ -1347,7 +1421,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.125.271600"
+    "doi_url": "https://doi.org/10.2967/jnumed.125.271600",
+    "title_chinese": "亚–0.5-mm分辨率PET与放射自显影的比较：小鼠脑内mGluR1浓度对比"
   },
   {
     "id": 76,
@@ -1365,7 +1440,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.125.271680"
+    "doi_url": "https://doi.org/10.2967/jnumed.125.271680",
+    "title_chinese": "寡转移去势抵抗性前列腺癌转移导向治疗的成像方式与预后：PRECISE-MDT队列的更新分析"
   },
   {
     "id": 77,
@@ -1383,7 +1459,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.125.271460"
+    "doi_url": "https://doi.org/10.2967/jnumed.125.271460",
+    "title_chinese": "[<sup>68</sup> Ga]Ga-DOTATATE PET在低分化肺外神经内分泌癌患者中的生长抑素受体表达：一项前瞻性研究"
   },
   {
     "id": 78,
@@ -1401,7 +1478,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.126.272036"
+    "doi_url": "https://doi.org/10.2967/jnumed.126.272036",
+    "title_chinese": "PI-RADS 4和5病灶中的前列腺癌检测：[<sup>68</sup> Ga]Ga-PSMA-11 PET/CT引导机器人辅助活检与mpMRI认知融合TRUS引导前列腺活检的比较"
   },
   {
     "id": 79,
@@ -1419,7 +1497,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.125.270791"
+    "doi_url": "https://doi.org/10.2967/jnumed.125.270791",
+    "title_chinese": "基线及治疗中期PET特征在高危儿童霍奇金淋巴瘤预后评估中的价值：AHOD1331试验的回顾性分析"
   },
   {
     "id": 80,
@@ -1437,7 +1516,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.126.272362"
+    "doi_url": "https://doi.org/10.2967/jnumed.126.272362",
+    "title_chinese": "基于LLM协调AI代理的端到端PET/CT解读与定量：一项真实世界试点研究"
   },
   {
     "id": 81,
@@ -1455,7 +1535,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.125.271856"
+    "doi_url": "https://doi.org/10.2967/jnumed.125.271856",
+    "title_chinese": "小鼠巨噬细胞耗竭后心脏修复受损机制的分子成像：一项纵向多示踪剂成像研究"
   },
   {
     "id": 82,
@@ -1473,7 +1554,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.126.272521"
+    "doi_url": "https://doi.org/10.2967/jnumed.126.272521",
+    "title_chinese": "乳腺癌中SSTR靶向放射性诊疗学：[<sup>68</sup> Ga]Ga-DOTATOC和[<sup>68</sup> Ga]Ga-SSO120与[<sup>18</sup> F]FDG PET的比较"
   },
   {
     "id": 83,
@@ -1491,7 +1573,8 @@
     "hindex": 255,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2967/jnumed.126.272531"
+    "doi_url": "https://doi.org/10.2967/jnumed.126.272531",
+    "title_chinese": "接受[<sup>177</sup> Lu]Lu-PSMA-617治疗的转移性去势抵抗性前列腺癌患者重新分期[<sup>18</sup> F]FDG PET/CT的预后价值"
   },
   {
     "id": 84,
@@ -1509,7 +1592,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "提出一种基于多通道MRI系统的软件主动电磁干扰（EMI）抑制框架，用于MRI引导微波消融（MWA）期间的可靠成像与MR测温。方法利用辅助线圈检测EMI并通过主成分分析提取干扰模式，在体模和活体猪模型中验证。结果显示，该框架使信噪比提升40倍（体模）和13倍（活体），EMI抑制率超92%，质子共振频率位移测温平均绝对误差<1.4°C，热剂量估计与术后MRI及病理结果一致，有望促进MRI引导介入的临床应用。",
-    "doi_url": "https://doi.org/10.1002/mrm.70440"
+    "doi_url": "https://doi.org/10.1002/mrm.70440",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">MRI</span>引导微波消融期间用于<span style=\"font-variant:small-caps;\">MRI</span>和质子共振频率位移测温的主动电磁干扰抑制"
   },
   {
     "id": 85,
@@ -1527,7 +1611,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "旨在利用BART工具箱创建交互式实时MRI的模块化重建流水线。提出多维数组流式传输协议，并在基于径向FLASH的心脏实时MRI中结合迭代重建、动态线圈压缩和梯度延迟校正进行演示。延迟测量表明，BART处理与网络传输延迟约30 ms，端到端延迟约200 ms，足以满足交互式实时MRI需求，为高级实时MRI应用的快速原型开发提供了灵活的模块化方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70455"
+    "doi_url": "https://doi.org/10.1002/mrm.70455",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">BART</span>流：使用模块化框架进行流水线处理的实时重建"
   },
   {
     "id": 86,
@@ -1545,7 +1630,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究评估高时间分辨率超快Z谱CEST MRI在3T下监测人体骨骼肌中磷酸肌酸(PCr)和肌酸(Cr)动态变化的可行性。5名健康受试者跖屈运动期间，以7.6秒时间分辨率观察到PCr消耗(-76.9%±17.7%)和Cr升高(469.0%±116.3%)，并测得恢复常数。该方法为无创评估线粒体功能奠定了临床基础。",
-    "doi_url": "https://doi.org/10.1002/mrm.70464"
+    "doi_url": "https://doi.org/10.1002/mrm.70464",
+    "title_chinese": "在<span style=\"font-variant:small-caps;\">3T</span>下使用超快Z谱（ <span style=\"font-variant:small-caps;\">UFZ</span> ）<span style=\"font-variant:small-caps;\">CEST MRI</span>对骨骼肌中肌酸和磷酸肌酸动态的高时间分辨率监测"
   },
   {
     "id": 87,
@@ -1563,7 +1649,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在利用MRI定量磁化率成像(QSM)可视化和表征五种常见肾结石类型。在1.5T和3T下对含53块离体肾结石的体模进行扫描，结果显示所有结石均呈抗磁性，且直径大于3.0mm的结石在不同采集和场强下磁化率值高度一致。该研究为临床体内肾结石成像与鉴别迈出了关键一步。",
-    "doi_url": "https://doi.org/10.1002/mrm.70460"
+    "doi_url": "https://doi.org/10.1002/mrm.70460",
+    "title_chinese": "肾结石的定量磁化率成像：一项离体<span style=\"font-variant:small-caps;\">MRI</span>体模研究"
   },
   {
     "id": 88,
@@ -1581,7 +1668,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究在3T下比较短TE螺旋磁共振波谱成像(MRSI)与单体素波谱(SVS)在人脑中的光谱质量与代谢物浓度。5名健康受试者数据表明，两者总体光谱质量相当，但MRSI信噪比较低且代谢物定量CRLB较高。微小浓度差异可能源于组织权重与信噪比差异，为MRSI临床应用提供参考。",
-    "doi_url": "https://doi.org/10.1002/mrm.70463"
+    "doi_url": "https://doi.org/10.1002/mrm.70463",
+    "title_chinese": "在3特斯拉下采用Semi‐ <span style=\"font-variant:small-caps;\">LASER</span>定位的人脑短回波时间螺旋<span style=\"font-variant:small-caps;\">MRSI</span>与单体素波谱的比较"
   },
   {
     "id": 89,
@@ -1599,7 +1687,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种改进的平衡稳态自由进动序列(bSSFP180)，用于Overhauser磁共振成像，以解决传统bSSFP序列在低场环境下的条带伪影问题。实验表明，该序列能有效抑制伪影并在不均匀磁场下表现稳健，为低成本永磁系统在低场环境下的实际应用提供了重要进展。",
-    "doi_url": "https://doi.org/10.1002/mrm.70453"
+    "doi_url": "https://doi.org/10.1002/mrm.70453",
+    "title_chinese": "用于Overhauser磁共振成像的一种改进的平衡稳态自由进动序列"
   },
   {
     "id": 90,
@@ -1617,7 +1706,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出两种体素级不确定性量化方法（似然比检验和贝叶斯边际后验），用于解决定量MRI字典匹配中非独立同分布噪声的问题。仿真与体模实验证实，两种方法在标准假设失效时仍能达到标称覆盖率，且体内实验表明加速因子增加会扩大不确定性区间。该框架为临床参数图的可靠性评估提供了统计学解释。",
-    "doi_url": "https://doi.org/10.1002/mrm.70459"
+    "doi_url": "https://doi.org/10.1002/mrm.70459",
+    "title_chinese": "字典匹配中的不确定性量化方法以提高定量MRI的可靠性"
   },
   {
     "id": 91,
@@ -1635,7 +1725,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "提出局部线性化近似方法加速MR Fingerprinting（MRF）字典计算，在10个RF缩放因子处线性化，T1和T2估计的均方根差异分别为1.17%和1.98%，计算时间减少10倍。3T体模实验验证了方法可行性，可在保持高精度的同时显著加速含层剖面效应的MRF模拟，为大规模字典计算中纳入真实RF脉冲效应提供实用方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70462"
+    "doi_url": "https://doi.org/10.1002/mrm.70462",
+    "title_chinese": "用于二维磁共振指纹成像中快速模拟具有层面轮廓效应的磁化动力学的射频脉冲传播算子局部线性化近似"
   },
   {
     "id": 92,
@@ -1653,7 +1744,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "开发亚微秒级RF开关等定制硬件，在10.5T超高场实现钠SWIFT零回波时间成像。RF开关实现0.6μs（收到发）和1.7μs（发到收）切换速度，收发隔离度达115dB。人体腕部获得1.5mm各向同性分辨率钠图像，采集时间<5分钟，为超高场多核磁共振成像提供硬件基础。",
-    "doi_url": "https://doi.org/10.1002/mrm.70461"
+    "doi_url": "https://doi.org/10.1002/mrm.70461",
+    "title_chinese": "实现10. <span style=\"font-variant:small-caps;\">5 T</span>下<span style=\"font-variant:small-caps;\"> SWIFT<sup>23</sup> Na </span>成像的亚微秒开关"
   },
   {
     "id": 93,
@@ -1671,7 +1763,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "提出LOTUS——一种3D螺旋样k空间轨迹，通过控制非相干混叠最小化g因子，用于扩散MRI同步多层加速。仿真显示在最高欠采样率下g因子降低20%–31%，重建精度提升。2名受试者活体脑数据验证了g因子改善和图像质量提升，且加速倍数越高LOTUS优势越显著，有望缩短扩散MRI扫描时间。",
-    "doi_url": "https://doi.org/10.1002/mrm.70469"
+    "doi_url": "https://doi.org/10.1002/mrm.70469",
+    "title_chinese": "用于欠采样层面的横向振荡轨迹：<span style=\"font-variant:small-caps;\">LOTUS</span>"
   },
   {
     "id": 94,
@@ -1689,7 +1782,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "提出基于分布重映射的深度学习ASL去噪方法，利用I2SB变换将公共数据集分布匹配至目标数据，结合U-Net与贝叶斯模型分别处理分布内外特征。仿真和活体实验显示SNR提升约7dB，在卒中患者数据中仅用1/6平均次数（~83%扫描时间减少）即可获得可比的CBF图，在多数据集上表现出良好泛化性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70471"
+    "doi_url": "https://doi.org/10.1002/mrm.70471",
+    "title_chinese": "利用由分布重映射生成的深度学习先验对<span style=\"font-variant:small-caps;\">ASL</span>数据进行去噪"
   },
   {
     "id": 95,
@@ -1707,7 +1801,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "构建MRI兼容高压氧舱，在3T临床扫描仪上对荷瘤小鼠进行全身氧增强MRI（OE-MRI）。正常组织（脑、心脏）显示均匀的压力依赖性ΔR1增加，肿瘤呈现显著空间异质性——部分体素响应强烈，部分在2ATA 100%O2下仍无响应。该平台为评估氧递送和识别肿瘤氧难治区域提供了有价值的临床前工具。",
-    "doi_url": "https://doi.org/10.1002/mrm.70458"
+    "doi_url": "https://doi.org/10.1002/mrm.70458",
+    "title_chinese": "高压氧条件下荷瘤小鼠的全身氧增强<span style=\"font-variant:small-caps;\">MRI</span>"
   },
   {
     "id": 96,
@@ -1725,7 +1820,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：提出基于k空间的傅里叶壳层分析（FSA）方法，用于评估4D Flow MRI超分辨率重建中分辨率增强与去噪效果的分离。方法：利用计算流体动力学合成胸主动脉4D Flow MRI数据，生成配对低/高分辨率数据，在多种信噪比下比较4DFlowNet深度学习网络的超分辨性能。结果：FSA在分离和量化分辨率增强方面优于基于图像的误差指标（无噪声数据下绝对相对均值配对差异为160.3% vs. 13.1%，SNR=5时为300.0% vs. 10.2%）。结论：FSA能有效区分4D Flow MRI超分辨率方法中的分辨率增益与去噪效果，应作为评估超分辨率方法的补充指标。",
-    "doi_url": "https://doi.org/10.1002/mrm.70478"
+    "doi_url": "https://doi.org/10.1002/mrm.70478",
+    "title_chinese": "傅里叶壳层分析：用于评估<span style=\"font-variant:small-caps;\">4D</span> Flow <span style=\"font-variant:small-caps;\">MRI</span>超分辨率的基于k空间的度量指标"
   },
   {
     "id": 97,
@@ -1743,7 +1839,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：提出多回波SSFP（MESS）序列，在高场MRI中合成无条带伪影的bSSFP对比度。方法：MESS序列分别采集多个回波阶数，通过回波幅度求和重建类bSSFP对比度，利用EPG建模验证，并在5T扫描仪上进行体模和活体实验。结果：体模实验确认MESS可重建无条带伪影的bSSFP对比度；活体扫描证明其稳健抑制伪影并保持bSSFP样对比度，且可通过虚拟相位循环增量灵活调节对比度。结论：MESS在高场MRI中实现了无条带伪影的bSSFP对比度合成，具有稳健图像对比度合成潜力。",
-    "doi_url": "https://doi.org/10.1002/mrm.70472"
+    "doi_url": "https://doi.org/10.1002/mrm.70472",
+    "title_chinese": "多回波SSFP：一种在高场强下无条带伪影的合成bSSFP MRI对比度的方法"
   },
   {
     "id": 98,
@@ -1761,7 +1858,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：开发年龄特异性bSSFP优化策略，增强胎儿大脑灰白质对比度。方法：整合TIDE模型与EPG算法，利用胎儿大脑T1、T2弛豫时间推导年龄特异性可变翻转角序列，在18例24-37孕周胎儿中评估2D和3D bSSFP的对比度及分割精度。结果：优化后2D和3D bSSFP皮层对比度较默认bSSFP分别提高4.13倍和4.06倍（p<0.001和p<0.002）；分割精度优于HASTE（DICE分别为0.93、0.89 vs. 0.79）。结论：该策略增强了不同胎龄胎儿灰白质对比度，易于临床转化，有望推进胎儿大脑临床评估与神经发育研究。",
-    "doi_url": "https://doi.org/10.1002/mrm.70452"
+    "doi_url": "https://doi.org/10.1002/mrm.70452",
+    "title_chinese": "胎儿大脑中<span style=\"font-variant:small-caps;\">bSSFP</span>的年龄特异性对比度优化"
   },
   {
     "id": 99,
@@ -1779,7 +1877,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：研究零样本自监督学习重建在缩短MRCP屏气时间中的可行性。方法：在3T扫描仪上对11名健康志愿者采集屏气MRCP（14秒，R=25），将零样本重建与并行成像和压缩感知比较，并提出分阶段训练策略减少反向传播深度。结果：零样本重建在SNR和胆管勾勒方面显著优于压缩感知，图像质量可比拟呼吸触发采集；部分可训练配置下PSNR仅从38.25 dB略降至37.67 dB，训练时间最多缩短6.7倍。结论：零样本学习实现了高保真MRCP重建并缩短屏气时间，部分可训练方案为临床工作流转化提供了实用解决方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70467"
+    "doi_url": "https://doi.org/10.1002/mrm.70467",
+    "title_chinese": "单次屏气磁共振胰胆管成像 ( <span style=\"font-variant:small-caps;\">MRCP</span> ) 重建的零样本自监督学习"
   },
   {
     "id": 100,
@@ -1797,7 +1896,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：在乳腺DCE-MRI中比较盲估计与直接测量的动脉输入函数（AIF）。方法：分析25例乳腺癌患者数据，使用Perflab工具包中Tofts-Kety（TK）和双室交换模型（2CXM）进行盲AIF估计，以心输出量缩放，采用尺度不变和尺度依赖指标评估AIF形状相似性。结果：2CXM导出的盲估计在所有指标上与测量AIF一致性更强；但尺度依赖指标相关性较弱，提示心输出量缩放存在局限。结论：2CXM模型的盲AIF估计能更可靠地恢复AIF形状和色散，但实际应用中需探索其他缩放策略。",
-    "doi_url": "https://doi.org/10.1002/mrm.70454"
+    "doi_url": "https://doi.org/10.1002/mrm.70454",
+    "title_chinese": "乳腺动态对比增强MRI中动脉输入函数的盲估计与直接测量"
   },
   {
     "id": 101,
@@ -1815,7 +1915,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本文综述了腹部MRI呼吸运动管理技术在技术进步与临床转化之间的差距。尽管呼吸运动补偿技术取得显著进展，但多数仍未用于日常临床实践。文章从与常规综述相反的视角，探讨技术复杂的创新与实际临床需求不匹配的原因，分析了阻碍临床采纳的壁垒，明确了腹部MRI有效呼吸运动管理的临床要求，并提出了更贴近常规工作流的未来研究方向，以指导改善临床整合。",
-    "doi_url": "https://doi.org/10.1002/mrm.70475"
+    "doi_url": "https://doi.org/10.1002/mrm.70475",
+    "title_chinese": "腹部<span style=\"font-variant:small-caps;\">MRI</span>中的呼吸运动管理：重新审视技术进步与临床转化之间的差距"
   },
   {
     "id": 102,
@@ -1833,7 +1934,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本文提出Arc-ZTE技术，通过连续旋转ZTE读出梯度形成k空间弧线轨迹，实现低噪声、高时空分辨率的动态MRI。与径向ZTE方案相比，Arc-ZTE在多种时间分辨率下实现了稳定的k空间覆盖和改善的采样非相干性，虽噪声较标准径向ZTE增加0.3–14.2 dB，但比常规3D序列低20–35 dB。体内实验证实可在0.5和1.1秒/帧的时间分辨率下有效捕捉呼吸运动和对比剂摄取动态，有望显著提高新生儿和声敏感患者动态成像成功率。",
-    "doi_url": "https://doi.org/10.1002/mrm.70477"
+    "doi_url": "https://doi.org/10.1002/mrm.70477",
+    "title_chinese": "Arc‐<span style=\"font-variant:small-caps;\">ZTE</span>：采用非相干时间采样的连续偏转零<span style=\"font-variant:small-caps;\">TE</span>成像用于近静音动态<span style=\"font-variant:small-caps;\">MRI</span>"
   },
   {
     "id": 103,
@@ -1851,7 +1953,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本文开发了相位校正的时间交错多回波梯度回波Cartesian螺旋采集序列（TIMGRECASPR），用于3T下自由呼吸腹部大视野PDFF映射。通过XCAT仿真优化序列参数，在体模和体内验证中，相位校正成功将PDFF偏差从±5%降至可接受范围。5名健康志愿者中，肝脏PDFF偏差为0.6%，重复扫描标准差为0.11%，胰腺PDFF偏差为1.1%，标准差为0.37%，与屏气参考扫描结果一致，证实了该方法在自由呼吸下实现准确脂肪定量的可行性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70474"
+    "doi_url": "https://doi.org/10.1002/mrm.70474",
+    "title_chinese": "使用相位误差校正的螺旋剖面排序笛卡尔采集进行自由呼吸脂肪定量"
   },
   {
     "id": 104,
@@ -1869,7 +1972,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了优化的氧增强MRI（OE-MRI）方案，用于纵向监测放疗期间肿瘤氧合变化，并引入氧响应指数（ORI）作为早期疗效生物标志物。在6只荷SCC7肿瘤的C3H小鼠分次放疗（2 Gy/天×7天）中，ORI在分次照射期间逐步下降，变点分析在第4次扫描（第8天）识别出治疗响应拐点，早于肿瘤体积变化一个扫描间隔。60 Gy大剂量后，缺氧组织转化为氧响应组织。ORI可捕捉无效和有效治疗阶段的纵向氧合变化，为监测治疗响应提供互补生物标志物。",
-    "doi_url": "https://doi.org/10.1002/mrm.70480"
+    "doi_url": "https://doi.org/10.1002/mrm.70480",
+    "title_chinese": "氧响应指数：一种用于评估放射治疗疗效的潜在<span style=\"font-variant:small-caps;\">OE‐MRI</span>衍生无创生物标志物"
   },
   {
     "id": 105,
@@ -1887,7 +1991,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本文提供了厂商无关的视图顺序构建方法，可在多激发成像（RARE和MPRAGE）中选择任意中心回波。该方法将回波和激发索引分配给预设相位编码，避免k空间中心附近的大不连续性，使回波链长度、矩阵大小和欠采样因子等扫描参数与中心回波选择解耦。体模和体内实验证实，在RARE中改变中心回波产生预期的权重偏移，与仿真一致。该方法兼容部分傅里叶、并行成像和椭圆覆盖等采样策略，为序列设计提供了额外的对比度控制自由度。",
-    "doi_url": "https://doi.org/10.1002/mrm.70482"
+    "doi_url": "https://doi.org/10.1002/mrm.70482",
+    "title_chinese": "任意中心回波的视图顺序"
   },
   {
     "id": 106,
@@ -1905,7 +2010,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究结合欠采样径向2in1-RARE-EPI采集与非线性模型重建，实现多发性硬化(MS)患者大脑T2、T2*和R2'的加速同步定量成像。在体模、健康受试者及MS患者中验证显示，该方法较参考方法实现7.5倍加速，且在更高加速因子下比PICS重建更准确，成功检测MS小局灶病变并实现中央静脉征可视化，为相关影像生物标志物的临床研究奠定技术基础。",
-    "doi_url": "https://doi.org/10.1002/mrm.70465"
+    "doi_url": "https://doi.org/10.1002/mrm.70465",
+    "title_chinese": "使用欠采样径向<span style=\"font-variant:small-caps;\">RARE</span>‐<span style=\"font-variant:small-caps;\">EPI MRI</span>的非线性模型重建对多发性硬化症进行同步<i>T</i><sub>2</sub>、<i>T</i><sub>2</sub>*和<i>R</i><sub>2</sub>′映射"
   },
   {
     "id": 107,
@@ -1923,7 +2029,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种兼容体内电子顺磁共振(EPR)测氧法的专用小动物高压氧舱，用于实时监测高压氧暴露下的组织氧分压(pO2)。在B16-F10黑色素瘤和骨骼肌中观察到压力依赖性的pO2显著增加，而SCC7肿瘤反应较小。该系统能安全稳定运行至2 ATA，为优化高压氧方案及研究氧调节疗法（如肿瘤放疗和药物反应）的转化研究提供了实时、组织特异性的氧动力学评估工具。",
-    "doi_url": "https://doi.org/10.1002/mrm.70444"
+    "doi_url": "https://doi.org/10.1002/mrm.70444",
+    "title_chinese": "使用活体<span style=\"font-variant:small-caps;\">EPR</span>测氧法在高压氧暴露期间实时监测组织氧合"
   },
   {
     "id": 108,
@@ -1941,7 +2048,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究引入更新的SimulScan脉冲序列，同时采集BOLD-fMRI和动态MRI(23.75 fps)，结合偏最小二乘(PLS)分析，实现吞咽过程中生物力学与大脑活动的同步可视化。在5名受试者中验证显示，该技术对吞咽生物力学测量的可靠性高(两次运行间r=0.891)，且能提取脑部与口咽部动态之间可靠的关联图谱，为研究中枢对吞咽的控制提供了新工具。",
-    "doi_url": "https://doi.org/10.1002/mrm.70481"
+    "doi_url": "https://doi.org/10.1002/mrm.70481",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">SimulScan</span>与偏最小二乘法：通过功能与动态成像相关性可视化吞咽过程"
   },
   {
     "id": 109,
@@ -1959,7 +2067,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究探讨了电感耦合无线线圈在MRI中与初级线圈强耦合时仍能有效工作的原因，并阐明了现代接收前置放大器在减轻过耦合效应中的作用。台架实验和7T MRI验证表明，低输入阻抗前置放大器终端能在强耦合下保持线圈共振，且尽管初级线圈阻抗发生偏移，信噪比损失可忽略不计。该发现简化了电感耦合线圈的设计，使其能在初级线圈附近运行而无需显著降低SNR。",
-    "doi_url": "https://doi.org/10.1002/mrm.70485"
+    "doi_url": "https://doi.org/10.1002/mrm.70485",
+    "title_chinese": "重新审视<span style=\"font-variant:small-caps;\">MRI</span>中的电感耦合无线线圈：利用前置放大器缓解过耦合"
   },
   {
     "id": 110,
@@ -1977,7 +2086,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究探讨了扩散在稳态FLASH MRI对比度形成中的作用。通过相位图模拟和3D打印脑体模验证，发现忽略扩散会导致CSF信号被高估，从而改变T1加权对比度。扩散对于抑制长T2组织中的高阶回波至关重要，是获得真实T1加权稳态对比度的必要条件。研究指出，在基于模拟的深度学习应用中不应忽略扩散效应，否则会导致训练的神经网络无法泛化至体内数据。",
-    "doi_url": "https://doi.org/10.1002/mrm.70443"
+    "doi_url": "https://doi.org/10.1002/mrm.70443",
+    "title_chinese": "稳态<span style=\"font-variant:small-caps;\">FLASH MRI</span>中的<span style=\"font-variant:small-caps;\">T1</span>加权——扩散不仅起辅助作用，而且对对比度是必需的"
   },
   {
     "id": 111,
@@ -1995,7 +2105,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出基于梯度回波平面波谱成像(GREPSI)序列的脑代谢物绝对温度测量方法，利用FID时间偏移技术分离代谢物峰与水信号，无需水抑制即可识别代谢物峰位置。体模实验显示室温下温度测量标准差为0.31°C，42°C时精度在2%以内，精度约0.2°C。健康志愿者体内温度图像处于正常范围。该方法可在2–5分钟内完成8层块扫描，为脑温监测提供高效精确的成像手段。",
-    "doi_url": "https://doi.org/10.1002/mrm.70487"
+    "doi_url": "https://doi.org/10.1002/mrm.70487",
+    "title_chinese": "在梯度回波平面波谱成像（ <span style=\"font-variant:small-caps;\">GREPSI</span> ）中使用 <span style=\"font-variant:small-caps;\">FID</span> ‐偏移方法进行基于脑代谢物的绝对温度成像的潜力"
   },
   {
     "id": 112,
@@ -2013,7 +2124,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究为11.7T超高场MRI设计了8通道发射/32通道接收头线圈，发射阵列采用折叠端射频屏蔽以减少波传播损耗，接收阵列为32个全重叠环。体模实验表明，与7T相比，11.7T线圈中心SNR提升3倍，皮层区域提升2.65倍，全容积平均提升2.69倍，且g因子低于7T参考线圈。该设计为最强人体MRI扫描器提供了重要的硬件支撑。",
-    "doi_url": "https://doi.org/10.1002/mrm.70473"
+    "doi_url": "https://doi.org/10.1002/mrm.70473",
+    "title_chinese": "8通道发射32通道接收11.7T头部线圈的设计及SNR增益评估"
   },
   {
     "id": 113,
@@ -2031,7 +2143,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究在3T和7T下评估了四种体模掺杂材料（铁蛋白、USPIO、CaCl₂、CaCO₃）在定量磁化率成像(QSM)中的磁化率测量精度和稳定性。结果显示各材料摩尔磁化率在两种场强下一致，铁蛋白和CaCO₃分别在24和15个月内无显著变化。推荐铁蛋白作为顺磁性掺杂剂，仍需寻找更优的抗磁性掺杂材料，为QSM定量标准化提供参考。",
-    "doi_url": "https://doi.org/10.1002/mrm.70427"
+    "doi_url": "https://doi.org/10.1002/mrm.70427",
+    "title_chinese": "定量磁化率成像中体模掺杂材料的评估"
   },
   {
     "id": 114,
@@ -2049,7 +2162,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出三脉冲Na MRI序列(TriNa)，通过三个矩形脉冲和两个超短TE读出，一次采集同时获得自旋密度加权(TriNa-SD)和液体抑制(TriNa-FS)Na图像。7T实验表明TriNa-SD与钠浓度呈高线性相关，SNR效率高；所提离共振校正模型有效减少TriNa-FS残余液体伪影。该序列实现了高效双对比度Na MRI采集，为钠离子定量成像提供新方法。",
-    "doi_url": "https://doi.org/10.1002/mrm.70492"
+    "doi_url": "https://doi.org/10.1002/mrm.70492",
+    "title_chinese": "用于同时采集自旋密度加权与液体衰减图像的三脉冲 <span style=\"font-variant:small-caps;\"><sup>23</sup> Na MRI </span> 序列（ <span style=\"font-variant:small-caps;\">TriNa</span> ）"
   },
   {
     "id": 115,
@@ -2067,7 +2181,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究基于有效介质理论，推导了灰质细胞外扩散系数与胞体（球体）和神经突（圆柱体）体积分数之间的解析关系，并通过蒙特卡洛模拟验证。建立了细胞外扩散率与胞外空间体积分数的幂律标度关系，并应用于体内MRI数据。该框架为优化扩散MRI协议、在临床扫描时间内评估胞体大小和胞体/神经突分数提供理论基础，可用于研究发育、衰老和神经退行性疾病。",
-    "doi_url": "https://doi.org/10.1002/mrm.70490"
+    "doi_url": "https://doi.org/10.1002/mrm.70490",
+    "title_chinese": "灰质中细胞外扩散系数对神经突和胞体分数的依赖性"
   },
   {
     "id": 116,
@@ -2085,7 +2200,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：扩展GRAPE通用脉冲形式至具有定义光谱响应的脉冲并应用于空间选择。方法：在每个体素上添加多频率Bloch模拟创建通用光谱选择性GRAPE脉冲，叠加恒定梯度场实现空间选择，在层面和板层选择性成像实验中测试。结果：通用空间选择性GRAPE脉冲提高了FA均匀性和SNR，2D梯度回波SNR提高约6%，板层选择性TSE序列SNR提高29%，且比k-spokes脉冲更鲁棒、更短。结论：空间选择性通用GRAPE脉冲性能优于k-spokes脉冲，有望推动7T MRI技术向临床应用迈进。",
-    "doi_url": "https://doi.org/10.1002/mrm.70266"
+    "doi_url": "https://doi.org/10.1002/mrm.70266",
+    "title_chinese": "用于7T下均匀空间选择性激发的无校准GRAPE pTx脉冲"
   },
   {
     "id": 117,
@@ -2103,7 +2219,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：将2D PC-SSFP方法扩展至临床场强下的4D flow MRI，改善心内血流的血-心肌对比。方法：修改4D flow序列实现bSSFP对比，在3T流模体验证速度准确性，并在14次扫描（13名健康受试者3T，1名1.5T）中与标准2D和4D flow GRE方法比较二尖瓣流入峰值速度和每搏量。结果：体模中4D flow bSSFP与GRE高度一致（r>0.9），体内SNR显著提高（42.4±24.7 vs 16.9±8.5），血-组织CNR显著改善（9.7±3.3 vs 2.3±1.5），二尖瓣速度和体积测量与GRE方法一致性良好。结论：4D flow bSSFP方法可行，在临床场强下实现了改善的SNR、CNR及准确测量。",
-    "doi_url": "https://doi.org/10.1002/mrm.70281"
+    "doi_url": "https://doi.org/10.1002/mrm.70281",
+    "title_chinese": "临床场强下使用平衡稳态自由进动（ <span style=\"font-variant:small-caps;\">PC</span> ‐ <span style=\"font-variant:small-caps;\">SSFP</span> ）的 <span style=\"font-variant:small-caps;\">3D</span> 相位对比以改进 <span style=\"font-variant:small-caps;\">4D</span> 血流"
   },
   {
     "id": 118,
@@ -2121,7 +2238,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：推导编码时间依赖的流动补偿IVIM解析模型，估计健康大脑微血管IVIM参数。方法：从Langevin方程推导FC/NC双扩散编码的编码时间依赖解析IVIM模型，通过仿真验证，扫描11名健康受试者估计微血管IVIM参数（血液速度ν和血液相关时间τ），T=50–100ms。结果：IVIM参数估计为τ=123.1±50ms，ν=1.51±0.76mm/s，灌注分数f=4.75±1.94%，组织扩散系数D=0.91±0.32μm²/ms；仿真表明τ存在正偏差。结论：提出了编码时间依赖IVIM模型，体内结果和仿真表明临床MRI扫描仪的IVIM实验探测的是中间到弹道血流区域。",
-    "doi_url": "https://doi.org/10.1002/mrm.70267"
+    "doi_url": "https://doi.org/10.1002/mrm.70267",
+    "title_chinese": "流动补偿体素内不相干运动 <span style=\"font-variant:small-caps;\">MRI</span> 中中间流态的建模"
   },
   {
     "id": 119,
@@ -2139,7 +2257,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：引入改进的交错飞回（miFB）方法，减轻EPI中交替读出极性导致的流动伪影，同时保持采集效率。方法：分别重建3D-EPI的奇偶回波，以反转极性和额外梯度前叶交错采集缺失线，结合梯度矩平滑，在7T体模和体内扫描中与IDEA方法比较。结果：miFB方法显著减少鬼影和信号丢失，图像质量与非EPI采集相当，采集时间减少约一半。结论：miFB方法大幅减少流动伪影，可缩短TOF-MRA采集时间。",
-    "doi_url": "https://doi.org/10.1002/mrm.70272"
+    "doi_url": "https://doi.org/10.1002/mrm.70272",
+    "title_chinese": "使用改进的交错折返轨迹的基于回波平面的飞行时间成像"
   },
   {
     "id": 120,
@@ -2157,7 +2276,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "目的：开发一种快速、开源的MRI射频线圈电磁仿真工具箱。方法：工具箱包含四个组件：基于线-面-体积分方程的全波3D EM求解器（张量分解降低内存）、降阶模型技术实现分钟级患者特异性线圈仿真、全自动电路协同仿真器、数值EM基生成器。在7T MRI中演示。结果：降阶模型WSVIE求解器比商业求解器快70倍（31通道7T头线圈），协同仿真器30分钟完成调谐匹配去耦（手动需数天），SNR图平均差异小于15%。结论：该开源框架实现快速、低内存、准确的解剖特异性RF线圈阵列设计。",
-    "doi_url": "https://doi.org/10.1002/mrm.70269"
+    "doi_url": "https://doi.org/10.1002/mrm.70269",
+    "title_chinese": "用于 <span style=\"font-variant:small-caps;\">MRI</span> 中快速射频线圈设计与评估的开源软件工具箱"
   },
   {
     "id": 121,
@@ -2175,7 +2295,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在探讨回波平面成像（EPI）中微小时间变化如何调节声能并减少伪影。通过推导描述短梯度列车之间干涉的解析模型并结合系统声学传递函数，预测亚毫秒级时间调整对声功率的影响。在7 T和10.5 T MRI系统上验证表明，亚毫秒级时间修改使声功率产生2至47倍的可预测变化，导航时间偏移使伪影强度降低最高达5倍。该策略为降低声学噪声、减少伪影及扩展EPI参数空间提供了有效途径，对超高场和高速成像具有重要价值。",
-    "doi_url": "https://doi.org/10.1002/mrm.70271"
+    "doi_url": "https://doi.org/10.1002/mrm.70271",
+    "title_chinese": "时机决定一切：<span style=\"font-variant:small-caps;\">MRI</span>回波平面成像中微小的时序变化如何显著改变机械振动和声级"
   },
   {
     "id": 122,
@@ -2193,7 +2314,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估多回波自旋回波（MESE）与多回波梯度回波（MGRE）在固定小鼠脑组织中测量髓鞘水分数（MWF）的一致性。对5种基因编辑小鼠系的15个脑样本进行离体7 T MRI，并将MWF与Mbp基因表达及FluoroMyelin荧光强度进行验证。结果显示两种序列的MWF高度相关（r=0.96），均能敏感反映髓鞘含量差异；MGRE结合鲁棒主成分分析在精细白质结构中表现更稳健且与组织学相关性更强，支持其用于高分辨率临床前髓鞘成像。",
-    "doi_url": "https://doi.org/10.1002/mrm.70275"
+    "doi_url": "https://doi.org/10.1002/mrm.70275",
+    "title_chinese": "多回波自旋回波与多回波梯度回波髓鞘水成像在一系列 <span style=\"font-variant:small-caps;\"> <i>Mbp</i> </span> 增强子编辑小鼠品系中的定量比较"
   },
   {
     "id": 123,
@@ -2211,7 +2333,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估体素内不相干运动（IVIM）中由弛豫时间差异导致的伪扩散体积分数偏差，并开发二维T2-IVIM拟合方法以同时估计T2和IVIM参数。通过仿真与4名健康志愿者的3 T MRI在体数据验证，结果表明传统IVIM模型在肝脏中随TE增加导致f值偏高，而2D T2-IVIM模型有效降低了该偏差及变异性。研究提出包含6个b值和3个TE的最优采集协议，为腹部器官的弛豫补偿定量成像提供了可靠方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70278"
+    "doi_url": "https://doi.org/10.1002/mrm.70278",
+    "title_chinese": "迈向优化的腹部器官体素内不相干运动 ( <span style=\"font-variant:small-caps;\">IVIM</span> ) 与区室T2标测"
   },
   {
     "id": 124,
@@ -2229,7 +2352,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估超极化129Xe MRI测量肺泡-毛细血管膜与红细胞间气体交换的可行性，并在肺纤维化动物模型中检测疾病变化。对8只博来霉素诱导的肺纤维化大鼠和8只健康对照进行成像，开发了化学位移饱和恢复序列以估计气体交换时间常数。结果显示纤维化组的膜到红细胞及肺泡到红细胞时间常数显著高于对照组，且与肺功能测试和组织学厚度强相关。该技术有望成为检测肺气体交换受损的敏感无创工具。",
-    "doi_url": "https://doi.org/10.1002/mrm.70279"
+    "doi_url": "https://doi.org/10.1002/mrm.70279",
+    "title_chinese": "使用超极化氙磁共振评估肺纤维化中的肺微血管改变"
   },
   {
     "id": 125,
@@ -2247,7 +2371,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究评估了动态对比增强磁共振指纹成像（DCE-MRF）直接生成定量T1图，相较于传统DCE-MRI在检测治疗诱导血管变化中的精度和统计效力。对20只荷4T1乳腺癌小鼠在血管阻断剂治疗后进行匹配时空分辨率成像。结果显示，DCE-MRF在Ktrans上的效应量增加1.3至5.1倍，在肿瘤边缘kep,T上增加1.3至1.9倍，且能检测到48小时的血管恢复，而传统DCE-MRI仅检测到3小时的变化。DCE-MRF提高了测量精度和统计效力，有望成为更可靠的肿瘤灌注评估方法。",
-    "doi_url": "https://doi.org/10.1002/mrm.70274"
+    "doi_url": "https://doi.org/10.1002/mrm.70274",
+    "title_chinese": "动态对比增强—磁共振指纹成像 ( <span style=\"font-variant:small-caps;\">DCE</span> ‐ <span style=\"font-variant:small-caps;\">MRF</span> ) 改善小鼠乳腺癌模型中诱导的血管灌注降低的检测"
   },
   {
     "id": 126,
@@ -2265,7 +2390,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估3T下脑脊液(CSF)中钆布醇和钆特酸的T1弛豫率，以支持基于T1 mapping的CSF流动和淋巴系统研究。通过体模在两台3T扫描仪上重复测量发现，CSF中的弛豫率显著高于等渗溶液，尤其钆布醇在CSF中达3.02和3.63 L mmol⁻¹ s⁻¹。两台扫描仪间存在高相关性(R²=0.998)但18%的缩放差异。建议CSF的T1 mapping研究使用CSF特异性弛豫率常数，以提高定量的准确性和可重复性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70284"
+    "doi_url": "https://doi.org/10.1002/mrm.70284",
+    "title_chinese": "在 <span style=\"font-variant:small-caps;\">3</span> T下钆布醇和钆特酸在脑脊液中的弛豫率"
   },
   {
     "id": 127,
@@ -2283,7 +2409,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出随机重叠切片激发(SERO)方法，通过在单次激发中实现可变TR和扩散加权，支持扩散-弛豫MRI的超分辨重建。数值体模和健康大脑体内实验表明，SERO在低SNR(SNR=3)下仍能保持高精度(RMSE≈0.5)，而传统直接采样需SNR≥7-10。该方法无需延长扫描时间即可丰富编码多样性，显著提升扩散和弛豫参数的准确性与精度，为高分辨微结构成像提供了新途径。",
-    "doi_url": "https://doi.org/10.1002/mrm.70282"
+    "doi_url": "https://doi.org/10.1002/mrm.70282",
+    "title_chinese": "迈向使用随机重叠切片激发 ( <span style=\"font-variant:small-caps;\">SERO</span> ) 的扩散-弛豫 <span style=\"font-variant:small-caps;\">MRI</span> 超分辨率重建"
   },
   {
     "id": 128,
@@ -2301,7 +2428,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了CLUB-Sandwich 3D序列，用于7T超高场下同时快速绘制静态(B0)和发射(B1+)场不均匀性图。在11名健康志愿者中验证显示，该方法与参考方法高度一致(r>0.97)，ΔB0和绝对B1+误差极低。结合深度学习重建，采集时间缩短至10秒内，重建仅需5秒。该框架为超高场MRI应用提供了快速、准确的在线场不均匀性估计方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70289"
+    "doi_url": "https://doi.org/10.1002/mrm.70289",
+    "title_chinese": "结合Sandwich的超高场偏差联合计算 ( <span style=\"font-variant:small-caps;\">CLUB</span> )：在 <span style=\"font-variant:small-caps;\">7 T</span> 下快速、同步估算 <span style=\"font-variant:small-caps;\"> 3D B<sub>0</sub> </span> 和多通道 <span style=\"font-variant:small-caps;\"> B<sub>1</sub> </span><sup>+</sup> 图"
   },
   {
     "id": 129,
@@ -2319,7 +2447,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在开发0.55T下5分钟内完成的全胸3D MRA采集方法，结合自门控与回顾性运动校正实现100%数据效率，并采用基于模型的Dixon重建进行水脂分离。在18名志愿者中，该方法图像质量评分(4.22)优于5分钟导航门控扫描(3.89)，且扫描时间偏差极小(-0.17至0.45分钟)，对不规则呼吸的鲁棒性更强。该方法成功实现了可预测扫描时间的高质量全胸水脂分离成像。",
-    "doi_url": "https://doi.org/10.1002/mrm.70285"
+    "doi_url": "https://doi.org/10.1002/mrm.70285",
+    "title_chinese": "在 0.55 <span style=\"font-variant:small-caps;\">T</span> 下胸部呼吸运动校正的基于模型的 <span style=\"font-variant:small-caps;\">3D</span> 水-脂 <span style=\"font-variant:small-caps;\">MRA</span>"
   },
   {
     "id": 130,
@@ -2337,7 +2466,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种全自动深度学习驱动的多参数肾脏MRI后处理流程，实现肾脏对齐、分割和定量特征提取。在24名患者和10名健康受试者的五折交叉验证中，该流程与专家分割高度一致，体积分析与手动结果强相关(r=0.9)，且全流程仅需约15秒/扫描。该研究为肾脏多参数MRI建立了高效可靠的后处理方案，有望提升肾脏疾病的诊断与治疗规划效率。",
-    "doi_url": "https://doi.org/10.1002/mrm.70288"
+    "doi_url": "https://doi.org/10.1002/mrm.70288",
+    "title_chinese": "用于多参数肾脏 <span style=\"font-variant:small-caps;\">MRI</span> 体积分析的自动配准分割"
   },
   {
     "id": 131,
@@ -2355,7 +2485,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本文提出基于张量分解的多信号矩阵(T-MP)框架，用于从多回波梯度回波数据中估计髓鞘水分数(MWF)。该方法结合相邻体素的空间信息，在减少回波数量的条件下实现稳定参数估计。数值模拟和体内实验表明，该方法能用更少时间样本实现准确MWF估计，在不同空间分辨率下提供一致的MWF图，且显著减少每层计算时间，支持空间高效的mGRE采集。",
-    "doi_url": "https://doi.org/10.1002/mrm.70283"
+    "doi_url": "https://doi.org/10.1002/mrm.70283",
+    "title_chinese": "基于张量分解的多信号矩阵束方法用于髓鞘水分数估计"
   },
   {
     "id": 132,
@@ -2373,7 +2504,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在开发体内多维MRI方法，以探究脑脊液(CSF)在体素内不相干运动(IVIM)中的潜在贡献。对10名健康受试者采集T1-扩散和T2-扩散MRI数据，并开发T1/T2选择性IVIM协议。结果在脑蛛网膜下腔检测到不相干CSF流，证明了利用多维MRI在低b值区域探测IVIM流分量异质性的可行性，为临床可行时间内的选择性IVIM采集提供了依据。",
-    "doi_url": "https://doi.org/10.1002/mrm.70290"
+    "doi_url": "https://doi.org/10.1002/mrm.70290",
+    "title_chinese": "多维<span style=\"font-variant:small-caps;\">MRI</span>揭示人脑中非相干脑脊液流动的证据"
   },
   {
     "id": 133,
@@ -2391,7 +2523,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在通过协同结合回顾性心脏射频聚焦(ROVir)和呼吸运动补偿，改善心脏MRI的运动表示并减少伪影。对24名先天性心脏病患儿的回顾性数据评估显示，MoCo+ROVir显著提高了心脏运动能量占比并优先处理心脏运动，有效减少闪烁伪影、锐化肝肺界面，且重建速度提升3.7-5.2倍，为儿科患者自由呼吸心脏扫描提供了可能。",
-    "doi_url": "https://doi.org/10.1002/mrm.70280"
+    "doi_url": "https://doi.org/10.1002/mrm.70280",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">MoCo</span> + <span style=\"font-variant:small-caps;\">ROVir</span>：呼吸运动补偿与心脏接收区域聚焦用于心脏<span style=\"font-variant:small-caps;\">MRI</span>的协同作用"
   },
   {
     "id": 134,
@@ -2409,7 +2542,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究利用过度反转延迟的时间稀疏性，应用金角旋转螺旋k-t稀疏并行成像(GASSP)实现单次激发10秒内测量血液T1。在9名健康志愿者和3名患者中的实验表明，GASSP测量的血液T1值与多激发EPI读出高度相关(r=0.83)且重复性高(r=0.88)。该方法可在对比剂注射前后动态评估血液T1变化，为血流动力学定量提供了一种超快速、高分辨的可行方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70286"
+    "doi_url": "https://doi.org/10.1002/mrm.70286",
+    "title_chinese": "使用黄金角旋转螺旋<span style=\"font-variant:small-caps;\">k‐t</span>稀疏并行成像（<span style=\"font-variant:small-caps;\">GASSP</span>）的超快血液<span style=\"font-variant:small-caps;\"> T<sub>1</sub> </span>测量：对比剂注射前后条件下的评估"
   },
   {
     "id": 135,
@@ -2427,7 +2561,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究利用深度学习神经网络，直接从时域JPRESS数据映射神经化学物质浓度和代谢物平均横向弛豫时间(T2)。模型采用WaveNet与门控循环单元，在无需体内先验知识的情况下对相位、频率偏移和线型变化具有不变性。结果表明，该方法能有效过滤背景信号，预测值与文献一致，且无需光谱编辑即可检测低浓度神经化学物质(如GABA)，具有高实用性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70291"
+    "doi_url": "https://doi.org/10.1002/mrm.70291",
+    "title_chinese": "具有相位、频率偏移和线形不变性的神经化学物质谱表示：应用于<span style=\"font-variant:small-caps;\">JPRESS</span>，通过深度学习进行活体浓度和<span style=\"font-variant:small-caps;\"> T<sub>2</sub> </span>标测"
   },
   {
     "id": 136,
@@ -2445,7 +2580,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在优化T1w/T2w比值以提高对髓鞘的敏感性，通过调整T2w回波时间和指数加权组合。对14名志愿者进行GRASE序列扫描，结果表明优化后的比值与髓鞘水分数（MWF）的相关性显著提高（优化r=0.76，传统r=0.68），且保持了优异的重测可靠性（ICC=0.95）。该优化方法在不牺牲可靠性的前提下提升了髓鞘评估的准确性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70276"
+    "doi_url": "https://doi.org/10.1002/mrm.70276",
+    "title_chinese": "用于髓鞘敏感性的最佳T1/T2加权组合评估：回波时间和指数的影响"
   },
   {
     "id": 137,
@@ -2463,7 +2599,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种在单次自由运行15分钟扫描中实现三维心脏细胞外体积（ECV）映射的新方法，支持扫描中途注射对比剂。采用反转恢复序列连续采集数据，并通过LTSA模型重建动态图像。在3名健康受试者的3T MRI验证中，该方法所得ECV图与MOLLI方法高度一致（平均心肌ECV分别为29.82%和29.28%），并能成功合成捕捉心脏运动的图像，射血分数估计值为63.3%，与文献值吻合。",
-    "doi_url": "https://doi.org/10.1002/mrm.70293"
+    "doi_url": "https://doi.org/10.1002/mrm.70293",
+    "title_chinese": "单次扫描中扫描中途注射对比剂的自由运行三维心脏细胞外体积标测"
   },
   {
     "id": 138,
@@ -2481,7 +2618,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究将多回波心脏磁共振指纹成像（cMRF）采集与深度图像先验（DIP）重建框架相结合，实现单次屏气下心脏T1、T2、T2*和脂肪分数的同步定量映射。在体模和28名健康受试者中验证，DIP重建结果与临床常规测量高度一致，且相比直接网格化和迭代低秩重建方法，体素级方差更小，为心脏多参数定量提供了高保真重建方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70299"
+    "doi_url": "https://doi.org/10.1002/mrm.70299",
+    "title_chinese": "使用多回波深度图像先验重建的玫瑰形心脏<span style=\"font-variant:small-caps;\">MR</span>指纹成像用于同时进行<span style=\"font-variant:small-caps;\"> T<sub>1</sub> </span>、<span style=\"font-variant:small-caps;\"> T<sub>2</sub> </span>、T2*和脂肪分数标测"
   },
   {
     "id": 139,
@@ -2499,7 +2637,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在开发具有电子可切换发射场模式的同轴偶极子天线阵列，以改善超高场MRI的翻转角均匀性。通过PIN二极管和集总电感调制电流，构建了8通道阵列。9.4T MRI和电磁仿真表明，快速切换发射灵敏度可将双kT点pTx脉冲的翻转角均匀性提高2.2倍。该方法无需增加独立发射通道即可显著改善射频场均匀性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70243"
+    "doi_url": "https://doi.org/10.1002/mrm.70243",
+    "title_chinese": "用于超高场MRI的具有切换发射灵敏度的同轴偶极子阵列"
   },
   {
     "id": 140,
@@ -2517,7 +2656,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究应用磁化转移间接自旋标记（MISL）MRI技术定量人脑组织-脑脊液（CSF）水交换。在3T MRI上对健康受试者和脑肿瘤患者的研究表明，MISL成功揭示了区域异质性的水交换，血管周围间隙信号高达8.4%，并观察到随年龄增长的组织-CSF流动显著下降。该技术为评估类淋巴系统功能提供了高敏感度的非侵入性生物标志物。",
-    "doi_url": "https://doi.org/10.1002/mrm.70298"
+    "doi_url": "https://doi.org/10.1002/mrm.70298",
+    "title_chinese": "磁化转移间接自旋标记揭示人脑中快速组织-<span style=\"font-variant:small-caps;\">CSF</span>水交换"
   },
   {
     "id": 141,
@@ -2535,7 +2675,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出并验证了利用非线性梯度线圈生成时空编码（SPEN）二次相位的新方法。通过Pulseq在3T MRI体模实验中实现，该方法克服了传统chirp-RF脉冲的SAR和最小TE限制，获得了可比的图像质量。该技术有望提升SPEN在3D和高场MRI中的临床适用性，并已开源以支持后续研究。",
-    "doi_url": "https://doi.org/10.1002/mrm.70277"
+    "doi_url": "https://doi.org/10.1002/mrm.70277",
+    "title_chinese": "使用Pulseq的非线性梯度硬件时空编码：从原理到实践演示"
   },
   {
     "id": 142,
@@ -2553,7 +2694,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发并验证了一种同步体积T1和T2标测协议，结合抑血和抑脂技术用于腹主动脉瘤（AAA）组织特征评估。通过Bloch模拟和体模实验验证准确性后，在20名AAA患者中成功生成血管壁T1和T2图。该方法为未来血管壁组织表征的临床研究奠定了基础。",
-    "doi_url": "https://doi.org/10.1002/mrm.70297"
+    "doi_url": "https://doi.org/10.1002/mrm.70297",
+    "title_chinese": "腹主动脉瘤中具有血液和脂肪抑制的同步容积<span style=\"font-variant:small-caps;\">T1</span>和<span style=\"font-variant:small-caps;\">T2</span>标测"
   },
   {
     "id": 143,
@@ -2571,7 +2713,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种具有3D定位和CH选择性双量子滤波（DQF）的新序列，在7T下对11名受试者运动后小腿肌肉进行乳酸动态测量。该序列实现了4秒单次激发光谱采集，成功分离乳酸浓度动力学与T2弛豫，清除半衰期t1/2为162±42秒。该技术为肌肉能量代谢及乳酸分区研究奠定了基础。",
-    "doi_url": "https://doi.org/10.1002/mrm.70295"
+    "doi_url": "https://doi.org/10.1002/mrm.70295",
+    "title_chinese": "在7 T下使用双量子滤波<span style=\"font-variant:small-caps;\"><sup>1</sup> H MRS </span>测量人骨骼肌的运动后乳酸清除、<span style=\"font-variant:small-caps;\"> <i>T</i><sub>2</sub> </span>弛豫和<span style=\"font-variant:small-caps;\"> <i>J</i> </span> ‐调制"
   },
   {
     "id": 144,
@@ -2589,7 +2732,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种基于46通道AC/DC匀场阵列的动态B0匀场方法，用于校正扩散准备MRI中涡流引起的相位误差。体模和体内实验表明，该方法无需幅度稳定器即可实现全脑、心脏门控的多激发3D扩散成像，在b值高达2000 s/mm²时保留全部SNR，显著提升了扩散成像质量与效率。",
-    "doi_url": "https://doi.org/10.1002/mrm.70294"
+    "doi_url": "https://doi.org/10.1002/mrm.70294",
+    "title_chinese": "使用多线圈<span style=\"font-variant:small-caps;\">AC</span> / <span style=\"font-variant:small-caps;\">DC</span>匀场阵列校正扩散准备<span style=\"font-variant:small-caps;\">MRI</span>采集涡流效应的动态匀场方法"
   },
   {
     "id": 145,
@@ -2607,7 +2751,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究利用计算人体模型评估了1.5T和3.0T MRI下骨科植入物在骨折愈合不同阶段的射频致热效应。结果表明，局部组织特性、植入位置及组织粘合剂的存在显著影响射频致热。研究强调了采用临床相关计算机模型评估MRI安全性的重要性，为植入物MRI安全标签提供了依据。",
-    "doi_url": "https://doi.org/10.1002/mrm.70296"
+    "doi_url": "https://doi.org/10.1002/mrm.70296",
+    "title_chinese": "骨科植入物<span style=\"font-variant:small-caps;\">RF</span> ‐致热在骨折愈合各阶段及解剖学变异性中的影响：使用计算人体模型在1.5 T和3.0 T <span style=\"font-variant:small-caps;\">MRI</span>下的计算机模拟评估"
   },
   {
     "id": 146,
@@ -2625,7 +2770,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在验证数值模拟在评估MRI梯度场对金属植入物加热预测中的可靠性。通过系统比较商业骨科植入物在不同梯度场暴露场景下的实验与模拟结果，发现计算工具在正确设置下能较好预测实验结果，且一致性随暴露复杂性增加而降低。该研究为利用数值模拟支持时变梯度场下被动植入物加热的实验室测试奠定了基础。",
-    "doi_url": "https://doi.org/10.1002/mrm.70306"
+    "doi_url": "https://doi.org/10.1002/mrm.70306",
+    "title_chinese": "验证数值模拟以支持被动植入物<span style=\"font-variant:small-caps;\">MRI</span>梯度致热的实验测试"
   },
   {
     "id": 147,
@@ -2643,7 +2789,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在开发和评估加速的自由呼吸运动校正晚期钆增强（LGE）MRI协议。在26名患者中引入同步多层（SMS）bSSFP成像，结果显示SMS将扫描时间缩短一半（1.9分钟 vs 3.7分钟），且图像质量、心肌锐度无显著差异，瘢痕体积评估一致性极佳（R²=0.996）。该协议在最小化对图像质量影响的同时实现了快速采集，具有重要临床应用价值。",
-    "doi_url": "https://doi.org/10.1002/mrm.70200"
+    "doi_url": "https://doi.org/10.1002/mrm.70200",
+    "title_chinese": "用于自由呼吸运动校正晚期钆增强成像的同步多层加速"
   },
   {
     "id": 148,
@@ -2661,7 +2808,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究利用超强梯度振荡梯度扩散MRI，比较了人脑在固定时间和固定振荡波形下的频率依赖性峰度。对11名健康志愿者的扫描显示，固定时间波形对结构无序更敏感，而固定振荡波形对膜渗透性和交换更敏感。结果表明两种波形对脑组织微结构特征具有互补敏感性，为扩散MRI探针提供了新见解。",
-    "doi_url": "https://doi.org/10.1002/mrm.70300"
+    "doi_url": "https://doi.org/10.1002/mrm.70300",
+    "title_chinese": "使用超强梯度振荡梯度扩散<span style=\"font-variant:small-caps;\">MRI</span>揭示固定时间与固定振荡模式对人脑中交换和结构无序的互补敏感性"
   },
   {
     "id": 149,
@@ -2679,7 +2827,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估模型预测滤波（MPF）方法以提高激光间质热疗（LITT）磁共振温度成像的时间分辨率。通过Pennes生物热方程建模补充欠采样的k空间数据，在体模和临床数据中验证。结果显示，MPF重建在R=2和3时具有极佳的240 CEM 43体积一致性（DSC达0.9），最热体素RMSE≤1°C。该算法实现了大视野体积温度成像而不降低时间分辨率，为LITT提供了可靠的监测手段。",
-    "doi_url": "https://doi.org/10.1002/mrm.70302"
+    "doi_url": "https://doi.org/10.1002/mrm.70302",
+    "title_chinese": "用于激光间质热疗的模型预测滤波<span style=\"font-variant:small-caps;\">MR</span>温度成像"
   },
   {
     "id": 150,
@@ -2697,7 +2846,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出一种脑组织选择性、优化的逐层B0匀场方法，用于高分辨率脑扩散MRI。通过将成像梯度线圈的实际梯度场纳入匀场系数计算，在体模和健康志愿者中验证。结果显示，动态匀场显著减少了体素位移（人脑中最多减少3个体素），并提高了额叶、脑干和小脑的扩散参数准确性。该方法有效改善了高分辨率扩散成像的场不均匀性校正。",
-    "doi_url": "https://doi.org/10.1002/mrm.70310"
+    "doi_url": "https://doi.org/10.1002/mrm.70310",
+    "title_chinese": "在仅头部高梯度MRI系统中采用优化的逐层零阶和一阶B0匀场的人脑高分辨率扩散MRI"
   },
   {
     "id": 151,
@@ -2715,7 +2865,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在利用商用3D打印机和材料，直接从DICOM图像制作高分辨率拟人化MRI头部模体。方法通过校准打印材料并开发软件将DICOM转换为3D打印材料图，以微米级液滴混合三种材料复制组织等效对比度。结果成功制作原型模体，在多种临床MR序列下重现了精细解剖细节。该研究为研究人员和临床医生提供了具有真实解剖结构和组织特异性对比度的MRI模体，无需复杂的图像分割或CAD技能。",
-    "doi_url": "https://doi.org/10.1002/mrm.70301"
+    "doi_url": "https://doi.org/10.1002/mrm.70301",
+    "title_chinese": "高清<span style=\"font-variant:small-caps;\">3D</span>打印拟人化<span style=\"font-variant:small-caps;\">MR</span>头部体模"
   },
   {
     "id": 152,
@@ -2733,7 +2884,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出一种用于心脏实时成像加速重建的时空扩散模型。方法采用加速螺旋采样进行实时采集，利用分段电影图像训练模型，并与2D空间扩散模型及压缩感知比较。结果表明，该方法在定量图像指标和专家评分上均优于基线方法，提高了帧间一致性、降低了噪声并保持了清晰度。该研究为心律不齐或无法屏气的患者提供了高质量的实时心脏成像方案。",
-    "doi_url": "https://doi.org/10.1002/mrm.70303"
+    "doi_url": "https://doi.org/10.1002/mrm.70303",
+    "title_chinese": "用于心脏实时成像的时空扩散模型"
   },
   {
     "id": 153,
@@ -2751,7 +2903,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究提出一种基于扩散模型的MRI重建框架，通过整合受试者先前的扫描结果加速后续采集。训练时将各时间点视为同分布样本，无需纵向配对训练数据；推理时利用先前的DICOM图像指导重建。结果表明，该方法优于基线方法，在相似区域SSIM提高达10%、PSNR提高2dB，且对解剖变化和配准不良具有鲁棒性。该研究有效利用历史扫描数据提升图像质量并实现更大扫描加速。",
-    "doi_url": "https://doi.org/10.1002/mrm.70257"
+    "doi_url": "https://doi.org/10.1002/mrm.70257",
+    "title_chinese": "利用纵向信息潜在后验采样加速MRI"
   },
   {
     "id": 154,
@@ -2769,7 +2922,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究旨在通过MRI-CFD耦合仿真探讨部分回波(PE)对4D Flow MRI序列的影响。方法比较了全回波(FE)和PE（对称分数0.75）序列，在仿真脉动流模体上进行正弦和生理流入模拟。结果表明，PE模拟比FE更好地符合CFD结果。结论指出，PE减少的流动伪影益处大于k空间填充不完整的弊端。该MRI-CFD框架为MRI序列设计和错误分层提供了有效工具。",
-    "doi_url": "https://doi.org/10.1002/mrm.70260"
+    "doi_url": "https://doi.org/10.1002/mrm.70260",
+    "title_chinese": "部分回波对4D Flow MRI的影响：来自合成MRI的见解"
   },
   {
     "id": 155,
@@ -2787,7 +2941,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究比较了梯度回波(GE)和自旋回波(SE) BOLD fMRI与动脉自旋标记(ASL)测量的脑血管反应性(CVR)。在20名健康受试者高碳酸血症屏气任务中采集数据。结果显示，SE-BOLD与ASL的CVR相关性更强(r=0.70)，而GE-BOLD相关性较弱(r=0.54)，主要受大静脉密度影响。结论认为SE-BOLD对大静脉敏感性低，比GE-BOLD更接近生理CVR，是更可取的半定量CVR评估方法。",
-    "doi_url": "https://doi.org/10.1002/mrm.70305"
+    "doi_url": "https://doi.org/10.1002/mrm.70305",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">FMRI</span>绘制脑血管反应性的方法：梯度回波<span style=\"font-variant:small-caps;\">BOLD</span>与自旋回波<span style=\"font-variant:small-caps;\">BOLD</span>结合动脉自旋标记的比较"
   },
   {
     "id": 156,
@@ -2805,7 +2960,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究在7T MRI上开发了氘代谢成像(DMI)的绝对定量方法，使用2H/1H接收阵列结合B1校正和CSI扫描。在12名健康志愿者和5例初治胶质母细胞瘤患者中验证，肿瘤乳酸生成速率(2.3 μmol/L/min)显著高于正常脑区(1.0 μmol/L/min, p<0.01)和健康脑组织(0.5 μmol/L/min, p<0.01)，而Glx生成在肿瘤中降低(3.8 vs 6.0和9.2 μmol/L/min, p<0.001)。结果证明7T DMI可稳健量化脑代谢，揭示了胶质母细胞瘤的代谢异质性。",
-    "doi_url": "https://doi.org/10.1002/mrm.70308"
+    "doi_url": "https://doi.org/10.1002/mrm.70308",
+    "title_chinese": "健康志愿者和胶质母细胞瘤患者在<span style=\"font-variant:small-caps;\">7T</span>下脑氘代谢成像的绝对定量"
   },
   {
     "id": 157,
@@ -2823,7 +2979,8 @@
     "hindex": 262,
     "watchlist_matched": true,
     "highlight": "本研究为便携式低场MRI系统开发了基于RF编码的扩散加权快速自旋回波(DW-FSE)采集方法。通过线性重建模型整合RF编码方案、运动相位和系统相位误差，在110 mT系统上实现无畸变DWI。体内外实验表明DW-FSE体素尺寸较DW-EPI缩小5倍，12 cm覆盖范围可在12分钟内完成，平均扩散系数标准差为0.2×10⁻³ mm²/s。该方法利用低场低SAR和高峰值B1优势，对硬件性能依赖性低，适合便携式MRI平台。",
-    "doi_url": "https://doi.org/10.1002/mrm.70292"
+    "doi_url": "https://doi.org/10.1002/mrm.70292",
+    "title_chinese": "用于便携式低场<span style=\"font-variant:small-caps;\">MRI</span>系统的带<span style=\"font-variant:small-caps;\">RF</span>编码层块的扩散加权快速自旋回波"
   },
   {
     "id": 158,
@@ -2841,7 +2998,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究开发了基于机器学习的脑血管反应性(CVR)个体化归一化框架，结合健康体素识别和图谱评估。在35例单/双侧狭窄闭塞性脑血管病患者中，该方法将正常半球内变异系数从1.07±0.15降至0.45±0.09，病灶对比噪声比和ROC AUC均显著提升。该方法提高了乙酰唑胺增强BOLD-CVR的稳定性、区分度和可解释性，有助于脑血管功能受损的检测与风险分层。",
-    "doi_url": "https://doi.org/10.1002/jmri.70388"
+    "doi_url": "https://doi.org/10.1002/jmri.70388",
+    "title_chinese": "用于脑血管疾病中受试者特异性脑血管反应性评估的数据驱动归一化框架"
   },
   {
     "id": 159,
@@ -2859,7 +3017,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究开发了基于T1w/T2w比值MRI和生物学启发的深度学习框架用于婴儿脑龄估计。在629名0–24月龄婴儿上训练3D CNN，T1w/T2w比值模型表现最优(MAE=1.489月, R²=0.966)，显著优于单独使用T1w或T2w。外部验证MAE为1.16月，Grad-CAM显示模型关注与髓鞘化相关的白质区域。该框架具有跨扫描仪泛化能力，可支持MRI客观评估早期脑成熟。",
-    "doi_url": "https://doi.org/10.1002/jmri.70376"
+    "doi_url": "https://doi.org/10.1002/jmri.70376",
+    "title_chinese": "利用T1w/T2w比值<span style=\"font-variant:small-caps;\">MRI</span>进行婴儿脑年龄估计：一种髓鞘感知深度学习方法"
   },
   {
     "id": 160,
@@ -2877,7 +3036,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究采用前瞻性随机交叉设计，在17名青年和19名老年人中通过fMRI考察急性有氧运动和任务重复对执行功能神经相关的影响。结果显示老年人任务相关BOLD激活更强，任务重复显著降低双侧脑区激活并改善老年人反应时间。30分钟步行后老年人右侧背外侧前额叶激活保持稳定而青年人显著降低。结果表明急性有氧运动可维持局部脑激活，任务重复可降低脑激活并改善行为表现。",
-    "doi_url": "https://doi.org/10.1002/jmri.70329"
+    "doi_url": "https://doi.org/10.1002/jmri.70329",
+    "title_chinese": "急性有氧运动和任务重复对青年与老年人执行功能神经相关物的影响：一项交叉<span style=\"font-variant:small-caps;\">fMRI</span>研究"
   },
   {
     "id": 161,
@@ -2895,7 +3055,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "前瞻性研究纳入83名HIV感染者和34名健康对照，使用1.5T心脏MRI评估左心室重构和心肌纤维化。结果显示HIV感染者ECV和心肌native T1显著升高，长病程组ECMVi和MVR更高，左心室舒张末容积和径向应变降低。构建了两个MRI预测模型：ECV/native T1/空腹血糖模型识别早期HIV感染（AUC=0.852），LVEDVi/ECMVi/空腹血糖模型用于病程分层（AUC=0.844）。这些MRI标志物有望实现HIV患者心脏损伤的早期干预。",
-    "doi_url": "https://doi.org/10.1002/jmri.70395"
+    "doi_url": "https://doi.org/10.1002/jmri.70395",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">HIV</span>感染持续时间与左心室向心性重构及心肌纤维化的关联：一项基于心脏<span style=\"font-variant:small-caps;\">MRI</span>的横断面研究"
   },
   {
     "id": 162,
@@ -2913,7 +3074,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "回顾性横断面研究纳入24名30-79岁健康受试者，使用3T MRI（多回波Dixon和DTI序列）对股四头肌进行统计形状和架构建模，预测肌肉力量。形状模型在预测股外侧肌离心扭矩（ΔR²=0.16）和股中间肌等距扭矩（ΔR²=0.19）方面显著优于单纯肌肉体积模型。形状+架构特征未显著提升性能。结果表明基于MRI的肌肉形状特征有望成为肌力评估的影像生物标志物，为肌少症等疾病的早期检测提供新途径。",
-    "doi_url": "https://doi.org/10.1002/jmri.70377"
+    "doi_url": "https://doi.org/10.1002/jmri.70377",
+    "title_chinese": "用于力量预测的基于<span style=\"font-variant:small-caps;\">MR</span>成像的生物标志物：股四头肌的统计形态与结构建模"
   },
   {
     "id": 163,
@@ -2931,7 +3093,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "前瞻性研究纳入835名肥厚型心肌病患者，使用3T心脏MRI通过分形维数（FD）量化左心室肌小梁复杂度，评估其对心脏性猝死（SCD）的预测价值。全局FD（HR=1.07/0.01增加）和最大心尖FD（HR=1.08/0.01增加）在调整ESC和AHA风险预测因子后独立预测SCD，高FD值提升模型判别力（C-index：0.779-0.803）。MYBPC3变异携带者FD值显著升高。结果表明MRI分形分析可为HCM风险分层提供增量预后价值。",
-    "doi_url": "https://doi.org/10.1002/jmri.70380"
+    "doi_url": "https://doi.org/10.1002/jmri.70380",
+    "title_chinese": "基于<span style=\"font-variant:small-caps;\">MRI</span>的左心室小梁复杂程度对肥厚型心肌病心脏性猝死的预后价值"
   },
   {
     "id": 164,
@@ -2949,7 +3112,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "前瞻性研究纳入10名窦性心律和20名房颤患者，提出DRACO（动态正则化自适应聚类优化）自由呼吸电影心脏MRI方法，评估其同时处理心脏和呼吸运动的能力。结果显示DRACO在屏气和自由呼吸条件下SNR、CNR和边缘锐度无显著差异，房颤患者图像质量评分显著优于实时电影成像。屏气与自由呼吸DRACO的射血分数高度相关（R²=0.71）。DRACO对呼吸运动和房颤相关不规则心脏运动具有鲁棒性，可在规则或不规则心律下生成高质量电影图像。",
-    "doi_url": "https://doi.org/10.1002/jmri.70379"
+    "doi_url": "https://doi.org/10.1002/jmri.70379",
+    "title_chinese": "自由呼吸动态、正则化、自适应聚类优化（ <span style=\"font-variant:small-caps;\">DRACO</span> ）电影心脏<span style=\"font-variant:small-caps;\">MRI</span>在心房颤动中的应用"
   },
   {
     "id": 165,
@@ -2967,7 +3131,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "回顾性研究纳入78名胶质母细胞瘤患者，利用合成MRI提取放疗前定量异质性指标，结合临床病理和常规MRI特征构建早期复发（≤6个月）风险评估模型和列线图。多因素分析显示增强对应区域T2熵值降低（<2.113，OR=0.08）、厚线状或结节状残余腔壁强化（OR=5.28）、胼胝体受累（OR=5.08）和MGMT启动子甲基化（OR=0.19）与早期复发相关。整合模型表现最佳（AUC=0.864），嵌套交叉验证AUC为0.724。提示SyMRI定量指标有望支持个体化随访规划，但需多中心外部验证。",
-    "doi_url": "https://doi.org/10.1002/jmri.70407"
+    "doi_url": "https://doi.org/10.1002/jmri.70407",
+    "title_chinese": "放疗前合成<span style=\"font-variant:small-caps;\">MRI</span> –衍生定量异质性与胶质母细胞瘤早期复发"
   },
   {
     "id": 166,
@@ -2985,7 +3150,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "基于双参数MRI构建深度学习模型UFormer，用于临床显著前列腺癌预测。多中心4305名患者验证显示，人机协作策略显著提升放射科医师的AUC和准确率，缩小经验差距，特异性大幅提高，为临床应用提供有效策略。",
-    "doi_url": "https://doi.org/10.1002/jmri.70393"
+    "doi_url": "https://doi.org/10.1002/jmri.70393",
+    "title_chinese": "应对<span style=\"font-variant:small-caps;\">MRI</span>诊断中的不确定性：一种用于临床显著性前列腺癌风险分层的人‐ <span style=\"font-variant:small-caps;\">AI</span>协作策略"
   },
   {
     "id": 167,
@@ -3003,7 +3169,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "评估AI辅助软件对前列腺双参数MRI诊断的影响，646名患者730个病灶。结果显示AI辅助显著提升新手医师的AUC、敏感性和特异性，并提高读者间一致性，支持AI作为前列腺MRI决策支持工具。",
-    "doi_url": "https://doi.org/10.1002/jmri.70411"
+    "doi_url": "https://doi.org/10.1002/jmri.70411",
+    "title_chinese": "使用双参数<span style=\"font-variant:small-caps;\">MRI</span>和<span style=\"font-variant:small-caps;\">PI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> v2.1的<span style=\"font-variant:small-caps;\">AI</span> ‐辅助前列腺癌诊断：初级与经验丰富阅片者之间的性能比较"
   },
   {
     "id": 168,
@@ -3021,7 +3188,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "采用多图谱分割技术量化1型糖尿病患者丘脑20个核团体积，42例患者与39名对照比较。发现丘脑萎缩呈空间异质性，前部、内侧和外侧亚区萎缩最显著，病程越长萎缩越快，为T1DM神经退行性变提供影像学证据。",
-    "doi_url": "https://doi.org/10.1002/jmri.70383"
+    "doi_url": "https://doi.org/10.1002/jmri.70383",
+    "title_chinese": "1型糖尿病不同病程中的丘脑核团萎缩"
   },
   {
     "id": 169,
@@ -3039,7 +3207,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "采用单次屏气3D超短回波时间MRI技术定量评估心力衰竭患者运动前后肺水密度。69例心衰患者和34名健康对照显示，射血分数保留型心衰患者运动后肺水密度变化显著大于对照，为无创评估运动相关肺淤血提供新方法。",
-    "doi_url": "https://doi.org/10.1002/jmri.70389"
+    "doi_url": "https://doi.org/10.1002/jmri.70389",
+    "title_chinese": "使用单次屏气<span style=\"font-variant:small-caps;\">3D</span>超短回波时间<span style=\"font-variant:small-caps;\">MRI</span>评估心力衰竭中运动引起的肺水密度改变"
   },
   {
     "id": 170,
@@ -3057,7 +3226,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "提出扩展T2-FLAIR不匹配表型，349例IDH突变星形细胞瘤患者验证显示，该表型检出率33.24%高于经典表型14.33%，与更优总生存相关。代谢组学发现1078个差异特征，为术前识别预后良好亚组提供影像标志物。",
-    "doi_url": "https://doi.org/10.1002/jmri.70404"
+    "doi_url": "https://doi.org/10.1002/jmri.70404",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">IDH</span> ‐突变型星形细胞瘤中扩展的<span style=\"font-variant:small-caps;\">T2</span> ‐ <span style=\"font-variant:small-caps;\">FLAIR</span>错配表型"
   },
   {
     "id": 171,
@@ -3075,7 +3245,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1002/jmri.70386"
+    "doi_url": "https://doi.org/10.1002/jmri.70386",
+    "title_chinese": "半Mustard和双向Glenn术后患者肺血流分布：采用定量<span style=\"font-variant:small-caps;\">4D</span>血流粒子追踪"
   },
   {
     "id": 172,
@@ -3093,7 +3264,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在通过体素级影像组学生境分析鉴别胶质瘤治疗后真性进展与假性进展。回顾性纳入193例多中心患者，提取对比增强肿瘤ROI的体素级特征并利用高斯混合模型生成软生境。结果显示，联合模型在外部测试集中的AUC达0.890，显著优于仅含临床和分子特征的临床模型（AUC 0.701）。该方法提供了可解释的异质性指标，有助于提高MRI辅助决策的一致性。",
-    "doi_url": "https://doi.org/10.1002/jmri.70419"
+    "doi_url": "https://doi.org/10.1002/jmri.70419",
+    "title_chinese": "治疗后胶质瘤的体素级影像组学生境分析用于无创鉴别真性进展与假性进展"
   },
   {
     "id": 173,
@@ -3111,7 +3283,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究探讨不同程度肝铁浓度对高危肝细胞癌患者MRI特征评估及LI-RADS v2018分类的影响。回顾性纳入163例患者的167个病灶，按R2*值分为非铁过载、轻度和中重度组。结果表明，中重度肝铁过载独立影响T1等/高信号、非周边“洗脱”和强化“包膜”等特征的视觉评估，并改变LI-RADS分类。提示放射科医师在评估铁过载肝脏病灶时应谨慎。",
-    "doi_url": "https://doi.org/10.1002/jmri.70415"
+    "doi_url": "https://doi.org/10.1002/jmri.70415",
+    "title_chinese": "不同肝铁浓度对肝细胞癌<span style=\"font-variant:small-caps;\">MRI</span>特征评估及<span style=\"font-variant:small-caps;\">LI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> v2018分类的影响"
   },
   {
     "id": 174,
@@ -3129,7 +3302,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究评估可视化呼吸训练对钆塞酸二钠增强肝脏MRI患者配合度、图像质量和检查效率的影响。前瞻性随机对照试验纳入184例患者，结果显示实验组完全配合率显著高于对照组（56.5% vs 27.3%），运动伪影减少且SNR/CNR提高，准备时间缩短1.76分钟。该方法无需额外资源即可显著改善图像质量和工作流效率，支持其常规临床应用。",
-    "doi_url": "https://doi.org/10.1002/jmri.70423"
+    "doi_url": "https://doi.org/10.1002/jmri.70423",
+    "title_chinese": "可视化呼吸训练对钆塞酸二钠增强肝脏<span style=\"font-variant:small-caps;\">MRI</span>患者配合度及图像质量的影响：一项随机对照试验"
   },
   {
     "id": 175,
@@ -3147,7 +3321,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究通过4D flow MRI探讨进食对年轻健康志愿者胸主动脉血流参数的影响。前瞻性纳入20名志愿者，对比空腹与餐后血流动力学指标。结果显示，餐后升主动脉心搏量、峰值血流、峰值平均速度和最大速度均出现小幅但显著的增加。提示在进行4D flow MRI检查前应考虑设立空腹期，以避免餐后充血高峰对测量结果和纵向比较的影响。",
-    "doi_url": "https://doi.org/10.1002/jmri.70405"
+    "doi_url": "https://doi.org/10.1002/jmri.70405",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">4D</span>血流<span style=\"font-variant:small-caps;\">MRI</span>检测的餐后胸主动脉血流变化可能影响研究结果"
   },
   {
     "id": 176,
@@ -3165,7 +3340,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究评估标准化MRI定量心外膜脂肪组织体积（EATV）的方法及其与CT的一致性。纳入127例主动脉狭窄患者和11名志愿者，MRI与CT测量呈中等相关（ρ=0.627），MRI值系统性偏高（47 vs. 38 mL/m²）。MRI方法观察者内和观察者间ICC均≥0.955，扫描-重扫ICC为0.985，重复性优异。结果表明MRI可高度重复地测量EATV，但与CT不可直接互换。",
-    "doi_url": "https://doi.org/10.1002/jmri.70412"
+    "doi_url": "https://doi.org/10.1002/jmri.70412",
+    "title_chinese": "基于<span style=\"font-variant:small-caps;\">MRI</span>的标准化心外膜脂肪组织体积定量：重复性及与心脏计算机断层扫描的一致性"
   },
   {
     "id": 177,
@@ -3183,7 +3359,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究评估钆增强5D MRI（FISS序列）在先天性心脏病患者中的表现，纳入45例患者，比较5D与2D和3D MRI。5D扫描时间（6:18）显著短于2D（7:16）和3D（6:55）。5D与2D测量的心室容积和射血分数强相关（R²=0.51–0.94），图像质量评分显著高于3D。结果表明钆增强5D MRI可提供高效简化的一站式心脏成像方案，多项定量参数与参考标准无显著差异。",
-    "doi_url": "https://doi.org/10.1002/jmri.70402"
+    "doi_url": "https://doi.org/10.1002/jmri.70402",
+    "title_chinese": "使用钆增强快速中断稳态序列的自由运行心脏及呼吸运动分辨全心<span style=\"font-variant:small-caps;\">5D MRI</span>在先天性心脏病患者中的表现"
   },
   {
     "id": 178,
@@ -3201,7 +3378,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究评估3T MRI多回波化学位移编码序列在膝关节周围脂肪组织定量中的1周重复性。纳入10名健康成人，测量8个区域的PDFF及饱和、单不饱和、多不饱和脂肪酸。PDFF变异最低（wCV: 1.5%–5.9%），SFA稳定性相似，MUFA可靠性因组织而异，PUFA变异最大。结果表明该方案可重复测量PDFF和SFA，为关节疾病脂肪成分变化的纵向研究奠定基础。",
-    "doi_url": "https://doi.org/10.1002/jmri.70396"
+    "doi_url": "https://doi.org/10.1002/jmri.70396",
+    "title_chinese": "人体膝关节脂肪酸成分成像：<span style=\"font-variant:small-caps;\">3T</span>短期重复性"
   },
   {
     "id": 179,
@@ -3219,7 +3397,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究探讨多参数定量MRI（qMRI）鉴别脱髓鞘与轴索性多发性神经病的价值。纳入20例CMT1、12例CMT2、25例HNPP及25名健康对照，3T扫描获取MTR、T2*、T1、FA及扩散系数等参数。CMT1表现为神经束体积增大和FA降低，CMT2表现为T2*降低；坐骨神经ROC的AUC分别达0.95和0.85。复合qMRI评分与临床严重程度评分强相关（r=0.67–0.79），提示qMRI可作为遗传性神经病的无创诊断和监测生物标志物。",
-    "doi_url": "https://doi.org/10.1002/jmri.70421"
+    "doi_url": "https://doi.org/10.1002/jmri.70421",
+    "title_chinese": "周围神经多参数定量<span style=\"font-variant:small-caps;\">MRI</span>鉴别脱髓鞘性与轴突性多发性神经病"
   },
   {
     "id": 180,
@@ -3237,7 +3416,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究探讨不同屏气训练方法对心脏MRI图像质量的影响。前瞻性纳入93例患者，分为口呼吸、鼻呼吸和鼻夹三组。鼻夹组屏气良好率达96.7%，显著高于口呼吸组（64.5%）和鼻呼吸组（75.0%）；口呼吸组心肌噪声最高；主观图像质量评分鼻夹组最优（86.7% vs 51.6%/56.3%）。结果表明鼻夹辅助屏气是低成本、高效的改善心脏MRI图像质量的方法，适合临床推广。",
-    "doi_url": "https://doi.org/10.1002/jmri.70390"
+    "doi_url": "https://doi.org/10.1002/jmri.70390",
+    "title_chinese": "心脏磁共振成像呼吸训练方法的优化"
   },
   {
     "id": 181,
@@ -3255,7 +3435,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种基于多中心MRI的自动化流程，结合nnU-Net分割与临床-影像组学特征，用于无创评估软组织肉瘤(STS)的病理分级和Ki-67表达。在包含186名患者的多中心队列中，分割模型取得良好性能(四肢Dice 0.80)。临床-影像组学模型在验证集中对分级和Ki-67评估的AUC分别达0.846和0.742，显著提升了低年资放射科医师的诊断表现。该模型有望替代侵入性活检，辅助STS预后评估。",
-    "doi_url": "https://doi.org/10.1002/jmri.70424"
+    "doi_url": "https://doi.org/10.1002/jmri.70424",
+    "title_chinese": "整合<span style=\"font-variant:small-caps;\">nnU</span>‐Net分割与临床–影像组学用于多中心基于<span style=\"font-variant:small-caps;\">MRI</span>的软组织肉瘤分级与Ki‐67表达评估"
   },
   {
     "id": 182,
@@ -3273,7 +3454,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究引入双数据收集设计结合回归校准，以量化并纠正MRI标志物的测量误差。在多扫描仪脑部成像研究中，MR指纹序列T1标志物表现出比T1w信号强度更高的可靠性(0.887-0.941)。回归校准显著提升了T1w信号强度均值效应量(增加333.22%)。模拟显示，在较大站点效应下，回归校准与ComBat结合可实现近零偏差。该方法有效恢复了衰减的影像生物标志物关联，提升了多中心研究的统计效力和可靠性。",
-    "doi_url": "https://doi.org/10.1002/jmri.70229"
+    "doi_url": "https://doi.org/10.1002/jmri.70229",
+    "title_chinese": "通过测量误差建模增强<span style=\"font-variant:small-caps;\">MR</span>成像标志物的研究设计与分析"
   },
   {
     "id": 183,
@@ -3291,7 +3473,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究比较了多次呼吸和单次呼吸Xe-MRI在囊性纤维化(CF)儿童ETI治疗纵向评估中的效用。14名儿科患者的前瞻性数据显示，在24个月随访中，肺功能测试和通气缺陷百分比保持稳定，而多次呼吸Xe-MRI的通气变异系数呈现小幅但显著的增加。这表明该指标可能对早期CF肺部病变的细微进展更敏感，可作为监测治疗反应的补充工具。",
-    "doi_url": "https://doi.org/10.1002/jmri.70242"
+    "doi_url": "https://doi.org/10.1002/jmri.70242",
+    "title_chinese": "单次呼吸与多次呼吸Xe‐<span style=\"font-variant:small-caps;\">MRI</span>在囊性纤维化儿童治疗纵向评估中的比较"
   },
   {
     "id": 184,
@@ -3309,7 +3492,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究探讨了3D FLAIR MRI视神经信号强度比(SIR)与硬脑膜动静脉瘘(DAVF)患者视乳头水肿及视力下降的相关性。回顾性分析54名DAVF患者发现，视神经SIR在伴视力下降的患者中最高，管内段最常受累。SIR截断值1.7与视乳头水肿及视力丧失相关(AUC=0.725，敏感性79.2%，特异性63.3%)。结果表明3D FLAIR MRI可无创检测视神经信号变化，辅助识别视力丧失风险并指导治疗决策。",
-    "doi_url": "https://doi.org/10.1002/jmri.70250"
+    "doi_url": "https://doi.org/10.1002/jmri.70250",
+    "title_chinese": "硬脑膜动静脉瘘中视神经<span style=\"font-variant:small-caps;\">MRI</span>信号改变：与视盘水肿和视力下降的相关性"
   },
   {
     "id": 185,
@@ -3327,7 +3511,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究开发并验证了一种基于动态对比增强MRI的生境模型，用于无创识别肝细胞癌(HCC)中的三级淋巴结构(TLS)。通过k-means聚类提取肿瘤内部空间异质性特征，结合临床和影像组学特征构建混合模型。在334名患者的队列中，混合模型在测试集中表现出最高的鉴别能力(AUC=0.84)，显著优于单一模型。研究表明基于影像的生境分析可作为评估TLS状态的非侵入性替代标志物。",
-    "doi_url": "https://doi.org/10.1002/jmri.70254"
+    "doi_url": "https://doi.org/10.1002/jmri.70254",
+    "title_chinese": "动态对比增强<span style=\"font-variant:small-caps;\">MRI</span>评估肝细胞癌三级淋巴结构的瘤内空间异质性"
   },
   {
     "id": 186,
@@ -3345,7 +3530,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究前瞻性纳入115例首发小动脉闭塞型急性缺血性脑卒中患者，探讨血浆甲基乙二醛（MGO）与脑小血管病MRI标志物的相关性。1.5T/3T MRI评估显示，入院时MGO水平升高与CSVD、白质高信号（WMH）及深部白质高信号的严重程度独立相关（OR 1.004），且与腔隙灶呈正相关。MRI参数重复性极佳（ICC 0.966–0.976）。提示MGO可作为CSVD进展的潜在筛查靶点。",
-    "doi_url": "https://doi.org/10.1002/jmri.70252"
+    "doi_url": "https://doi.org/10.1002/jmri.70252",
+    "title_chinese": "急性缺血性脑卒中伴小动脉闭塞患者血浆甲基乙二醛与<span style=\"font-variant:small-caps;\">MR</span>白质高信号的关联"
   },
   {
     "id": 187,
@@ -3363,7 +3549,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究回顾性纳入352例小肾肿块患者，开发并验证了整合假包膜评估的改良透明细胞 likelihood score (m-ccLS)。多中心MRI评估显示，m-ccLS在恶性检出率方面的AUC显著优于ccLS v2.0（开发集0.850 vs 0.772，外部验证0.803 vs 0.720），且保持了对透明细胞肾细胞癌的诊断特异性。该改良评分系统增强了小肾肿块的恶性风险分层能力，有助于个体化管理策略的制定。",
-    "doi_url": "https://doi.org/10.1002/jmri.70253"
+    "doi_url": "https://doi.org/10.1002/jmri.70253",
+    "title_chinese": "评估小肾脏肿块的恶性检出：将假包膜整合入透明细胞可能性评分"
   },
   {
     "id": 188,
@@ -3381,7 +3568,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究前瞻性纳入102例阻塞性睡眠呼吸暂停（OSA）患者及86例健康对照，采用3T多参数MRI探讨日间嗜睡（EDS）、认知缺陷与脑改变的关系。结果显示，OSA患者认知表现、DTI-ALPS指数及网络拓扑均显著受损。EDS与认知下降及脑网络异常显著相关，双侧额中回和左侧顶下小叶的异常网络拓扑可能介导EDS与认知缺陷的关联，为OSA认知障碍机制提供了新见解。",
-    "doi_url": "https://doi.org/10.1002/jmri.70255"
+    "doi_url": "https://doi.org/10.1002/jmri.70255",
+    "title_chinese": "阻塞性睡眠呼吸暂停患者日间过度嗜睡、认知障碍与脑改变之间的关联"
   },
   {
     "id": 189,
@@ -3399,7 +3587,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究采用3T 31P磁共振波谱对34例左侧偏重、35例右侧偏重帕金森病（PD）患者及43例健康对照进行评估，探讨脑线粒体功能障碍与运动症状侧性的关联。结果显示，症状对侧大脑半球表现出更显著的代谢异常，颞顶叶皮质的代谢不对称指数与运动症状不对称指数显著相关，其中Pi不对称指数区分左右侧PD的AUC达0.709。提示MRS代谢标志物可作为PD症状侧化的潜在病理基础。",
-    "doi_url": "https://doi.org/10.1002/jmri.70265"
+    "doi_url": "https://doi.org/10.1002/jmri.70265",
+    "title_chinese": "帕金森病中不对称性脑线粒体功能障碍与运动偏侧性的相关性：一项<span style=\"font-variant:small-caps;\"><sup>31</sup>磷</span>磁共振波谱研究"
   },
   {
     "id": 190,
@@ -3417,7 +3606,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究前瞻性纳入17名健康志愿者和20例慢性胰腺炎（CP）患者，采用3T T1ρ磁共振指纹成像（MRF）评估胰腺T1/T2/T1ρ值。结果显示，CP组T1/T2/T1ρ值显著升高（AUC分别为0.994、0.873、0.862），且重度CP的T1值显著高于轻中度CP（AUC=0.945）。自由呼吸与屏气T1值高度相关。表明MRF定量参数在无创评估慢性胰腺炎方面具有重要潜力。",
-    "doi_url": "https://doi.org/10.1002/jmri.70251"
+    "doi_url": "https://doi.org/10.1002/jmri.70251",
+    "title_chinese": "慢性胰腺炎患者T<sub>1</sub> ρ磁共振指纹成像"
   },
   {
     "id": 191,
@@ -3435,7 +3625,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估磁共振弹性成像（MRE）和基于体素内不相干运动的虚拟MRE（VMRE）在直肠癌肿瘤内纤维化评估中的价值。共纳入71名直肠癌患者，确定VMRE的最佳b值为0和1500 s/mm²。结果显示，MRE与VMRE在评估肿瘤内纤维化方面诊断效能相当（AUC分别为0.779/0.684和0.792/0.784），敏感性和特异性分别为85.7%–90.5%和54.5%–68.2%。研究表明MRE可有效定量评估直肠癌纤维化，VMRE可作为替代研究工具。",
-    "doi_url": "https://doi.org/10.1002/jmri.70263"
+    "doi_url": "https://doi.org/10.1002/jmri.70263",
+    "title_chinese": "基于体素内不相干运动的虚拟<span style=\"font-variant:small-caps;\">MR</span>弹性成像与<span style=\"font-variant:small-caps;\">MR</span>弹性成像在直肠癌肿瘤内纤维化评估中的比较"
   },
   {
     "id": 192,
@@ -3453,7 +3644,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在比较多发性硬化症（MS）患者在禁食与非禁食期间深部灰质的磁敏感加权MRI相位值。共纳入36名MS患者，禁食组20名，非禁食组14名。结果显示，禁食组在随访时深部灰质的顺磁性平均相位值（pMPV）显著降低（均值差-10.53），而非禁食组则升高。研究表明，间歇性禁食可能与MS患者脑铁相关磁敏感生物标志物的改变有关，支持其作为非药物干预手段的探索。",
-    "doi_url": "https://doi.org/10.1002/jmri.70267"
+    "doi_url": "https://doi.org/10.1002/jmri.70267",
+    "title_chinese": "间歇性禁食与多发性硬化患者深部灰质磁敏感加权<span style=\"font-variant:small-caps;\">MRI</span>相位值的相关性：一项观察性队列研究"
   },
   {
     "id": 193,
@@ -3471,7 +3663,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在探讨对比增强MRI（CE-MRI）检查期间患者的焦虑水平与安全感知。共纳入203名成人患者进行问卷调查及访谈。结果显示，46%患者在对比剂注射期间焦虑增加，26.1%认为检查信息不清晰。女性、年轻及高学历患者焦虑更显著。清晰的沟通和共情可降低焦虑。研究表明，改善患者沟通和教育资源对降低CE-MRI检查焦虑、提升患者体验至关重要。",
-    "doi_url": "https://doi.org/10.1002/jmri.70264"
+    "doi_url": "https://doi.org/10.1002/jmri.70264",
+    "title_chinese": "对比增强<span style=\"font-variant:small-caps;\">MRI</span>中焦虑与患者安全感知的混合方法研究"
   },
   {
     "id": 194,
@@ -3489,7 +3682,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估超短回波时间磁化转移（UTE-MT）序列在动态监测业余马拉松跑者胫距关节软骨变化中的价值。共纳入30名跑者，在马拉松前1周、后2天及后4周进行MRI扫描。结果显示，马拉松后2天多数软骨区域的UTE-MTR值显著下降（降幅2.8%–6.8%），4周后部分区域回升。研究表明，UTE-MT序列能有效定量评估长跑引起的踝关节软骨动态变化，为早期检测运动相关软骨损伤提供可靠工具。",
-    "doi_url": "https://doi.org/10.1002/jmri.70269"
+    "doi_url": "https://doi.org/10.1002/jmri.70269",
+    "title_chinese": "超短回波时间磁化转移成像用于长跑后踝关节软骨的动态监测"
   },
   {
     "id": 195,
@@ -3507,7 +3701,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估非对比冠状动脉磁共振血管成像（CMRA）检测心肌桥的诊断准确性和形态学一致性，以光子计数CT血管成像（CCTA）为参考标准。共纳入196名疑似或确诊冠心病患者。结果显示，CMRA诊断心肌桥的准确率为98.5%，敏感性96.6%，特异性100%。CMRA与CCTA在位置、长度和深度评估上一致性极佳（ICC=0.98）。研究表明，非对比CMRA可作为诊断心肌桥的无创、无辐射替代方案。",
-    "doi_url": "https://doi.org/10.1002/jmri.70272"
+    "doi_url": "https://doi.org/10.1002/jmri.70272",
+    "title_chinese": "非对比冠状动脉<span style=\"font-variant:small-caps;\">MR</span>血管成像用于心肌桥：与光子计数冠状动脉<span style=\"font-variant:small-caps;\">CT</span>血管成像的诊断准确性及形态学一致性"
   },
   {
     "id": 196,
@@ -3525,7 +3720,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究旨在比较动态增强MRI上LI-RADS M靶形与非靶形病变的临床病理及预后差异。回顾性纳入119例LR-M患者，结果显示非靶形组血清AFP更高、病灶更大、死亡率及进展率显著更高。多因素分析表明靶形形态与更好的总生存期(HR=0.28)和无进展生存期(HR=0.36)显著相关。研究支持靶形形态作为重要的预后影像生物标志物，有助于完善LI-RADS M分类并指导肝癌风险分层与治疗规划。",
-    "doi_url": "https://doi.org/10.1002/jmri.70275"
+    "doi_url": "https://doi.org/10.1002/jmri.70275",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">LI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> M 靶样与<span style=\"font-variant:small-caps;\">LI</span> ‐ <span style=\"font-variant:small-caps;\">RADS</span> M 非靶样观察的临床病理及预后差异：一项基于影像学的比较研究"
   },
   {
     "id": 197,
@@ -3543,7 +3739,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究评估深度学习重建(DLR)对脑肿瘤DWI和DSC灌注成像定量参数的影响。回顾性纳入62例放疗后脑转移瘤患者，在3.0T下比较原始与不同DLR级别的图像。结果表明，DLR有效降低了DWI和DSC的噪声，且ADC、CBV、CBF和MTT值在原始与DLR图像间无显著差异，仅高级DLR的TTP略有差异。DLR可在保持定量准确性的同时提升图像质量，有望实现更稳健的脑肿瘤生理学MRI评估。",
-    "doi_url": "https://doi.org/10.1002/jmri.70286"
+    "doi_url": "https://doi.org/10.1002/jmri.70286",
+    "title_chinese": "深度学习重建在脑肿瘤弥散加权成像与动态磁敏感对比成像定量分析中的应用"
   },
   {
     "id": 198,
@@ -3561,7 +3758,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本文综述了MRI在肺癌筛查、诊断、分期、放疗规划及疗效监测中的临床应用进展。尽管技术进步使肺MRI更可行，且在分期和治疗反应评估中显示出潜力，但现有证据多来自初步研究。MRI在筛查中尚未成为低剂量CT的验证替代方案，且定量参数仍缺乏标准化。未来需进一步技术完善和大规模前瞻性试验以明确其在常规临床实践中的角色。",
-    "doi_url": "https://doi.org/10.1002/jmri.70308"
+    "doi_url": "https://doi.org/10.1002/jmri.70308",
+    "title_chinese": "<span style=\"font-variant:small-caps;\">MRI</span>用于肺癌管理：是否更接近临床应用？"
   },
   {
     "id": 199,
@@ -3579,7 +3777,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "本研究探讨基于DCE-MRI的生境分析在预测乳腺癌新辅助化疗病理完全缓解(pCR)中的价值。纳入多中心363例女性乳腺癌患者，通过超体素分割和K-means聚类提取瘤内异质性指标（体积熵和强度熵）。结果显示pCR组两项指标均显著更低，结合临床特征构建的列线图在训练集和验证集表现优异（AUC分别为0.849和0.825）。该方法为无创识别pCR提供了简单可解释的途径，有助于个体化治疗规划。",
-    "doi_url": "https://doi.org/10.1002/jmri.70285"
+    "doi_url": "https://doi.org/10.1002/jmri.70285",
+    "title_chinese": "基于<span style=\"font-variant:small-caps;\">MRI</span>的生境分析预测乳腺癌新辅助化疗病理完全缓解：一项多中心研究"
   },
   {
     "id": 200,
@@ -3597,7 +3796,8 @@
     "hindex": 195,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1002/jmri.70360"
+    "doi_url": "https://doi.org/10.1002/jmri.70360",
+    "title_chinese": "单次呼吸与多次呼吸Xe‐ <span style=\"font-variant:small-caps;\">MRI</span>在囊性纤维化儿童治疗纵向评估中的比较"
   },
   {
     "id": 201,
@@ -3615,7 +3815,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.25.34364"
+    "doi_url": "https://doi.org/10.2214/ajr.25.34364",
+    "title_chinese": "术前乳腺X线摄影商业化人工智能评分预测DCIS治疗后未来乳腺癌"
   },
   {
     "id": 202,
@@ -3633,7 +3834,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.26.34546"
+    "doi_url": "https://doi.org/10.2214/ajr.26.34546",
+    "title_chinese": "Takotsubo综合征患者心脏MRI延迟钆增强：来自多中心EVOLUTION注册研究的见解"
   },
   {
     "id": 203,
@@ -3651,7 +3853,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.25.34326"
+    "doi_url": "https://doi.org/10.2214/ajr.25.34326",
+    "title_chinese": "使用定性超声造影评分的改良O-RADS超声分类用于交界性和恶性附件病变：一项外部测试研究"
   },
   {
     "id": 204,
@@ -3669,7 +3872,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.26.34550"
+    "doi_url": "https://doi.org/10.2214/ajr.26.34550",
+    "title_chinese": "商业化人工智能骨折检测系统在不同X线摄影设备厂商间的性能差异：一项多中心评估"
   },
   {
     "id": 205,
@@ -3687,7 +3891,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.26.34787"
+    "doi_url": "https://doi.org/10.2214/ajr.26.34787",
+    "title_chinese": "人工智能可能是预测接受DCIS治疗的患者同侧乳腺癌复发可能性的有用工具"
   },
   {
     "id": 206,
@@ -3705,7 +3910,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.26.34886"
+    "doi_url": "https://doi.org/10.2214/ajr.26.34886",
+    "title_chinese": "基于衰减和熵的生境成像用于CT表现为部分实性结节的肺腺癌的高危特征：一项多中心研究"
   },
   {
     "id": 207,
@@ -3723,7 +3929,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.26.34937"
+    "doi_url": "https://doi.org/10.2214/ajr.26.34937",
+    "title_chinese": "无已知乳腺癌诊断女性的孤立性腋窝淋巴结肿大：一项关于活检结果的多中心研究"
   },
   {
     "id": 208,
@@ -3741,7 +3948,8 @@
     "hindex": 232,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.2214/ajr.26.35237"
+    "doi_url": "https://doi.org/10.2214/ajr.26.35237",
+    "title_chinese": "2016年至2025年急诊科（ED）神经影像学检查的使用：对来自多中心Cosmos EHR数据集的超过300万次ED就诊的分析"
   },
   {
     "id": 209,
@@ -3759,7 +3967,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本文旨在解决神经质量模型（NMM）校准中的非唯一性和高维非线性挑战。研究者采用动力系统理论分析校准复杂性，并评估了近似贝叶斯计算（ABC）与进化搜索元启发式算法（ESMs）在重现静息态脑电信号时的表现。结果显示，ESMs在计算效率和准确性上优于ABC，且更不易受复杂成本景观偏差的影响。该研究为未来脑动力学建模提供了更可靠的参数估计方法。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1249"
+    "doi_url": "https://doi.org/10.1162/imag.a.1249",
+    "title_chinese": "用于神经质量模型校准的全局搜索元启发式算法"
   },
   {
     "id": 210,
@@ -3777,7 +3986,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究旨在评估密集采样对脑电连接组学精度的益处，并比较9种功能连接指标在容积传导影响下的可靠性。采集25对亲子共80分钟被动观看脑电数据，结合个体化头模型模拟分析。结果表明，IMCOH等校正指标对容积传导具有较强鲁棒性，且其可靠性在25-30分钟数据量时持续提升。该发现为脑电连接组学研究的设计与指标选择提供了重要依据。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1245"
+    "doi_url": "https://doi.org/10.1162/imag.a.1245",
+    "title_chinese": "迈向精准脑电图连接组学：评估密集采样的益处"
   },
   {
     "id": 211,
@@ -3795,7 +4005,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究利用[11C]raclopride PET对COBRA前瞻性队列中181名健康老年人进行5年纵向分析，探讨多巴胺D2样受体（DRD2）可用性、认知衰退、教育及休闲活动间的关联。结果显示尾状核和壳核DRD2可用性随年龄下降，但教育与休闲活动与DRD2基线水平及变化关联微弱，且不能调节DRD2-认知变化关联。该研究为认知储备假说提供了阴性证据，强调了多巴胺系统衰退的独立性。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1302"
+    "doi_url": "https://doi.org/10.1162/imag.a.1302",
+    "title_chinese": "健康老年人多巴胺D2样受体丢失、认知衰退、教育及自我报告休闲活动之间的五年关联"
   },
   {
     "id": 212,
@@ -3813,7 +4024,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究旨在探索单帧时间分辨率下功能连接指纹识别的可行性。通过相位相干方法估计个体体积的连接性，发现基于单个体积即可对参与者身份进行分类，且更细分的脑图谱有助于识别。任务在受试者内比受试者间更易被识别。结果表明，参与者个体差异是单体积连接模式的重要驱动因素，强调了在脑网络动态研究中考虑个体变异的重要性。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1254"
+    "doi_url": "https://doi.org/10.1162/imag.a.1254",
+    "title_chinese": "单帧功能脑连接的个体性"
   },
   {
     "id": 213,
@@ -3831,7 +4043,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究通过同步数字化平板循环描迹任务与脑电图（EEG）记录，探讨双文字系统使用者书写运动优化的神经机制。行为学上，双文字使用者表现出更优的描迹频率和稳定性；神经层面上，其额叶theta功率更低且与行为变异性正相关，顶枕区beta同步程度更低。结果表明前额叶和感觉运动成分共同参与内部预测模型的实现，其准确性和可靠性取决于书写学习中获得的专业技能。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1265"
+    "doi_url": "https://doi.org/10.1162/imag.a.1265",
+    "title_chinese": "双文字书写者优化书写运动表现的神经生理机制"
   },
   {
     "id": 214,
@@ -3849,7 +4062,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究利用人类连接体计划发育横断面样本（1105名5-21岁青少年），探讨年龄、青春期阶段及激素与白质微观结构（各向异性分数FA）的独特关联。结果表明，年龄是17个白质束的最佳拟合模型；青春期时间与DHEA分别对上纵束和胼胝体特定区域FA拟合最佳；雌二醇对腹侧扣带束等联合束拟合最佳。青春期时间与DHEA在联合相关束中的FA关联强于感觉运动束，揭示了青春期发育对白质束特异性的影响。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1270"
+    "doi_url": "https://doi.org/10.1162/imag.a.1270",
+    "title_chinese": "理清童年和青春期年龄、青春期阶段及青春期激素与白质微结构的独特关联"
   },
   {
     "id": 215,
@@ -3867,7 +4081,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究在包含112名年轻成人和176名老年人的两个fMRI数据集中，测试了个体化脑功能网络映射的有效性与影响。结果发现，老年人具有更特异性的网络拓扑结构；基于静息态fMRI的个体化图谱提高了网络同质性及对社会认知任务激活的保真度，并在2年间表现出良好的个体内稳定性与个体间可辨别性。传统的组平均映射对网络隔离的个体估计有中至大影响。该研究证明个体化映射能捕捉老年期脑功能的重要异质性，有助于更精确地表征神经认知老化。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1285"
+    "doi_url": "https://doi.org/10.1162/imag.a.1285",
+    "title_chinese": "老年期功能脑网络的个体化映射"
   },
   {
     "id": 216,
@@ -3885,7 +4100,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究探讨了社区劣势对0-10岁儿童白质髓鞘化的影响。通过定量MRI的纵向弛豫率（R1）评估43名儿童的白质发育，发现较高的区域剥夺指数（ADI）与内囊、放射冠等多个白质区域的R1降低显著相关，且在婴儿期更为明显。结果表明早期环境劣势可能影响认知、社会情感和运动功能的神经发育轨迹。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1288"
+    "doi_url": "https://doi.org/10.1162/imag.a.1288",
+    "title_chinese": "邻里劣势与大脑髓鞘化：从婴儿期到儿童期的见解"
   },
   {
     "id": 217,
@@ -3903,7 +4119,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究探讨了急性睡眠限制对年轻人（20-30岁）和老年人（65-75岁）大脑功能连接网络的不同影响。通过fMRI分析静态和动态功能连接，发现急性睡眠限制后年轻人功能连接子网络增强，而老年人则减弱。该结果支持衰老补偿理论，表明急性睡眠剥夺对老年人大脑的影响与年轻人存在根本差异。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1278"
+    "doi_url": "https://doi.org/10.1162/imag.a.1278",
+    "title_chinese": "青年与老年大脑在急性睡眠限制对功能连接网络的影响上表现出相反效应"
   },
   {
     "id": 218,
@@ -3921,7 +4138,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究探讨了语言网络在不同任务情境下对句子响应的稳定性。52名参与者在六种任务条件下阅读句子和非词列表，fMRI结果显示语言网络在所有任务中对句子响应稳健，而多需求网络在有任务时对句子和非词均有响应。这表明语言网络与多需求网络在任务驱动的语言理解中执行互补功能，强调了个体特异性功能定位的价值。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1283"
+    "doi_url": "https://doi.org/10.1162/imag.a.1283",
+    "title_chinese": "语言网络在不同任务中对句子产生稳健响应"
   },
   {
     "id": 219,
@@ -3939,7 +4157,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究提出了一种用于fMRI激活分析的非线性核典型相关分析（KCCA）增强框架。通过引入基于自监督学习的参数优化以缓解过拟合、改进的反向重构方法提高准确性和鲁棒性，以及基于收敛行为的核选择策略，在模拟和任务态fMRI数据集上验证了其有效性，多项性能指标均获得持续提升。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1243"
+    "doi_url": "https://doi.org/10.1162/imag.a.1243",
+    "title_chinese": "fMRI激活分析中的非线性KCCA：自监督优化与稳健反向重构"
   },
   {
     "id": 220,
@@ -3957,7 +4176,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本文提供了一份关于快速不可见频率标记（RIFT）技术的综合实施指南。RIFT利用新型高频显示器在不可察觉的高频下调制亮度，以追踪神经对节律刺激的响应。基于多实验室的联合经验，该指南涵盖了硬件要求、刺激设计、分析方法和结果解释，旨在提高该技术的可重复性，并帮助研究者规避技术陷阱。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1273"
+    "doi_url": "https://doi.org/10.1162/imag.a.1273",
+    "title_chinese": "快速不可见频率标记（RIFT）协作指南：方法、见解与建议"
   },
   {
     "id": 221,
@@ -3975,7 +4195,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "目的：绘制人类终纹床核的精细结构与立体定向图谱。方法：对10个人脑连续细胞体染色切片进行全范围映射（1130个注释），识别中央、背侧、内侧和后部四个亚区，应用纹理分析表征亚区，生成MNI空间概率细胞构筑图谱及BigBrain 3D组织学超高分辨率图谱。结果：首次系统描绘终纹床核四亚区的三维形态与概率分布，并公开数据。意义：为活体脑MRI研究提供标准化解剖参考，支持建模与仿真。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1260"
+    "doi_url": "https://doi.org/10.1162/imag.a.1260",
+    "title_chinese": "人类终纹床核的组织结构、精细结构与立体定位图谱"
   },
   {
     "id": 222,
@@ -3993,7 +4214,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "目的：解决扩散加权MRI分割中q-space采样方案异质导致CNN难以泛化的问题。方法：结合几何深度学习框架DISCUS与分割网络VINN，直接将非结构化dMRI数据映射为解剖分割，无需扩散模型拟合。结果：首次以单一神经网络跨异质采集方案实现稳健泛化，分割耗时数分钟，在多数据集与多采集设置下性能优于DeepAnat、DDParcel和SynthSeg。意义：为多中心、多协议dMRI研究提供高效通用分割工具。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1183"
+    "doi_url": "https://doi.org/10.1162/imag.a.1183",
+    "title_chinese": "基于学习的任意 <i>q</i> 空间采样弥散加权磁共振图像分割"
   },
   {
     "id": 223,
@@ -4011,7 +4233,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "目的：开发实时fMRI触发的体验采样方法以提高自发思维神经相关研究的时间精度。方法：60名受试者清醒静息时实时分析BOLD信号，由背侧前岛叶皮层和后内侧皮层自发激活触发思维探针，预注册检验两项假设。结果：排除后42人（1243次试验）和49人（1429次试验）分别纳入分析；PMC激活触发试验外注意评分显著低于其他试验（支持H2），未发现支持H1的证据。意义：成功开发并验证rt-fMRI-ES方法，为基于 ongoing神经活动捕获自发思维提供新技术。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1268"
+    "doi_url": "https://doi.org/10.1162/imag.a.1268",
+    "title_chinese": "实时fMRI触发的经验取样：一项概念验证研究"
   },
   {
     "id": 224,
@@ -4029,7 +4252,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "目的：建立静息态fMRI时间尺度图谱的可靠估计方法。方法：形式化并评估时域AR1模型拟合与自相关域指数衰减模型拟合两种方法，不假设指数自相关衰减，引入稳健标准误处理模型误设。结果：在模拟中实现参数恢复，应用于Human Connectome Project数据，时域方法在模型误设下估计更准确、计算高效，图谱与已知功能脑组织一致。意义：首次为fMRI时间尺度图谱提供有效统计推断，并提供Python实现。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1248"
+    "doi_url": "https://doi.org/10.1162/imag.a.1248",
+    "title_chinese": "估计fMRI时间尺度图谱"
   },
   {
     "id": 225,
@@ -4047,7 +4271,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "目的：探讨个体alpha频率(IAF)是否预测时间感知的敏感性与偏差。方法：55名受试者完成时长估计任务（300–1200ms）和时长辨别任务（标准刺激100/600/1200ms），同步记录EEG，分析IAF与时长判断精度和偏差的关系。结果：IAF与时长估计方差（精度指标）显著相关，但与平均估计（偏差指标）无关；独立辨别任务的心理物理函数斜率与IAF正相关，尤其在静态刺激条件下。意义：提示IAF可能塑造个体时间感知敏感性的差异。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1263"
+    "doi_url": "https://doi.org/10.1162/imag.a.1263",
+    "title_chinese": "个体α频率预测时间感知的敏感性"
   },
   {
     "id": 226,
@@ -4065,7 +4290,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究提出一种基于模拟器的自动标注框架，用于分析复古视频游戏过程中的fMRI活动。4名参与者在32小时游戏过程中接受fMRI扫描，结果显示视觉、运动、执行和边缘系统广泛激活。参与者内跨会话可重复性稳健（r≈0.25-0.55），多体素模式分析对游戏事件的分类准确率约达90%。该框架实现了对自然认知过程的稳健、可解释和可扩展映射。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1256"
+    "doi_url": "https://doi.org/10.1162/imag.a.1256",
+    "title_chinese": "扫描仪中的游戏玩家：基于游戏内容自动标注的复古电子游戏游玩期间fMRI活动的事件相关分析"
   },
   {
     "id": 227,
@@ -4083,7 +4309,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究探讨TBS priming对前额叶静息态功能连接的影响。47名健康受试者完成4种刺激条件，发现cTBS priming iTBS降低了刺激区域及远端区域的连接变化，iTBS priming显著减少前额叶连接变化。反刍思维增加与左侧前额叶连接下降相关。结果揭示了前额叶TBS priming的复杂效应及其与心理状态的相互作用，强调了神经调控研究中考虑状态依赖性的重要性。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1267"
+    "doi_url": "https://doi.org/10.1162/imag.a.1267",
+    "title_chinese": "刺激启动与心理状态塑造前额叶theta爆发刺激后的功能连接"
   },
   {
     "id": 228,
@@ -4101,7 +4328,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究介绍了一个基于R包EMC2的开源联合建模工具箱，用于同时拟合行为和fMRI数据。通过在感知决策任务中的应用，展示了如何指定设计矩阵、设置先验并构建脑-行为联系。层次建模框架下的联合估计稳定了弱识别参数，减轻了脑-行为相关性中的衰减偏差。该工具箱为研究人员采用联合模型提供了便捷途径，有助于更深入理解人类行为的认知和神经机制。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1272"
+    "doi_url": "https://doi.org/10.1162/imag.a.1272",
+    "title_chinese": "在大脑与行为之间搭建桥梁：一个用于fMRI联合建模的开源工具箱"
   },
   {
     "id": 229,
@@ -4119,7 +4347,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究利用3D-MRSI技术对精神病风险青少年（n=21）和健康对照（n=13）进行全脑神经代谢物映射，并在另一非临床样本（n=61）中评估可重复性。代谢物分布在两独立样本间高度可重复（r=0.82-0.99）。风险组额叶灰质tNAA升高，SCZT亚组Ins水平广泛升高，而结构和扩散参数无显著差异。结果表明高分辨率3D-MRSI对检测精神病早期细微神经代谢改变敏感，有望用于早期识别。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1276"
+    "doi_url": "https://doi.org/10.1162/imag.a.1276",
+    "title_chinese": "有精神病风险青少年的高分辨率全脑磁共振波谱成像"
   },
   {
     "id": 230,
@@ -4137,7 +4366,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究应用网络控制理论分析25,697名成人的扩散MRI连接体，量化大脑网络转换的能量成本。发现代谢综合征严重程度与特定网络能量改变相关，皮层下控制能量成本增加，视觉网络降低，且两者脑年龄差距加速。腰围是最强代谢预测因子。行为测试证实患者记忆和处理速度较低。结果表明代谢综合征重塑大脑能量景观并加速老化，网络控制理论指标可作为连接代谢健康与认知功能的敏感生物标志物。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1282"
+    "doi_url": "https://doi.org/10.1162/imag.a.1282",
+    "title_chinese": "代谢综合征严重程度与脑网络转换的能量消耗：一项关于加速脑衰老的常模建模研究"
   },
   {
     "id": 231,
@@ -4155,7 +4385,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究旨在比较不同神经信号源在区分吸烟者“渴望”与“不渴望”任务条件中的表现，以优化fMRI神经反馈。基于31名吸烟者的数据，评估了ROI内神经活动、ROI间功能连接及基于机器学习的分类准确率。结果表明，基于多变量机器学习的信号源优于非机器学习源，其中基于连接的机器学习源表现最佳。该发现有助于提升神经反馈训练的区分度与效果。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1277"
+    "doi_url": "https://doi.org/10.1162/imag.a.1277",
+    "title_chinese": "用于区分“渴求”与“不渴求”任务状态的神经信号源比较：对fMRI神经反馈的启示"
   },
   {
     "id": 232,
@@ -4173,7 +4404,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究针对神经影像数据预处理和分析的复杂性与可重复性问题，提出了QuNex recipes框架。该框架以透明、机器和人类可读的格式定义并执行完整的神经影像工作流，涵盖数据导入、预处理和分析全过程。通过提供标准化工作流描述与共享方式，仅需版本号、配方文件和数据即可实现一键复现，促进了神经影像社区最佳实践的开放交流与可重复研究。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1274"
+    "doi_url": "https://doi.org/10.1162/imag.a.1274",
+    "title_chinese": "QuNex方案：用于可重复神经影像学研究的可执行、人类可读工作流"
   },
   {
     "id": 233,
@@ -4191,7 +4423,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究提出在分析大脑功能连接组时，不仅考虑独立的线性关系，还应结合高阶统计关联和全局特征以提升个体差异识别能力。采用Wasserstein度量来捕捉高阶局部统计关系和全局交互作用。结果表明，将连接矩阵视为高斯分布表示可显著提高基于连接矩阵的个体识别能力。结合新提出的CRAM流水线，该方法还改善了流体智力和开放性等表型的预测，表明局部和全局连接属性均编码了与表型相关的个体差异。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1287"
+    "doi_url": "https://doi.org/10.1162/imag.a.1287",
+    "title_chinese": "整体是否大于部分之和？考虑连接组的全局与局部特征可改善个体与表型预测"
   },
   {
     "id": 234,
@@ -4209,7 +4442,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究通过激活似然估计(ALE)元分析，探讨了句法处理与语义控制网络(SCN)的关系，以解决语义与句法神经可分离性的争议。结果发现，高要求的句法处理激活了SCN区域，包括左侧额下回、岛叶、后颞叶和双侧背内侧前额叶。在SCN内，句法与语义控制的激活存在差异，且两者在左侧额下回和后颞叶均表现出对听觉和视觉刺激的多模态反应。这表明句法处理有别于语义表征，但高要求句法处理需调用SCN以灵活操纵语义知识。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1281"
+    "doi_url": "https://doi.org/10.1162/imag.a.1281",
+    "title_chinese": "句法加工激活语义控制网络"
   },
   {
     "id": 235,
@@ -4227,7 +4461,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究提出了一种基于Transformer的脑磁图(MEG)基础模型MEG-GPT，旨在捕捉大规模脑动态的复杂时空模式。引入了一种新型数据驱动的分词器，可在无损变换下保留连续MEG信号的高时间分辨率。在612名受试者的大规模数据集上训练后，该模型能生成具有真实时空频谱特性的数据，并在下游解码任务中表现优异，零样本泛化能力在跨会话和跨受试者中均优于PCA基线。该模型为电生理数据建立了强大的基础模型，推动了神经解码应用。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1301"
+    "doi_url": "https://doi.org/10.1162/imag.a.1301",
+    "title_chinese": "MEG-GPT：一种基于Transformer的脑磁图数据基础模型"
   },
   {
     "id": 236,
@@ -4245,7 +4480,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究利用基于变形的形态测量法(DBM)和SuStaIn模型对198名ALS患者和144名健康对照的多中心纵向队列进行数据驱动亚型分期。识别出三个萎缩亚型和一个正常表现组，各亚型具有独特的萎缩轨迹、运动衰退和生存差异，纵向一致性>90%。SuStaIn分期与脑萎缩、ALSFRS-R下降及FVC降低显著相关。该模型为ALS生物学分层、预后评估和临床试验富集提供了可靠的纵向验证工具。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1264"
+    "doi_url": "https://doi.org/10.1162/imag.a.1264",
+    "title_chinese": "ALS的数据驱动亚型与分期：一项多中心、纵向、基于形变的形态测量研究"
   },
   {
     "id": 237,
@@ -4263,7 +4499,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究整合静息态fMRI与动态[18F]FDG PET数据，探讨大脑长程时间相关性与葡萄糖代谢的关系。通过Hurst指数量化时间相关性，发现具有较高长程时间相关性的大脑伴随更高的能量需求，且该关联可追溯至细胞内葡萄糖磷酸化。结果表明大脑自发动态可能与神经能量代谢及持续生物合成过程相关，为理解大脑“暗能量”提供了新视角。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1275"
+    "doi_url": "https://doi.org/10.1162/imag.a.1275",
+    "title_chinese": "葡萄糖代谢与人脑长程时间相关性相呼应"
   },
   {
     "id": 238,
@@ -4281,7 +4518,8 @@
     "hindex": 13,
     "watchlist_matched": true,
     "highlight": "本研究提出多模态子空间独立向量分析(MSIVA)方法，用于从结构MRI和功能MRI中捕获联合与独特的向量源。该方法在合成数据和大型多模态神经影像数据集上验证，成功恢复了真实子空间结构。分析表明，MSIVA提取的源与年龄、性别、精神分裂症及认知功能等表型变量显著相关，揭示了大脑结构与功能之间复杂的潜在关系，为神经精神疾病的生物标志物研究提供了新方法。",
-    "doi_url": "https://doi.org/10.1162/imag.a.1266"
+    "doi_url": "https://doi.org/10.1162/imag.a.1266",
+    "title_chinese": "多模态子空间独立向量分析有效捕捉脑结构与功能间的潜在关系"
   },
   {
     "id": 239,
@@ -4299,7 +4537,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究前瞻性纳入30名纤维化性间质性肺疾病(F-ILD)患者和30名健康对照，采用相位分辨功能性肺MRI(PREFUL MRI)定量评估肺灌注和通气。结果显示，F-ILD患者平均灌注降低(7.55% vs 4.60%)、平均通气增加(13.95% vs 18.65%)。平均灌注与DLCO正相关(ρ=0.682)，与HRCT纤维化病灶负相关。PREFUL MRI作为一种无创、无辐射的定量工具，在F-ILD严重程度评估中具有重要潜力。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02321-5"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02321-5",
+    "title_chinese": "相位分辨功能性肺磁共振成像用于评估纤维化间质性肺病的肺灌注与通气"
   },
   {
     "id": 240,
@@ -4317,7 +4556,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究基于CT影像和H&E病理切片构建放射-病理多模态融合模型，用于预测非小细胞肺癌(NSCLC)患者的PD-L1表达及免疫治疗反应。回顾性纳入328名患者，融合模型在训练、验证和测试集中的AUC分别达0.90、0.80和0.73，优于单一模态模型。在独立免疫治疗生存队列中，模型评分是PFS的独立预测因子(C-index=0.74)。该模型有望减少PD-L1免疫组化检测，支持精准免疫治疗决策。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02322-4"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02322-4",
+    "title_chinese": "用于预测非小细胞肺癌PD-L1表达与免疫治疗反应的放射-病理融合模型"
   },
   {
     "id": 241,
@@ -4335,7 +4575,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究通过全国调查评估英国横断面影像技师对定位像数据管理的现状。129份有效问卷显示，59.7%的受访者将所有定位像与诊断图像一同存储，61.2%曾标记定位像上的异常发现，但45.7%的科室缺乏明确的管理政策。结果表明定位像可能包含临床相关信息，亟需制定标准化政策和教育计划，以支持安全有效的定位像管理。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02306-4"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02306-4",
+    "title_chinese": "定位像数据的临床相关性与管理：英国断层成像放射技师全国调查"
   },
   {
     "id": 242,
@@ -4353,7 +4594,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究评估CT判断胰腺导管腺癌血管侵犯与术中和组织病理学结果的一致性。纳入103例患者，CT与手术静脉侵犯一致性为75%，动脉为96%；CT与组织病理学静脉侵犯一致性为81%。CT-手术间隔≤4周组一致性更高。结果表明基于NCCN阈值的CT静脉侵犯评估与手术和病理结果具有较好一致性，但随CT-手术间隔延长而降低，提示需标准化术前影像分期时间窗。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02318-0"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02318-0",
+    "title_chinese": "胰腺导管腺癌CT血管侵犯与术中及组织学发现的比较"
   },
   {
     "id": 243,
@@ -4371,7 +4613,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究评估深度学习重建（DLIR）CT扫描仪与混合迭代重建（HIR）扫描仪的环境影响。分析42300次检查，DLIR组电力消耗和CO2排放显著降低（每台扫描仪每年减少4.67吨CO2e），并节省434L碘对比剂。结果表明DLIR优化方案可降低能耗和碳排放，支持高流量影像中心向可持续放射学实践转型。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02333-1"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02333-1",
+    "title_chinese": "深度学习重建降低体部CT成像的环境影响：一家大型三级转诊中心的经验"
   },
   {
     "id": 244,
@@ -4389,7 +4632,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究开发并验证了可解释的超声影像组学-临床联合模型用于乳腺良恶性病变分类。纳入8家医院3142例患者，联合模型在训练、内部测试、外部测试和前瞻性测试集的AUC分别为0.92、0.90、0.92和0.93，显著优于单一模型。该模型有望减少不必要活检并提高BI-RADS 4a恶性检出率，SHAP分析确保了临床可解释性。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02344-y"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02344-y",
+    "title_chinese": "可解释超声影像组学模型用于乳腺病变良恶性分类的开发与验证：一项多中心大样本研究"
   },
   {
     "id": 245,
@@ -4407,7 +4651,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本研究开发了一种基于MRI的肿瘤异质性评分（ITHscore），用于无创预测ER+/HER2-乳腺癌的21基因复发评分（RS）。纳入452例患者，ITHscore在高风险患者中显著升高，将其整合入临床-影像组学模型后，预测RS的AUC在内部测试集达0.86，外部测试集达0.82。结果表明ITHscore作为无创定量生物标志物，为预测复发风险提供了快速、经济的替代方案。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02342-0"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02342-0",
+    "title_chinese": "基于MRI的瘤内异质性定量分析预测ER+/HER2−乳腺癌复发风险"
   },
   {
     "id": 246,
@@ -4425,7 +4670,8 @@
     "hindex": 85,
     "watchlist_matched": true,
     "highlight": "本文综述了对比增强乳腺摄影（CEM）在乳腺癌术前分期中的临床证据。CEM结合常规形态与对比剂评估肿瘤血管，在特定场景下对肿瘤范围评估和额外病灶检测的性能与MRI相当，且特异性更高，约20-30%的患者手术计划受其影响。但存在造影剂、辐射剂量及后部结构评估等局限。CEM是术前分期有价值的辅助工具，需多中心前瞻性研究验证其临床影响。",
-    "doi_url": "https://doi.org/10.1186/s13244-026-02331-3"
+    "doi_url": "https://doi.org/10.1186/s13244-026-02331-3",
+    "title_chinese": "如何用对比增强乳腺X线摄影优化乳腺癌分期：现有证据与临床意义"
   },
   {
     "id": 247,
@@ -4443,7 +4689,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12649-7"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12649-7",
+    "title_chinese": "Node-RADS联合ADC可提高乳腺癌淋巴结转移的诊断效能"
   },
   {
     "id": 248,
@@ -4461,7 +4708,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "本研究评估了荷兰公众对放射学检查前披露潜在诊断错误风险的态度。基于1524名参与者的调查显示，88.4%的人同意应告知患者诊断错误风险。患者年龄和错误概率显著影响同意率，年轻患者和较高风险场景下支持率更高。这表明公众对影像诊断错误风险的事前披露支持度高，为临床实践中的伦理沟通提供了依据。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12656-8"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12656-8",
+    "title_chinese": "放射学操作前告知潜在诊断错误：荷兰公众观点"
   },
   {
     "id": 249,
@@ -4479,7 +4727,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12673-7"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12673-7",
+    "title_chinese": "因小失大：基于区域的定性BPE"
   },
   {
     "id": 250,
@@ -4497,7 +4746,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "本研究评估了一款AI辅助混合软件工具标准化DICOM标签的准确性及其对放射科医生阅读时间的影响。回顾性分析显示，该工具在身体部位、平面和协议分类上的准确率为83%-100%。实施后，腹部CT、全身CT、头部和颞骨的平均阅读时间显著缩短，效率提升8-22%，每年可节省约270小时。表明AI驱动的DICOM标准化有助于优化放射学工作流。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12670-w"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12670-w",
+    "title_chinese": "混合AI工具分配的标准化DICOM标签的评估及其对放射科医师阅片时间的影响"
   },
   {
     "id": 251,
@@ -4515,7 +4765,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12691-5"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12691-5",
+    "title_chinese": "真空辅助乳腺活检与粗针活检用于乳腺肿瘤诊断的对比"
   },
   {
     "id": 252,
@@ -4533,7 +4784,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12688-0"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12688-0",
+    "title_chinese": "超越大血管再通：寻找血管内取栓术新的成功评价指标"
   },
   {
     "id": 253,
@@ -4551,7 +4803,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "本研究旨在探讨AI模型在筛查乳腺癌确诊前2年和4年标记高风险的位置及乳腺X线特征。基于挪威乳腺癌筛查项目130,031次检查数据，使用两种AI模型分析。结果显示，AI标记在4年前分别有61%和57%对应癌症位置，但放射科医师将89%评为真阴性或轻微非特异性体征。这表明AI有望提前发现乳腺癌，但如何将其有效融入临床以提升早期检测仍面临挑战。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12689-z"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12689-z",
+    "title_chinese": "筛查检出乳腺癌前数年获取的乳腺筛查X线片中AI风险标志物的位置及相关X线特征"
   },
   {
     "id": 254,
@@ -4569,7 +4822,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12693-3"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12693-3",
+    "title_chinese": "超越检测：视觉-语言模型能否重新定义胸部X线片解读？"
   },
   {
     "id": 255,
@@ -4587,7 +4841,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "本研究评估在儿童骶髂关节MRI中添加高分辨率3D VIBE序列对侵蚀检测和幼年脊柱关节病（JSpA）诊断的价值。前瞻性纳入84名疑似JSpA儿童，结果表明添加VIBE显著提高了读者诊断置信度，但敏感性和特异性的改善趋势无统计学意义。若将ASAS-SPARTAN成人协议用于儿童，需综合解读所有序列以避免将非侵蚀性骨缺损误判为真性侵蚀。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12709-y"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12709-y",
+    "title_chinese": "添加高分辨率3D序列能否提高儿童骶髂关节MRI中骨侵蚀检出的准确性？"
   },
   {
     "id": 256,
@@ -4605,7 +4860,8 @@
     "hindex": 173,
     "watchlist_matched": true,
     "highlight": "具体研究方法和关键结果需查阅原文。",
-    "doi_url": "https://doi.org/10.1007/s00330-026-12692-4"
+    "doi_url": "https://doi.org/10.1007/s00330-026-12692-4",
+    "title_chinese": "辅助定量以提高淀粉样蛋白PET解读的可重复性"
   },
   {
     "id": 257,
@@ -4623,7 +4879,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本文综述了定量合成MRI（SyMRI）在体部成像中的技术基础、应用及未来方向。SyMRI可同时获取T1、T2和质子密度图，提供客观组织生物标志物，在乳腺、前列腺、头颈等多个体部应用中显示出病灶定性和疗效评估的潜力。但目前证据受限于小样本单中心研究，未来需多中心前瞻性验证和标准化定量流程。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001297"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001297",
+    "title_chinese": "体部成像中的定量合成MRI：技术基础、当前应用与未来方向"
   },
   {
     "id": 258,
@@ -4641,7 +4898,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究评估了锡滤过光子计数CT(PCD-CT)结合高能虚拟单能谱成像(VMI)和迭代金属伪影减少在颈椎前路减压融合术后的应用。44名患者数据显示，VMI120+iMAR实现了最强的金属伪影减少并改善了骨-金属界面清晰度，但可能因重建伪影（如假性骨溶解）降低骨融合评估的准确性。建议采用特定重建策略平衡伪影减少与诊断可靠性。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001298"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001298",
+    "title_chinese": "光子计数CT在颈前路椎间盘切除融合术中的应用：金属伪影减少的改善及其对骨融合评估的影响"
   },
   {
     "id": 259,
@@ -4659,7 +4917,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究使用体模比较了光子计数CT(PCD-CT)与能量积分CT(EID-CT)在低剂量肺癌筛查中的肺结节体积测量准确性。1224次测量结果显示，PCD-CT将体积测量准确性从-16.6%提升至-12.5%，最多减少6%的体积低估，且精密度相当。超薄层和超锐利核函数会降低准确性。PCD-CT可能将更多结节归入更高基线风险类别，影响临床转诊。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001299"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001299",
+    "title_chinese": "低剂量筛查中光子计数CT较能量积分CT对肺结节体积测量准确性的提升：一项体模研究"
   },
   {
     "id": 260,
@@ -4677,7 +4936,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究利用韩国国民健康保险数据评估了115,966名患者使用碘对比剂(ICM)后超敏反应(HSR)的风险因素。HSR发生率为0.58%，多为轻度，重度罕见。既往ICM暴露、既往HSR、哮喘和恶性肿瘤是关键风险因素。较高碘浓度与轻中度HSR发生率适度升高相关，但不影响重度反应率，提示碘浓度可能是高风险患者个体化对比剂选择的潜在可调节因素。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001301"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001301",
+    "title_chinese": "115,966名患者的碘造影剂超敏反应：危险因素、严重程度特征及碘浓度对反应风险的影响"
   },
   {
     "id": 261,
@@ -4695,7 +4955,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究开发并评估了一种基于深度学习3D解剖分割的全身MRI自动视野（FoV）处方系统。利用374例患者的数据训练nnUNet-v2模型进行组织器官分割，并在内部和外部数据集上测试。结果显示，躯干分割平均Dice系数达0.98，98.3%的内部病例和87.5%的外部病例被专家评为临床可接受。预测FoV在60%的病例中排名最高，表现优于经验较少的技师，与20年经验技师相当。该系统可标准化WB-MRI采集，减少操作者间差异并提高工作流效率。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001236"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001236",
+    "title_chinese": "基于深度学习身体区域分割的全身磁共振成像自动视野设定"
   },
   {
     "id": 262,
@@ -4713,7 +4974,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究探讨光子计数CT（PC-CT）有效原子序数（Z_eff）图像分析冠状动脉斑块的适用性。通过PC-CT虚拟单能图像生成Z_eff图像，分析了10名患者的64个斑块。结果显示，Z_eff得分与传统Agatston评分和冠脉钙化评分呈强正相关。与传统评分仅考虑CT值>130的体素不同，Z_eff得分利用了斑块区域内的所有体素数据，覆盖了39%被传统评分排除的斑块面积，实现了对低密度和高密度斑块的综合分析。该研究证实了Z_eff成像在斑块成分分析中的技术可行性。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001237"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001237",
+    "title_chinese": "光子计数CT测量冠状动脉斑块的有效原子序数 (Z eff) 图像分析的适用性"
   },
   {
     "id": 263,
@@ -4731,7 +4993,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究探讨MRI序列选择和对比剂给药后时间对脑转移瘤表观体积的影响，旨在优化放疗计划的MRI协议。纳入49名患者的414个脑转移瘤，随机分为6组（MPRAGE、SPACE、VIBE序列及不同时间点）。结果显示，序列和对比剂时间均显著影响病灶体积测量；SPACE体积平均比MPRAGE大20%，VIBE比SPACE大10%，且体积随时间推移逐渐增加。小病灶的序列间差异更大。标准化MRI协议对于提高靶区勾画准确性、降低毒性风险及优化放疗效果具有重要意义。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001238"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001238",
+    "title_chinese": "优化脑放射外科MRI方案：序列与对比剂时序的作用"
   },
   {
     "id": 264,
@@ -4749,7 +5012,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究验证了商用光子计数CT（PCCT）的3材料分解算法在区分碘基、钨基对比剂和水中的可行性。对6只大鼠在两种对比剂共存的不同分布期进行成像，生成定量对比图、虚拟平扫（VNC）图和虚拟单能图像（VMI）。结果表明，碘和钨填充区域分别在各自的对比图中被专属增强，VNC图无额外增强，VMI清晰显示了钨的K边缘。该技术成功再现了血管和肠道内的对比剂动态，VNC图有望省略对比剂给药前的CT扫描，降低辐射剂量。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001241"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001241",
+    "title_chinese": "使用光子计数CT的多对比多相肠道成像：大鼠中的可行性研究"
   },
   {
     "id": 265,
@@ -4767,7 +5031,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究旨在识别最小化金属诱导几何畸变（MD）的MRI序列和协议，以提高成像空间准确性。使用包含不锈钢支架或钛植入物的3D网格体模，评估6种MRI序列在9360个交叉点的MD。结果显示，对于不锈钢支架，CS-SEMAC和SEMAC序列的总MD最低且受影响体积最小，相比TSE分别减少79%和90%。对于钛植入物，所有序列MD均降低。MD具有方向依赖性，在频率编码方向最严重。研究强调了序列和参数选择对金属植入物附近准确MRI的重要性，SEMAC和CS-SEMAC能有效减少伪影。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001240"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001240",
+    "title_chinese": "在存在金属诱导几何畸变的情况下提高MRI空间准确度"
   },
   {
     "id": 266,
@@ -4785,7 +5050,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本前瞻性单中心研究评估深度学习加速重建的VIBE Dixon序列在肝脏脂肪定量中的可靠性。纳入60例患者（平均63.7岁），在1.5T上比较标准序列（15秒）与两种加速序列（10秒、6秒）的全肝脂肪信号分数（FSF）。结果显示加速序列肝脏分割与标准序列高度相关（ρ>0.975），FSF平均绝对误差<0.6%（ρ>0.92，P<0.001）。研究表明深度学习增强的加速MRI序列在低脂肪分数范围内可实现可靠的肝脏脂肪评估，同时显著缩短扫描时间。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001242"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001242",
+    "title_chinese": "前瞻性肿瘤学队列中深度学习加速与标准容积内插屏气检查Dixon序列间全肝肝脏脂肪定量的可靠性"
   },
   {
     "id": 267,
@@ -4803,7 +5069,8 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究通过优化可变翻转角（VRFA）方案降低金属伪影减影MRI的比吸收率（SAR）并缩短扫描时间。经体模和志愿者筛选最优变体后，在23例髋关节置换术患者中验证。VRFA在所有图像质量指标上非劣于标准恒定翻转角方案，同时显著降低SAR（PD-HBW-TSE等序列降幅达23%–40%，P≤0.001），并在HBW-TSE序列中实现15%–32%的扫描时间缩短，且不牺牲图像质量。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001249"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001249",
+    "title_chinese": "用于金属伪影消除磁共振成像中比吸收率降低的优化可变翻转角技术"
   },
   {
     "id": 268,
@@ -4821,6 +5088,7 @@
     "hindex": 136,
     "watchlist_matched": true,
     "highlight": "本研究结合免校准并行发射（pTx）技术与先进加速策略，在7T MRI上实现均匀、高分辨率、多对比度全脑成像。在10名健康志愿者和4名不同神经疾病患者（颞叶癫痫、脊髓小脑共济失调、脑淀粉样血管病、胶质母细胞瘤）中验证。定制序列在全脑范围显著改善图像均匀性、SNR和CNR，并提升定量参数重复性。该方案无需专业知识即可应用，25分钟内完成扫描，为7T MRI在神经放射学的常规临床使用铺平道路。",
-    "doi_url": "https://doi.org/10.1097/rli.0000000000001252"
+    "doi_url": "https://doi.org/10.1097/rli.0000000000001252",
+    "title_chinese": "常规应用准备就绪：使用“即插即用”pTx序列在短扫描时间内实现7 Tesla下均匀、高分辨率和多对比的全脑MRI"
   }
 ]
