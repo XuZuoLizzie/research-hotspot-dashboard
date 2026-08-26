@@ -1,5 +1,12 @@
 [
   {
+    "name": "Radiology: Artificial Intelligence",
+    "abbr": "Radiol Artif Intell",
+    "category": "imaging",
+    "impact_factor": 20.1,
+    "h_index": 56
+  },
+  {
     "name": "Radiology",
     "abbr": "Radiology",
     "category": "imaging",
@@ -7,88 +14,67 @@
     "h_index": 357
   },
   {
-    "name": "Radiology: Artificial Intelligence",
-    "abbr": "Radiology AI",
-    "category": "imaging",
-    "impact_factor": 20.1,
-    "h_index": 56
-  },
-  {
-    "name": "European Radiology",
-    "abbr": "Eur Radiol",
-    "category": "imaging",
-    "impact_factor": 6.0,
-    "h_index": 173
-  },
-  {
-    "name": "Investigative Radiology",
-    "abbr": "Invest Radiol",
-    "category": "imaging",
-    "impact_factor": 7.9,
-    "h_index": 136
-  },
-  {
     "name": "Medical Image Analysis",
-    "abbr": "MedIA",
+    "abbr": "Med Image Anal",
     "category": "imaging",
     "impact_factor": 14.0,
     "h_index": 201
   },
   {
     "name": "IEEE Transactions on Medical Imaging",
-    "abbr": "TMI",
+    "abbr": "IEEE Trans Med Imaging",
     "category": "imaging",
     "impact_factor": 12.4,
     "h_index": 283
   },
   {
-    "name": "Nature Medicine",
-    "abbr": "Nat Med",
-    "category": "clinical_general",
-    "impact_factor": 52.5,
-    "h_index": 676
-  },
-  {
-    "name": "The Lancet Digital Health",
-    "abbr": "Lancet Digit Health",
-    "category": "clinical_general",
-    "impact_factor": 25.5,
-    "h_index": 102
-  },
-  {
-    "name": "Journal of Nuclear Medicine",
-    "abbr": "JNM",
+    "name": "Diagnostic and Interventional Imaging",
+    "abbr": "Diagn Interv Imaging",
     "category": "imaging",
-    "impact_factor": 9.6,
-    "h_index": 255
+    "impact_factor": 11.1,
+    "h_index": 69
   },
   {
-    "name": "Magnetic Resonance in Medicine",
-    "abbr": "MRM",
+    "name": "JACC: Cardiovascular Imaging",
+    "abbr": "JACC Cardiovasc Imaging",
     "category": "imaging",
-    "impact_factor": 3.2,
-    "h_index": 262
+    "impact_factor": 10.0,
+    "h_index": 180
   },
   {
-    "name": "Journal of Magnetic Resonance Imaging",
-    "abbr": "JMRI",
+    "name": "European Journal of Nuclear Medicine and Molecular Imaging",
+    "abbr": "Eur J Nucl Med Mol Imaging",
     "category": "imaging",
-    "impact_factor": 4.3,
-    "h_index": 195
+    "impact_factor": 7.6,
+    "h_index": 200
   },
   {
-    "name": "American Journal of Roentgenology",
-    "abbr": "AJR",
+    "name": "Radiology: Imaging Cancer",
+    "abbr": "Radiol Imaging Cancer",
     "category": "imaging",
-    "impact_factor": 7.4,
-    "h_index": 232
+    "impact_factor": 7.2,
+    "h_index": 30
   },
   {
-    "name": "Imaging Neuroscience",
-    "abbr": "Imaging Neurosci",
+    "name": "Seminars in Nuclear Medicine",
+    "abbr": "Semin Nucl Med",
     "category": "imaging",
-    "impact_factor": 3.0,
-    "h_index": 13
+    "impact_factor": 6.6,
+    "h_index": 107
+  },
+  {
+    "name": "RadioGraphics",
+    "abbr": "RADIOGRAPHICS",
+    "category": "imaging",
+    "impact_factor": 6.2,
+    "h_index": 222
+  },
+  {
+    "name": "European Radiology",
+    "abbr": "Eur Radiol",
+    "category": "imaging",
+    "impact_factor": 6.0,
+    "h_index": 191
   },
   {
     "name": "Insights into Imaging",
@@ -96,5 +82,33 @@
     "category": "imaging",
     "impact_factor": 5.6,
     "h_index": 85
+  },
+  {
+    "name": "Computerized Medical Imaging and Graphics",
+    "abbr": "Comput Med Imaging Graph",
+    "category": "imaging",
+    "impact_factor": 5.5,
+    "h_index": 106
+  },
+  {
+    "name": "NeuroImage",
+    "abbr": "Neuroimage",
+    "category": "imaging",
+    "impact_factor": 5.3,
+    "h_index": 457
+  },
+  {
+    "name": "Clinical Nuclear Medicine",
+    "abbr": "Clin Nucl Med",
+    "category": "imaging",
+    "impact_factor": 9.6,
+    "h_index": 76
+  },
+  {
+    "name": "Investigative Radiology",
+    "abbr": "Invest Radiol",
+    "category": "imaging",
+    "impact_factor": 7.9,
+    "h_index": 136
   }
 ]
