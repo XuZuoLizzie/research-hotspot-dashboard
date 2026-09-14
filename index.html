@@ -1,9 +1,65 @@
-<!doctype html><html lang="zh-CN"><head><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSXS5LJTL2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="访问当前仪表板和历史归档版本。">
+  <title>看板首页</title>
+  <link rel="stylesheet" href="./css/gateway.css">
+  <script src="./js/gateway.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳转到主要内容</a>
 
-  gtag('config', 'G-XSXS5LJTL2');
-</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>医学影像文献智能分析仪表板</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@2.0.8/css/dataTables.dataTables.min.css"><link rel="stylesheet" href="css/dashboard.css"><script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/datatables.net@2.0.8/js/dataTables.min.js"></script><script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script><script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.min.js"></script></head><body><div class="app"><aside><h1>医学影像文献智能分析</h1><div class="small">2026年7月</div><div class="control utility-control"><button id="theme" class="secondary">切换浅色 / 深色</button></div><div class="control"><label>全文检索</label><input id="q"></div><div class="control"><label>期刊</label><select id="journal"><option value="">全部期刊</option></select></div><div class="control"><label>影像模态</label><select id="modality"><option value="">全部模态</option></select></div><div class="control"><label>研究方向</label><select id="future"><option value="">全部研究方向</option></select></div><div class="control"><label>解剖/疾病领域</label><select id="anatomy"><option value="">全部领域</option></select></div><div class="control"><label>证据成熟度</label><select id="maturity"><option value="">全部阶段</option></select></div><div id="status" class="small filter-status"></div><div class="filter-actions"><span class="small">清除当前全部筛选条件</span><button id="reset" class="reset-button" type="button" disabled aria-disabled="true" title="当前没有已应用的筛选条件">↺ 重置筛选</button></div></aside><main><section class="kpis"><div class="card kpi"><div id="kN" class="num">0</div><div class="label">当前文章数</div></div><div class="card kpi"><div id="kJ" class="num">0</div><div class="label">期刊数</div></div><div class="card kpi"><div id="kA" class="num">0</div><div class="label">含摘要文章</div></div><div class="card kpi"><div id="kW" class="num">0</div><div class="label">Watchlist 匹配文章</div></div><div class="card kpi"><div id="kIF" class="num">NA</div><div class="label">平均影响因子</div></div></section><section class="card panel literature-panel"><div class="panel-heading"><div><h2>文献卡片</h2><p>优先查看当前筛选结果中的文献。</p></div><span id="articleCount" class="result-count"></span></div><div id="articles" class="articles"></div></section><section class="grid"><div class="card panel"><h2>总体洞察</h2><div id="summary" class="summary"></div><div id="themeBar" class="chart"></div></div><div class="card panel"><h2>影像模态构成</h2><div id="modalityBar" class="chart"></div></div><div class="card panel"><h2>研究方向 × 期刊</h2><p>点击热力图单元格可筛选。</p><div id="directionJournal" class="chart tall"></div></div><div class="card panel"><h2>期刊 H-index × 期刊影响因子</h2><p>H-index代表期刊长期影响力；影响因子代表期刊最近引用量。</p><div id="journalMetrics" class="chart tall"></div></div><div class="card panel wide"><h2>时间 × 期刊影响因子</h2><p>横跨整行展示时间分布和期刊影响力。</p><div id="timeline" class="chart tall"></div></div><div class="card panel"><h2>英文关键词云图</h2><p>Dynamic word cloud from filtered English titles.</p><div id="wordCloud" class="cloud"></div></div><div class="card panel"><h2>证据成熟度路径</h2><p>由方法开发 → 技术验证 → 临床数据验证 → 临床转化的概念路径。</p><div id="maturityFlow" class="chart"></div><div class="note">注：连线表示证据成熟度框架中的相邻阶段关系，并非同一研究的纵向追踪。</div></div></section></main></div><script src="js/dashboard.js"></script></body></html>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="仪表板门户首页">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </span>
+        <span><strong>仪表板门户</strong><small>版本访问中心</small></span>
+      </a>
+      <span class="deployment-state"><span aria-hidden="true">✓</span> 已适配静态部署</span>
+    </header>
+
+    <main id="main-content" class="hero">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="status-pill"><span aria-hidden="true">✓</span> 当前版本可用</div>
+        <h1 id="page-title">医学文献智能分析看板</h1>
+        <p class="lead">动态追踪、分析并可视化展示全球高分医学影像期刊发表的最新研究。</p>
+        <div class="actions">
+          <a id="current-dashboard-link" class="button button-primary" href="./current/">打开最版版本 <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="#archive">浏览历史版本 <span aria-hidden="true">▣</span></a>
+        </div>
+        <ul class="features" aria-label="门户功能">
+          <li><span aria-hidden="true">◷</span> 当前版本</li>
+          <li><span aria-hidden="true">□</span> 日期快照</li>
+          <li><span aria-hidden="true">↗</span> 浏览链接</li>
+        </ul>
+      </section>
+
+      <section id="archive" class="archive-card" aria-labelledby="archive-title">
+        <div class="archive-head">
+          <div class="archive-title-row">
+            <div><h2 id="archive-title">历史归档版本</h2><p>选择一个历史版本进行访问。</p></div>
+            <span id="release-count" class="release-count">0 个版本</span>
+          </div>
+          <label class="search-box">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <span class="sr-only">搜索历史版本</span>
+            <input id="release-search" type="search" placeholder="按日期搜索" autocomplete="off">
+          </label>
+        </div>
+        <div id="release-list" class="release-list" aria-live="polite"></div>
+        <noscript><p class="empty-state">需要启用 JavaScript 才能显示归档列表。您仍可通过 versions 目录中的直接链接访问历史版本。</p></noscript>
+      </section>
+    </main>
+
+    <footer><span>看板首页</span><span>当前版本及归档历史版本</span></footer>
+  </div>
+</body>
+</html>
