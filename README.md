@@ -7,8 +7,8 @@ The dashboard analyzes article titles and abstracts, presents structured Chinese
 ## Live site
 
 
-- **Current dashboard:** `https://xuzuolizzie.github.io/research-hotspot-dashboard/`
-- **Latest archived release:** `https://xuzuolizzie.github.io/research-hotspot-dashboard/latest/`
+- **Gateway:** `https://xuzuolizzie.github.io/research-hotspot-dashboard/`
+- **Current release:** `https://xuzuolizzie.github.io/research-hotspot-dashboard/current/`
 - **Version archive:** `https://xuzuolizzie.github.io/research-hotspot-dashboard/versions/`
 
 ## Features
@@ -58,19 +58,15 @@ literature-dashboard/
 ├── README.md
 ├── index.html
 ├── css/
-│   └── dashboard.css
+│   └── gateway.css
 ├── js/
-│   └── dashboard.js
-├── data/
-│   ├── articles.json
-│   └── journals.json
-├── latest/
+│   └── gateway.js
+├── current/
 │   ├── index.html
 │   ├── css/
 │   ├── js/
 │   └── data/
 └── versions/
-    ├── index.html
     ├── YYYY-MM-DD/
     └── YYYY-MM-DD/
 ```
