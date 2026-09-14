@@ -526,16 +526,39 @@ function cloud(a) {
 
 function flow(a) {
   const stages = [
-    '算法/方法开发',
-    '前临床/技术验证',
-    '临床数据验证',
-    '临床验证与转化'
+    '发现性/临床前研究',
+    '算法、方法或研究方案开发',
+    '回顾性或探索性临床研究',
+    '前瞻性、纵向或多中心验证',
+    '干预性临床试验与治疗验证',
+    '证据整合、指南或真实世界证据'
+  ];
+  const displayLabels = [
+    '1. 发现性/<br>临床前研究',
+    '2. 算法、方法或<br>研究方案开发',
+    '3. 回顾性或探索性<br>临床研究',
+    '4. 前瞻性、纵向或<br>多中心验证',
+    '5. 干预性临床试验<br>与治疗验证',
+    '6. 证据整合、指南或<br>真实世界证据'
   ];
 
-  const n = cnt(a, 'maturity');
-
-  const vals = stages.map(x =>
-    n[x] || 0
+  // Backward compatibility for records that still use the old four-stage taxonomy.
+  const legacyStageMap = {
+    '算法/方法开发': stages[1],
+    '前临床/技术验证': stages[0],
+    '临床数据验证': stages[2],
+    '临床验证与转化': stages[3]
+  };
+  const normalizedCounts = a.reduce((result, article) => {
+    const stage = legacyStageMap[article.maturity] || article.maturity;
+    if (stages.includes(stage)) {
+      result[stage] = (result[stage] || 0) + 1;
+    }
+    return result;
+  }, {});
+  const vals = stages.map(stage => normalizedCounts[stage] || 0);
+  const linkValues = vals.slice(1).map((value, index) =>
+    Math.max(0.5, (vals[index] + value) / 2)
   );
 
   Plotly.react(
@@ -543,41 +566,69 @@ function flow(a) {
     [{
       type: 'sankey',
       orientation: 'h',
+      arrangement: 'snap',
       node: {
-        label: stages.map(
-          (x, i) => `${x}<br>${vals[i]}篇`
+        label: displayLabels.map(
+          (label, index) => `${label}<br><b>${vals[index]}篇</b>`
         ),
-        color: P.slice(0, 4),
-        pad: 25,
-        thickness: 22
+        customdata: stages.map(
+          (stage, index) => [stage, vals[index]]
+        ),
+        hovertemplate:
+          '%{customdata[0]}<br>%{customdata[1]}篇<extra></extra>',
+        color: P.slice(0, 6),
+        pad: 28,
+        thickness: 24,
+        line: {
+          color: 'rgba(255,255,255,.32)',
+          width: 1
+        }
       },
       link: {
-        source: [0, 1, 2],
-        target: [1, 2, 3],
-        value: [
-          Math.max(1, vals[1]),
-          Math.max(1, vals[2]),
-          Math.max(1, vals[3])
-        ],
+        source: [0, 1, 2, 3, 4],
+        target: [1, 2, 3, 4, 5],
+        value: linkValues,
+        customdata: vals.slice(1),
+        hovertemplate:
+          '工作流进入下一阶段：%{customdata}篇<extra></extra>',
         color: [
-          'rgba(85,167,255,.28)',
-          'rgba(39,211,196,.28)',
-          'rgba(255,180,84,.28)'
+          'rgba(85,167,255,.25)',
+          'rgba(39,211,196,.25)',
+          'rgba(255,180,84,.25)',
+          'rgba(255,114,159,.25)',
+          'rgba(168,140,255,.25)'
         ]
       }
     }],
     lay({
+      font: {
+        color: ink(),
+        family: 'Inter,Microsoft YaHei',
+        size: 12
+      },
       margin: {
-        l: 15,
-        r: 15,
-        t: 20,
-        b: 20
+        l: 20,
+        r: 20,
+        t: 25,
+        b: 25
       }
     }),
     {
-      responsive: true
+      responsive: true,
+      displayModeBar: false
     }
   );
+
+  const chart = $('maturityFlow');
+  chart.removeAllListeners?.('plotly_click');
+  chart.on?.('plotly_click', event => {
+    const point = event.points?.[0];
+    if (point?.pointNumber == null || point.source != null) {
+      return;
+    }
+    $('maturity').value = stages[point.pointNumber];
+    update();
+  });
 }
 
 function cards(a) {
