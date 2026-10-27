@@ -110,5 +110,12 @@
     "category": "imaging",
     "impact_factor": 7.9,
     "h_index": 136
+  },
+  {
+    "name": "Pediatrics",
+    "abbr": "Pediatrics",
+    "category": "imaging",
+    "impact_factor": 6.4,
+    "h_index": 422
   }
 ]
