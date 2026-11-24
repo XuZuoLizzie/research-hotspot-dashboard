@@ -1,1 +1,215 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>医学影像文献智能分析仪表板</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@2.0.8/css/dataTables.dataTables.min.css"><link rel="stylesheet" href="css/dashboard.css"><script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/datatables.net@2.0.8/js/dataTables.min.js"></script><script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script><script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.min.js"></script></head><body><div class="app"><aside><h1>医学影像文献智能分析</h1><div class="small">2026年10月</div><div class="control utility-control"><button id="theme" class="secondary">切换浅色 / 深色</button></div><div class="control"><label>全文检索</label><input id="q"></div><div class="control"><label>期刊</label><select id="journal"><option value="">全部期刊</option></select></div><div class="control"><label>影像模态</label><select id="modality"><option value="">全部模态</option></select></div><div class="control"><label>研究方向</label><select id="future"><option value="">全部研究方向</option></select></div><div class="control"><label>解剖/疾病领域</label><select id="anatomy"><option value="">全部领域</option></select></div><div class="control"><label>证据成熟度</label><select id="maturity"><option value="">全部阶段</option></select></div><div id="status" class="small filter-status"></div><div class="filter-actions"><span class="small">清除当前全部筛选条件</span><button id="reset" class="reset-button" type="button" disabled aria-disabled="true" title="当前没有已应用的筛选条件">↺ 重置筛选</button></div></aside><main><section class="kpis"><div class="card kpi"><div id="kN" class="num">0</div><div class="label">当前文章数</div></div><div class="card kpi"><div id="kJ" class="num">0</div><div class="label">期刊数</div></div><div class="card kpi"><div id="kA" class="num">0</div><div class="label">含摘要文章</div></div><div class="card kpi"><div id="kW" class="num">0</div><div class="label">Watchlist 匹配文章</div></div><div class="card kpi"><div id="kIF" class="num">NA</div><div class="label">平均影响因子</div></div></section><section class="card panel literature-panel"><div class="panel-heading"><div><h2>文献卡片</h2><p>优先查看当前筛选结果中的文献。</p></div><span id="articleCount" class="result-count"></span></div><div id="articles" class="articles"></div></section><section class="grid"><div class="card panel"><h2>总体洞察</h2><div id="summary" class="summary"></div><div id="themeBar" class="chart"></div></div><div class="card panel"><h2>影像模态构成</h2><div id="modalityBar" class="chart"></div></div><div class="card panel"><h2>研究方向 × 期刊</h2><p>点击热力图单元格可筛选。</p><div id="directionJournal" class="chart tall"></div></div><div class="card panel"><h2>期刊 H-index × 期刊影响因子</h2><p>H-index代表期刊长期影响力；影响因子代表期刊最近引用量。</p><div id="journalMetrics" class="chart tall"></div></div><div class="card panel wide"><h2>时间 × 期刊影响因子</h2><p>横跨整行展示时间分布和期刊影响力。</p><div id="timeline" class="chart tall"></div></div><div class="card panel"><h2>英文关键词云图</h2><p>Dynamic word cloud from filtered English titles.</p><div id="wordCloud" class="cloud"></div></div><div class="card panel wide maturity-panel"><h2>研究证据成熟度工作流</h2><p>从发现性研究到证据整合的六阶段 Sankey 工作流。点击阶段节点可按证据成熟度筛选。</p><div id="maturityFlow" class="chart maturity-flow"></div><div class="note">注：节点显示当前筛选结果中的文章数；连线表示框架中的相邻阶段关系，并非同一研究的纵向追踪。</div></div></section></main></div><script src="js/dashboard.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>医学影像文献智能分析仪表板</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@2.0.8/css/dataTables.dataTables.min.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/datatables.net@2.0.8/js/dataTables.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.min.js"></script>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <h1>医学影像文献智能分析</h1>
+    <div id="coverage" class="small">正在载入数据…</div>
+
+    <div class="control utility-control">
+      <button id="theme" class="secondary" type="button">切换浅色 / 深色</button>
+    </div>
+
+    <div class="control">
+      <label for="q">全文检索</label>
+      <input id="q" type="search" placeholder="标题 / 摘要 / 要点，空格分隔多个词" autocomplete="off">
+    </div>
+
+    <div class="control">
+      <label>影响因子 <span id="ifLabel" class="label-value"></span></label>
+      <div class="range-pair">
+        <input id="ifMin" type="range" step="0.1" aria-label="影响因子下限">
+        <input id="ifMax" type="range" step="0.1" aria-label="影响因子上限">
+      </div>
+    </div>
+
+    <div class="control">
+      <label>发表日期</label>
+      <div class="date-pair">
+        <input id="dateFrom" type="date" aria-label="起始日期">
+        <span>至</span>
+        <input id="dateTo" type="date" aria-label="截止日期">
+      </div>
+    </div>
+
+    <div class="control toggles">
+      <label class="check"><input id="absOnly" type="checkbox"> 仅含摘要</label>
+      <label class="check"><input id="favOnly" type="checkbox"> 仅看收藏（<span id="favCount">0</span>）</label>
+    </div>
+
+    <div id="facets" class="facets"></div>
+
+    <div id="status" class="small filter-status"></div>
+    <div class="filter-actions">
+      <span class="small">清除当前全部筛选条件</span>
+      <button id="reset" class="reset-button" type="button" disabled aria-disabled="true">↺ 重置筛选</button>
+    </div>
+    <div class="control">
+      <button id="share" class="secondary" type="button">🔗 复制当前视图链接</button>
+    </div>
+  </aside>
+
+  <main>
+    <section id="chips" class="chipbar" aria-label="已应用的筛选条件"></section>
+
+    <section class="kpis">
+      <div class="card kpi"><div id="kN" class="num">0</div><div class="label">当前文章数</div></div>
+      <div class="card kpi"><div id="kJ" class="num">0</div><div class="label">期刊数</div></div>
+      <button id="kpiAbs" class="card kpi kpi-button" type="button" title="点击切换：仅显示含摘要文章">
+        <div id="kA" class="num">0</div><div class="label">含摘要文章 · 点击筛选</div>
+      </button>
+      <div class="card kpi"><div id="kP" class="num">0%</div><div class="label">前瞻性/干预/证据整合占比</div></div>
+      <div class="card kpi"><div id="kIF" class="num">NA</div><div class="label">平均影响因子</div></div>
+    </section>
+
+    <section class="card panel literature-panel">
+      <div class="panel-heading">
+        <div>
+          <h2>文献列表</h2>
+          <p>点击标题查看详情；点击标签可加入筛选；☆ 收藏保存在本机浏览器。</p>
+        </div>
+        <span id="articleCount" class="result-count"></span>
+      </div>
+      <div class="toolbar">
+        <label class="inline">排序
+          <select id="sort">
+            <option value="date-desc">最新优先</option>
+            <option value="date-asc">最早优先</option>
+            <option value="if-desc">影响因子 高→低</option>
+            <option value="journal">期刊 A→Z</option>
+            <option value="relevance">检索相关度</option>
+          </select>
+        </label>
+        <div class="segmented" role="group" aria-label="视图">
+          <button type="button" data-view="cards" class="is-active">卡片</button>
+          <button type="button" data-view="table">表格</button>
+        </div>
+        <button id="export" class="secondary compact" type="button">⬇ 导出当前结果 CSV</button>
+      </div>
+      <div id="articles" class="articles"></div>
+      <div id="moreWrap" class="more-wrap"><button id="more" class="secondary compact" type="button">加载更多</button></div>
+      <div id="tableWrap" class="table-wrap" hidden><table id="tbl" class="display compact" style="width:100%"></table></div>
+    </section>
+
+    <section class="grid">
+      <div class="card panel">
+        <h2>总体洞察 · 研究主题</h2>
+        <div id="summary" class="summary"></div>
+        <p class="hint">点击条形可多选筛选；条形长度为“除本维度外”其余筛选条件下的文章数。</p>
+        <div id="themeBar" class="chart"></div>
+      </div>
+
+      <div class="card panel">
+        <h2>影像模态构成</h2>
+        <p class="hint">点击条形可多选筛选。</p>
+        <div id="modalityBar" class="chart"></div>
+      </div>
+
+      <div class="card panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>交叉分析热力图</h2>
+            <p>自由选择两个维度；点击单元格同时筛选两个维度的取值。</p>
+          </div>
+          <div class="panel-controls">
+            <label class="inline">行 <select id="pivotY"></select></label>
+            <label class="inline">列 <select id="pivotX"></select></label>
+            <label class="inline">数值
+              <select id="pivotNorm">
+                <option value="count">篇数</option>
+                <option value="row">行内占比</option>
+                <option value="col">列内占比</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div id="pivot" class="chart tall"></div>
+      </div>
+
+      <div class="card panel">
+        <h2>模态 → 解剖 旭日图</h2>
+        <p class="hint">点击扇区筛选对应路径；再次点击同一扇区取消。</p>
+        <div id="sunburst" class="chart tall"></div>
+      </div>
+
+      <div class="card panel">
+        <h2>期刊 H-index × 影响因子</h2>
+        <p class="hint">气泡大小为当前筛选文章数；点击气泡筛选期刊。</p>
+        <div id="journalMetrics" class="chart tall"></div>
+      </div>
+
+      <div class="card panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>时间 × 期刊影响因子</h2>
+            <p>每个点为一篇文章（为减少重叠，点位做了轻微抖动：日期 ±5 天、IF ±0.2；悬停显示真实值）。点击打开详情；用工具栏“框选/套索”圈选文章进行筛选；拖动下方滑块缩放时间范围。</p>
+          </div>
+          <div class="panel-controls">
+            <label class="inline">着色 <select id="colorBy"></select></label>
+          </div>
+        </div>
+        <div id="timeline" class="chart tall"></div>
+      </div>
+
+      <div class="card panel wide">
+        <div class="panel-head">
+          <div>
+            <h2>多维流向（平行类别图）</h2>
+            <p>线条颜色表示证据成熟度；点击类别块筛选，拖动类别块可调整顺序。</p>
+          </div>
+          <div class="panel-controls">
+            <label class="inline">维度组合 <select id="flowSel"></select></label>
+          </div>
+        </div>
+        <div id="flow" class="chart tall"></div>
+      </div>
+
+      <div class="card panel wide">
+        <h2>英文关键词云图</h2>
+        <p class="hint">基于当前筛选结果的英文标题；点击词语加入/移出全文检索。</p>
+        <div id="wordCloud" class="cloud"></div>
+      </div>
+
+      <div class="card panel wide maturity-panel">
+        <h2>研究证据成熟度工作流</h2>
+        <p class="hint">点击阶段节点可多选筛选证据成熟度。</p>
+        <div id="maturityFlow" class="chart maturity-flow"></div>
+        <div class="note">注：节点显示当前筛选结果中的文章数；连线表示框架中的相邻阶段关系，并非同一研究的纵向追踪。</div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <div class="modal-head">
+      <div id="mMeta" class="meta"></div>
+      <div class="modal-actions">
+        <button id="mPrev" type="button" class="icon-btn" title="上一篇（←）">‹</button>
+        <span id="mPos" class="small"></span>
+        <button id="mNext" type="button" class="icon-btn" title="下一篇（→）">›</button>
+        <button id="mFav" type="button" class="icon-btn" title="收藏">☆</button>
+        <button type="button" class="icon-btn" data-close title="关闭（Esc）">✕</button>
+      </div>
+    </div>
+    <div id="mBody" class="modal-body"></div>
+  </div>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
