@@ -3,6 +3,12 @@ const portalConfig = {
   currentUrl: "./current/",
   releases: [
     {
+      date: "2026-10-27",
+      label: "2026年9月",
+      url: "./versions/2026-10-27/",
+      note: "2026年9月研究热点分析"
+    },
+    {
       date: "2026-09-14",
       label: "2026年8月",
       url: "./versions/2026-09-14/",
