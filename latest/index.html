@@ -4,10 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>医学影像文献智能分析仪表板</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@2.0.8/css/dataTables.dataTables.min.css">
   <link rel="stylesheet" href="css/dashboard.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/datatables.net@2.0.8/js/dataTables.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.min.js"></script>
@@ -16,7 +13,7 @@
 <div class="app">
   <aside>
     <h1>医学影像文献智能分析</h1>
-    <div id="coverage" class="small">正在载入数据…</div>
+    <div class="small">2026年10月</div>
 
     <div class="control utility-control">
       <button id="theme" class="secondary" type="button">切换浅色 / 深色</button>
@@ -46,7 +43,6 @@
 
     <div class="control toggles">
       <label class="check"><input id="absOnly" type="checkbox"> 仅含摘要</label>
-      <label class="check"><input id="favOnly" type="checkbox"> 仅看收藏（<span id="favCount">0</span>）</label>
     </div>
 
     <div id="facets" class="facets"></div>
@@ -54,10 +50,7 @@
     <div id="status" class="small filter-status"></div>
     <div class="filter-actions">
       <span class="small">清除当前全部筛选条件</span>
-      <button id="reset" class="reset-button" type="button" disabled aria-disabled="true">↺ 重置筛选</button>
-    </div>
-    <div class="control">
-      <button id="share" class="secondary" type="button">🔗 复制当前视图链接</button>
+      <button id="reset" class="reset-button" type="button" disabled aria-disabled="true" title="当前没有已应用的筛选条件">↺ 重置筛选</button>
     </div>
   </aside>
 
@@ -77,30 +70,12 @@
     <section class="card panel literature-panel">
       <div class="panel-heading">
         <div>
-          <h2>文献列表</h2>
-          <p>点击标题查看详情；点击标签可加入筛选；☆ 收藏保存在本机浏览器。</p>
+          <h2>文献卡片</h2>
+          <p>优先查看当前筛选结果中的文献。</p>
         </div>
         <span id="articleCount" class="result-count"></span>
       </div>
-      <div class="toolbar">
-        <label class="inline">排序
-          <select id="sort">
-            <option value="date-desc">最新优先</option>
-            <option value="date-asc">最早优先</option>
-            <option value="if-desc">影响因子 高→低</option>
-            <option value="journal">期刊 A→Z</option>
-            <option value="relevance">检索相关度</option>
-          </select>
-        </label>
-        <div class="segmented" role="group" aria-label="视图">
-          <button type="button" data-view="cards" class="is-active">卡片</button>
-          <button type="button" data-view="table">表格</button>
-        </div>
-        <button id="export" class="secondary compact" type="button">⬇ 导出当前结果 CSV</button>
-      </div>
       <div id="articles" class="articles"></div>
-      <div id="moreWrap" class="more-wrap"><button id="more" class="secondary compact" type="button">加载更多</button></div>
-      <div id="tableWrap" class="table-wrap" hidden><table id="tbl" class="display compact" style="width:100%"></table></div>
     </section>
 
     <section class="grid">
@@ -154,7 +129,7 @@
         <div class="panel-head">
           <div>
             <h2>时间 × 期刊影响因子</h2>
-            <p>每个点为一篇文章（为减少重叠，点位做了轻微抖动：日期 ±5 天、IF ±0.2；悬停显示真实值）。点击打开详情；用工具栏“框选/套索”圈选文章进行筛选；拖动下方滑块缩放时间范围。</p>
+            <p>每个点为一篇文章（为减少重叠，点位做了轻微抖动：日期 ±5 天、IF ±0.2；悬停显示真实值）。点击打开详情；用工具栏“框选/套索”圈选文章进行筛选。</p>
           </div>
           <div class="panel-controls">
             <label class="inline">着色 <select id="colorBy"></select></label>
@@ -201,7 +176,6 @@
         <button id="mPrev" type="button" class="icon-btn" title="上一篇（←）">‹</button>
         <span id="mPos" class="small"></span>
         <button id="mNext" type="button" class="icon-btn" title="下一篇（→）">›</button>
-        <button id="mFav" type="button" class="icon-btn" title="收藏">☆</button>
         <button type="button" class="icon-btn" data-close title="关闭（Esc）">✕</button>
       </div>
     </div>

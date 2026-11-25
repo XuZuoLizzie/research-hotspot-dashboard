@@ -3,7 +3,6 @@
  * 医学影像文献智能分析仪表板 —— 纯静态前端（无服务器端依赖）
  * 数据：data/articles.json + data/journals.json（fetch）；
  *       若以 file:// 直接打开导致 fetch 失败，则回退加载 data/bundle.js（可选）。
- * 状态：所有筛选条件保存在 URL hash 中，可直接复制链接分享当前视图。
  */
 
 /* ------------------------------------------------------------------ */
@@ -49,12 +48,9 @@ const FLOWS = {
   'journal,theme,maturity': '期刊 → 主题 → 成熟度',
   'modality,future,maturity': '模态 → 方向 → 成熟度'
 };
-const PAGE = 24;
-const FAV_KEY = 'litdash:favorites';
-const DEFAULTS = { sort: 'date-desc', view: 'cards', pivotX: 'future', pivotY: 'journal', pivotNorm: 'count', colorBy: 'future', flow: 'theme,future,maturity' };
+const MAX_CARDS = 120;
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
-const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
 const normJ = s => String(s || '').normalize('NFKC').replace(/[\u2010-\u2015\u2212]/g, '-').replace(/\s+/g, ' ').trim().toLowerCase();
 const hashStr = s => { let h = 2166136261; for (const c of String(s)) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
@@ -90,20 +86,13 @@ function titleHTML(s) {
 }
 function plain(s) { const d = document.createElement('div'); d.innerHTML = titleHTML(s); return d.textContent.trim(); }
 
+/* DOI 规范化：支持纯 DOI、https://doi.org/…、http://dx.doi.org/… 以及仅含 DOI 的 doi_url */
 function doiInfo(a) {
   const doi = String(a.doi || '').trim().replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, '');
   let url = String(a.doi_url || '').trim();
   if (url && !/^https?:\/\//i.test(url)) url = `https://doi.org/${encodeURI(url)}`;
   if (!url && doi) url = `https://doi.org/${encodeURI(doi)}`;
   return { doi, url: /^https?:\/\//i.test(url) ? url : '' };
-}
-
-/* 检索词高亮：在原始文本上切分后再转义，避免破坏 HTML 实体 */
-function hl(raw, toks) {
-  const text = String(raw ?? '');
-  if (!toks.length) return esc(text);
-  const re = new RegExp(`(${toks.map(reEsc).join('|')})`, 'gi');
-  return text.split(re).map((part, i) => (i % 2 ? `<mark>${esc(part)}</mark>` : esc(part))).join('');
 }
 
 /* ------------------------------------------------------------------ */
@@ -115,9 +104,6 @@ const JMETA = new Map();      // normalized name -> journal meta
 const ABBR2NAME = new Map();
 const ORDER = {};             // dim -> ordered values
 let IF_MIN = 0, IF_MAX = 0, DATE_MIN = '', DATE_MAX = '';
-let favorites = new Set();
-try { favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]')); } catch (e) { favorites = new Set(); }
-let dt = null;
 let currentList = [];
 let modalIndex = -1;
 let chipActions = [];
@@ -127,8 +113,9 @@ const state = {
   q: '',
   f: Object.fromEntries(DIMS.map(d => [d.key, new Set()])),
   ifMin: 0, ifMax: 0, dateFrom: '', dateTo: '',
-  absOnly: false, favOnly: false, ids: null,
-  shown: PAGE, ...DEFAULTS
+  absOnly: false, ids: null,
+  pivotX: 'future', pivotY: 'journal', pivotNorm: 'count',
+  colorBy: 'future', flow: 'theme,future,maturity'
 };
 
 const abbr = name => JMETA.get(normJ(name))?.abbr || name;
@@ -178,7 +165,6 @@ function pass(a, skip, toks) {
   if (state.dateFrom && a.date < state.dateFrom) return false;
   if (state.dateTo && a.date > state.dateTo) return false;
   if (state.absOnly && !a.abstract) return false;
-  if (state.favOnly && !favorites.has(a.ID)) return false;
   if (state.ids && !state.ids.has(a.ID)) return false;
   for (const { key } of DIMS) {
     if (key === skip) continue;
@@ -190,20 +176,20 @@ function pass(a, skip, toks) {
 const listExcept = (dim, toks) => A.filter(a => pass(a, dim, toks));
 
 function anyFilter() {
-  return Boolean(state.q || ifActive() || state.dateFrom || state.dateTo || state.absOnly || state.favOnly || state.ids ||
+  return Boolean(state.q || ifActive() || state.dateFrom || state.dateTo || state.absOnly || state.ids ||
     DIMS.some(d => state.f[d.key].size));
 }
 
 function toggle(dim, v) {
   const s = state.f[dim];
   if (s.has(v)) s.delete(v); else s.add(v);
-  changed();
+  update();
 }
 /* 同时设置多个维度为单值；若与当前完全一致则清除（用于热力图/旭日图） */
 function setExact(pairs) {
   const same = pairs.every(([k, v]) => state.f[k].size === 1 && state.f[k].has(v));
   pairs.forEach(([k, v]) => { state.f[k] = same ? new Set() : new Set([v]); });
-  changed();
+  update();
 }
 function toggleToken(word) {
   const toks = state.q.split(/\s+/).filter(Boolean);
@@ -211,64 +197,16 @@ function toggleToken(word) {
   if (i >= 0) toks.splice(i, 1); else toks.push(word);
   state.q = toks.join(' ');
   $('q').value = state.q;
-  changed();
+  update();
 }
-function changed() { state.shown = PAGE; update(); }
 
 function resetAll() {
-  state.q = ''; $('q').value = '';
+  state.q = '';
   DIMS.forEach(d => state.f[d.key].clear());
   state.ifMin = IF_MIN; state.ifMax = IF_MAX;
   state.dateFrom = ''; state.dateTo = '';
-  state.absOnly = false; state.favOnly = false; state.ids = null;
-  syncControls();
-  changed();
-}
-
-/* ------------------------------------------------------------------ */
-/* URL hash 状态                                                       */
-/* ------------------------------------------------------------------ */
-function writeHash() {
-  const p = new URLSearchParams();
-  if (state.q) p.set('q', state.q);
-  DIMS.forEach(d => { const s = state.f[d.key]; if (s.size) p.set(d.key, [...s].join('|')); });
-  if (state.ifMin > IF_MIN) p.set('ifmin', state.ifMin);
-  if (state.ifMax < IF_MAX) p.set('ifmax', state.ifMax);
-  if (state.dateFrom) p.set('from', state.dateFrom);
-  if (state.dateTo) p.set('to', state.dateTo);
-  if (state.absOnly) p.set('abs', '1');
-  if (state.favOnly) p.set('fav', '1');
-  if (state.ids) p.set('ids', [...state.ids].join(','));
-  Object.keys(DEFAULTS).forEach(k => { if (state[k] !== DEFAULTS[k]) p.set(k, state[k]); });
-  const h = p.toString();
-  history.replaceState(null, '', h ? `#${h}` : location.pathname + location.search);
-}
-function readHash() {
-  const p = new URLSearchParams(location.hash.slice(1));
-  state.q = p.get('q') || '';
-  DIMS.forEach(d => {
-    const v = p.get(d.key);
-    state.f[d.key] = new Set(v ? v.split('|').filter(x => ORDER[d.key].includes(x)) : []);
-  });
-  const lo = parseFloat(p.get('ifmin')), hi = parseFloat(p.get('ifmax'));
-  state.ifMin = Number.isFinite(lo) ? Math.max(IF_MIN, lo) : IF_MIN;
-  state.ifMax = Number.isFinite(hi) ? Math.min(IF_MAX, hi) : IF_MAX;
-  const okDate = s => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
-  state.dateFrom = okDate(p.get('from')) ? p.get('from') : '';
-  state.dateTo = okDate(p.get('to')) ? p.get('to') : '';
-  state.absOnly = p.get('abs') === '1';
-  state.favOnly = p.get('fav') === '1';
-  const ids = p.get('ids');
-  const valid = new Set(A.map(a => String(a.ID)));
-  state.ids = ids ? new Set(ids.split(',').filter(x => valid.has(x)).map(x => A.find(a => String(a.ID) === x).ID)) : null;
-  if (state.ids && !state.ids.size) state.ids = null;
-  const allowed = {
-    sort: ['date-desc', 'date-asc', 'if-desc', 'journal', 'relevance'], view: ['cards', 'table'],
-    pivotX: DIMS.map(d => d.key), pivotY: DIMS.map(d => d.key), pivotNorm: ['count', 'row', 'col'],
-    colorBy: DIMS.map(d => d.key).filter(k => k !== 'journal'), flow: Object.keys(FLOWS)
-  };
-  Object.keys(DEFAULTS).forEach(k => { const v = p.get(k); state[k] = allowed[k].includes(v) ? v : DEFAULTS[k]; });
-  if (state.pivotX === state.pivotY) { state.pivotX = DEFAULTS.pivotX; state.pivotY = DEFAULTS.pivotY; }
+  state.absOnly = false; state.ids = null;
+  update();
 }
 
 /* ------------------------------------------------------------------ */
@@ -283,13 +221,9 @@ function syncControls() {
   $('dateFrom').value = state.dateFrom || DATE_MIN;
   $('dateTo').value = state.dateTo || DATE_MAX;
   $('absOnly').checked = state.absOnly;
-  $('favOnly').checked = state.favOnly;
   $('kpiAbs').classList.toggle('is-on', state.absOnly);
-  $('sort').value = state.sort;
   $('pivotX').value = state.pivotX; $('pivotY').value = state.pivotY; $('pivotNorm').value = state.pivotNorm;
   $('colorBy').value = state.colorBy; $('flowSel').value = state.flow;
-  document.querySelectorAll('.segmented button').forEach(b => b.classList.toggle('is-active', b.dataset.view === state.view));
-  $('favCount').textContent = favorites.size;
 }
 
 function renderFacets(toks) {
@@ -320,7 +254,6 @@ function renderChips() {
   if (ifActive()) add(`影响因子：${state.ifMin.toFixed(1)}–${state.ifMax.toFixed(1)}`, () => { state.ifMin = IF_MIN; state.ifMax = IF_MAX; });
   if (state.dateFrom || state.dateTo) add(`日期：${state.dateFrom || DATE_MIN} 至 ${state.dateTo || DATE_MAX}`, () => { state.dateFrom = ''; state.dateTo = ''; });
   if (state.absOnly) add('仅含摘要', () => { state.absOnly = false; });
-  if (state.favOnly) add('仅看收藏', () => { state.favOnly = false; });
   if (state.ids) add(`图上圈选：${state.ids.size} 篇`, () => { state.ids = null; });
   $('chips').innerHTML = chipActions.map((c, i) => `<button type="button" class="chip" data-chip="${i}">${esc(c.text)} <b>×</b></button>`).join('') +
     (chipActions.length > 1 ? '<button type="button" class="chip clear-all" data-chip="all">清除全部</button>' : '');
@@ -335,7 +268,7 @@ function renderKPIs(list) {
   $('kP').textContent = list.length ? `${Math.round(strong / list.length * 100)}%` : '—';
   $('kIF').textContent = ifs.length ? (ifs.reduce((s, x) => s + x, 0) / ifs.length).toFixed(1) : 'NA';
   const top = (k, n) => Object.entries(countBy(list, k)).sort((x, y) => y[1] - x[1]).slice(0, n);
-  const fmt = arr => arr.map(([v, c]) => `${esc(dimText('x', v))}（${c}篇）`).join('、') || '暂无';
+  const fmt = arr => arr.map(([v, c]) => `${esc(v)}（${c}篇）`).join('、') || '暂无';
   $('summary').innerHTML = list.length
     ? `当前 <b>${list.length}</b> 篇文章。主要主题：${fmt(top('theme', 3))}；主要模态：${fmt(top('modality', 2))}；` +
       `证据成熟度以“${esc(top('maturity', 1)[0]?.[0] || '—')}”为主，前瞻性/干预/证据整合类占 ${Math.round(strong / list.length * 100)}%。`
@@ -351,115 +284,31 @@ function renderStatus(list) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 文献列表（卡片 / 表格）                                             */
+/* 文献卡片（原始卡片设计）                                            */
 /* ------------------------------------------------------------------ */
-function relevance(a, toks) {
-  let s = 0;
-  toks.forEach(t => {
-    if ((a._zh + ' ' + a._en).toLowerCase().includes(t)) s += 3;
-    if (String(a.highlight || '').toLowerCase().includes(t)) s += 2;
-    if (String(a.abstract || '').toLowerCase().includes(t)) s += 1;
-  });
-  return s;
-}
-function sortList(list, toks) {
-  const L = list.slice();
-  const byDate = (x, y) => (y.date || '').localeCompare(x.date || '') || (y.impact ?? 0) - (x.impact ?? 0);
-  switch (state.sort) {
-    case 'date-asc': return L.sort((x, y) => (x.date || '').localeCompare(y.date || ''));
-    case 'if-desc': return L.sort((x, y) => (y.impact ?? -1) - (x.impact ?? -1) || byDate(x, y));
-    case 'journal': return L.sort((x, y) => abbr(x.journal).localeCompare(abbr(y.journal)) || byDate(x, y));
-    case 'relevance': return toks.length ? L.sort((x, y) => relevance(y, toks) - relevance(x, toks) || byDate(x, y)) : L.sort(byDate);
-    default: return L.sort(byDate);
-  }
-}
-
-function pill(dim, v, extra = '') {
-  return `<button type="button" class="pill ${extra} ${state.f[dim].has(v) ? 'is-on' : ''}" data-dim="${dim}" data-val="${esc(v)}" title="${DIM_LABEL[dim]}：点击筛选">${esc(v)}</button>`;
-}
-
-function cardHTML(x, toks) {
+function cardHTML(x) {
   const { doi, url } = doiInfo(x);
-  const fav = favorites.has(x.ID);
   return `<article class="article">
-    <button type="button" class="fav-btn ${fav ? 'is-on' : ''}" data-fav="${x.ID}" title="${fav ? '取消收藏' : '收藏'}">${fav ? '★' : '☆'}</button>
-    <div class="meta">${esc(x.date)} · ${esc(abbr(x.journal))} · IF ${x.impact ?? 'NA'}</div>
-    ${x.title_chinese ? `<h3 class="title-chinese title-open" data-open="${x.ID}">${titleHTML(x.title_chinese)}</h3>` : ''}
-    <h3 class="title-english ${x.title_chinese ? '' : 'title-open'}" data-open="${x.ID}">${titleHTML(x.title)}</h3>
-    <div>${pill('modality', x.modality)}${pill('future', x.future)}${pill('maturity', x.maturity, 'mat')}</div>
-    <p>${hl(x.highlight, toks)}</p>
-    ${x.abstract ? `<details class="abstract-dropdown"><summary>英文摘要</summary><div class="abstract-text">${hl(x.abstract, toks)}</div></details>` : ''}
-    ${url ? `<div class="meta doi-container">DOI：<a class="doi-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(doi || url)}</a></div>` : ''}
+    <div class="meta">${esc(x.date)} · ${esc(x.journal)} · IF ${x.impact ?? 'NA'}</div>
+    ${x.title_chinese ? `<h3 class="title-chinese">${titleHTML(x.title_chinese)}</h3>` : ''}
+    <h3 class="title-english">${titleHTML(x.title)}</h3>
+    <span class="pill">${esc(x.modality)}</span>
+    <span class="pill">${esc(x.future)}</span>
+    <p>${esc(x.highlight)}</p>
+    ${url ? `<div class="meta doi-container"><span>DOI：</span><a class="doi-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(doi || url)}</a></div>` : ''}
   </article>`;
 }
 
-function renderCards(list, toks) {
-  const vis = list.slice(0, state.shown);
+function renderCards(list) {
+  const vis = list.slice(0, MAX_CARDS);
   $('articles').innerHTML = vis.length
-    ? vis.map(x => cardHTML(x, toks)).join('')
-    : '<div class="empty">没有符合条件的文献。<button type="button" class="secondary" data-act="reset">重置筛选</button></div>';
-  $('moreWrap').hidden = list.length <= state.shown;
-  $('more').textContent = `加载更多（剩余 ${Math.max(0, list.length - state.shown)} 篇）`;
-  $('articleCount').textContent = `显示 ${Math.min(list.length, state.shown)} / ${list.length} 篇`;
-}
-
-function renderTable(list) {
-  $('articleCount').textContent = `共 ${list.length} 篇`;
-  const lang = {
-    search: '表内检索：', lengthMenu: '每页 _MENU_ 条', info: '第 _START_–_END_ 条，共 _TOTAL_ 条',
-    infoEmpty: '无数据', infoFiltered: '（从 _MAX_ 条中筛选）', zeroRecords: '没有匹配记录', emptyTable: '没有数据'
-  };
-  if (!dt) {
-    dt = new DataTable('#tbl', {
-      data: list,
-      pageLength: 15,
-      lengthMenu: [15, 30, 60, 120],
-      order: [[0, 'desc']],
-      deferRender: true,
-      language: lang,
-      columns: [
-        { title: '日期', data: 'date', width: '80px' },
-        { title: '期刊', data: 'journal', render: (d, t) => (t === 'display' ? esc(abbr(d)) : d) },
-        {
-          title: '标题', data: null,
-          render: (d, t, r) => (t === 'display'
-            ? `<a href="#" class="tbl-open" data-open="${r.ID}">${esc(r._zh || r._en)}</a>${r._zh ? `<div class="tbl-sub">${esc(r._en)}</div>` : ''}`
-            : `${r._zh} ${r._en}`)
-        },
-        { title: '模态', data: 'modality' },
-        { title: '主题', data: 'theme' },
-        { title: '证据成熟度', data: 'maturity' },
-        { title: 'IF', data: 'impact', render: d => (d ?? '') }
-      ]
-    });
-  } else {
-    dt.clear(); dt.rows.add(list); dt.draw(false);
-  }
-}
-
-function renderList(list, toks) {
-  const isTable = state.view === 'table';
-  $('articles').hidden = isTable;
-  $('tableWrap').hidden = !isTable;
-  if (isTable) { $('moreWrap').hidden = true; renderTable(list); dt?.columns.adjust(); }
-  else renderCards(list, toks);
-}
-
-function exportCSV() {
-  const cols = ['ID', 'date', 'journal', 'title', 'title_chinese', 'modality', 'theme', 'future', 'anatomy', 'maturity', 'impact', 'doi', 'doi_url', 'highlight'];
-  const cell = v => `"${String(v ?? '').replace(/"/g, '""')}"`;
-  const rows = currentList.map(a => cols.map(c => cell(c === 'title' ? a._en : c === 'title_chinese' ? a._zh : a[c])).join(','));
-  const blob = new Blob(['\ufeff' + [cols.join(','), ...rows].join('\r\n')], { type: 'text/csv;charset=utf-8' });
-  const link = document.createElement('a');
-  link.href = URL.createObjectURL(blob);
-  link.download = `literature_filtered_${new Date().toISOString().slice(0, 10)}.csv`;
-  link.click();
-  setTimeout(() => URL.revokeObjectURL(link.href), 1000);
-  toast(`已导出 ${currentList.length} 篇`);
+    ? vis.map(cardHTML).join('')
+    : '<div class="empty">没有符合条件的文献。</div>';
+  $('articleCount').textContent = `显示 ${Math.min(list.length, MAX_CARDS)} / ${list.length} 篇`;
 }
 
 /* ------------------------------------------------------------------ */
-/* 详情弹窗与收藏                                                      */
+/* 详情弹窗（由时间轴散点打开）                                        */
 /* ------------------------------------------------------------------ */
 function openModal(id) {
   let idx = currentList.findIndex(a => a.ID === id);
@@ -473,37 +322,22 @@ function closeModal() { $('modal').hidden = true; document.body.style.overflow =
 function renderModal() {
   const a = currentList[modalIndex];
   if (!a) return;
-  const toks = tokens();
   const { doi, url } = doiInfo(a);
-  const fav = favorites.has(a.ID);
   $('mMeta').textContent = `${a.date} · ${a.journal} · IF ${a.impact ?? 'NA'}`;
   $('mPos').textContent = `${modalIndex + 1} / ${currentList.length}`;
   $('mPrev').disabled = modalIndex <= 0;
   $('mNext').disabled = modalIndex >= currentList.length - 1;
-  $('mFav').textContent = fav ? '★' : '☆';
-  $('mFav').classList.toggle('is-on', fav);
   $('mBody').innerHTML = `
     ${a.title_chinese ? `<h3 id="mTitle">${titleHTML(a.title_chinese)}</h3>` : ''}
     <div class="en" ${a.title_chinese ? '' : 'id="mTitle"'}>${titleHTML(a.title)}</div>
-    <div style="margin-top:10px">${DIMS.filter(d => d.key !== 'journal').map(d => pill(d.key, a[d.key], d.key === 'maturity' ? 'mat' : '')).join('')}</div>
-    <h4>要点（中文）</h4><p>${hl(a.highlight, toks)}</p>
-    <h4>英文摘要</h4><p>${a.abstract ? hl(a.abstract, toks) : '［原始数据未提供摘要］'}</p>
+    <div style="margin-top:10px">${DIMS.filter(d => d.key !== 'journal').map(d => `<span class="pill">${esc(a[d.key])}</span>`).join('')}</div>
+    <h4>要点（中文）</h4><p>${esc(a.highlight)}</p>
+    <h4>英文摘要</h4><p>${a.abstract ? esc(a.abstract) : '［原始数据未提供摘要］'}</p>
     <dl class="kv">
       <dt>期刊</dt><dd>${esc(a.journal)}（${esc(abbr(a.journal))}）</dd>
       <dt>期刊 H-index</dt><dd>${a.h_index ?? '—'}</dd>
       <dt>DOI</dt><dd>${url ? `<a class="doi-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(doi || url)}</a>` : '—'}</dd>
     </dl>`;
-}
-function saveFav() { localStorage.setItem(FAV_KEY, JSON.stringify([...favorites])); $('favCount').textContent = favorites.size; }
-function toggleFav(id) {
-  if (favorites.has(id)) favorites.delete(id); else favorites.add(id);
-  saveFav();
-  if (state.favOnly) { update(); return; }
-  document.querySelectorAll(`[data-fav="${id}"]`).forEach(b => {
-    const on = favorites.has(id);
-    b.classList.toggle('is-on', on); b.textContent = on ? '★' : '☆'; b.title = on ? '取消收藏' : '收藏';
-  });
-  if (!$('modal').hidden) renderModal();
 }
 function toast(msg) {
   const t = $('toast'); t.textContent = msg; t.classList.add('show');
@@ -569,7 +403,7 @@ function pivotChart(list) {
   const pct = state.pivotNorm !== 'count';
   const ticks = (k, vals) => ({ type: 'category', showgrid: false, zeroline: false, tickvals: vals, ticktext: vals.map(v => trunc(dimText(k, v), 16)), automargin: true });
   Plotly.react('pivot', [{
-    type: 'heatmap', x: xs, y: ys, z, customdata: cnt, colorscale: 'YlGnBu', reversescale: false, xgap: 2, ygap: 2,
+    type: 'heatmap', x: xs, y: ys, z, customdata: cnt, colorscale: 'YlGnBu', xgap: 2, ygap: 2,
     texttemplate: pct ? '%{z:.0f}%' : '%{z}', hoverongaps: false,
     colorbar: { title: { text: pct ? '%' : '篇', side: 'right' }, thickness: 12, outlinewidth: 0 },
     hovertemplate: `${DIM_LABEL[Y]}：%{y}<br>${DIM_LABEL[X]}：%{x}<br>%{customdata} 篇${pct ? '（%{z:.1f}%）' : ''}<br><i>点击筛选</i><extra></extra>`
@@ -636,6 +470,7 @@ function jitterDate(a) {
   return new Date(new Date(`${a.date}T12:00:00Z`).getTime() + off).toISOString();
 }
 const jitterIF = a => a.impact + ((hashStr(`if${a.ID}`) % 1000) / 1000 - 0.5) * 0.4;
+
 function timelineChart(list) {
   const pts = list.filter(a => a.date && Number.isFinite(a.impact));
   if (!pts.length) return emptyChart('timeline');
@@ -653,9 +488,9 @@ function timelineChart(list) {
   });
   Plotly.react('timeline', traces, lay({
     uirevision: 'timeline', dragmode: 'zoom', selections: [],
-    legend: { orientation: 'h', y: -0.42, font: { size: 11 } },
+    legend: { orientation: 'h', y: -0.18, font: { size: 11 } },
     margin: { l: 55, r: 15, t: 10, b: 30 },
-    xaxis: { type: 'date', rangeslider: { visible: true, thickness: 0.07 }, gridcolor: 'rgba(148,163,184,.12)' },
+    xaxis: { type: 'date', rangeslider: { visible: false }, gridcolor: 'rgba(148,163,184,.12)' },
     yaxis: { title: { text: '期刊影响因子' }, gridcolor: 'rgba(148,163,184,.15)' }
   }), { ...CFG, modeBarButtonsToRemove: ['autoScale2d'] });
   bind('timeline', 'plotly_click', ev => { const p = ev.points?.[0]; if (p) openModal(p.customdata[0]); });
@@ -663,7 +498,7 @@ function timelineChart(list) {
     const ids = (ev?.points || []).map(p => p.customdata?.[0]).filter(v => v != null);
     if (!ids.length) return;
     state.ids = new Set(ids);
-    changed();
+    update();
     toast(`已圈选 ${ids.length} 篇文章`);
   });
 }
@@ -694,7 +529,7 @@ function flowChart(list) {
       const s = state.f[k];
       if (s.has(raw)) s.delete(raw); else s.add(raw);
     });
-    changed();
+    update();
   });
 }
 
@@ -771,13 +606,13 @@ function maturityChart(base) {
 function update() {
   const toks = tokens();
   const list = A.filter(a => pass(a, null, toks));
-  currentList = sortList(list, toks);
+  currentList = list;
   syncControls();
   renderStatus(list);
   renderChips();
   renderFacets(toks);
   renderKPIs(list);
-  renderList(currentList, toks);
+  renderCards(list);
   barChart('themeBar', 'theme', listExcept('theme', toks));
   barChart('modalityBar', 'modality', listExcept('modality', toks));
   pivotChart(list);
@@ -787,7 +622,6 @@ function update() {
   flowChart(list);
   cloudChart(list);
   maturityChart(listExcept('maturity', toks));
-  writeHash();
 }
 
 /* ------------------------------------------------------------------ */
@@ -802,10 +636,9 @@ function populateSelects() {
 }
 
 function bindEvents() {
-  const onSearch = debounce(() => { state.q = $('q').value.trim(); if (state.q && state.sort === 'date-desc') state.sort = 'relevance'; changed(); }, 220);
-  $('q').addEventListener('input', onSearch);
+  $('q').addEventListener('input', debounce(() => { state.q = $('q').value.trim(); update(); }, 220));
 
-  const onIF = debounce(changed, 150);
+  const onIF = debounce(update, 150);
   ['ifMin', 'ifMax'].forEach(id => $(id).addEventListener('input', () => {
     let lo = parseFloat($('ifMin').value), hi = parseFloat($('ifMax').value);
     if (lo > hi) { if (id === 'ifMin') lo = hi; else hi = lo; }
@@ -820,12 +653,11 @@ function bindEvents() {
     if (from && to && from > to) [from, to] = [to, from];
     state.dateFrom = from && from > DATE_MIN ? from : '';
     state.dateTo = to && to < DATE_MAX ? to : '';
-    changed();
+    update();
   }));
 
-  $('absOnly').addEventListener('change', e => { state.absOnly = e.target.checked; changed(); });
-  $('favOnly').addEventListener('change', e => { state.favOnly = e.target.checked; changed(); });
-  $('kpiAbs').addEventListener('click', () => { state.absOnly = !state.absOnly; changed(); });
+  $('absOnly').addEventListener('change', e => { state.absOnly = e.target.checked; update(); });
+  $('kpiAbs').addEventListener('click', () => { state.absOnly = !state.absOnly; update(); });
 
   $('facets').addEventListener('change', e => {
     const t = e.target;
@@ -836,7 +668,7 @@ function bindEvents() {
     if (!b) return;
     e.preventDefault();
     state.f[b.dataset.clear].clear();
-    changed();
+    update();
   });
   $('facets').addEventListener('toggle', e => {
     const d = e.target.closest?.('details[data-dim]');
@@ -849,28 +681,10 @@ function bindEvents() {
     if (!b) return;
     if (b.dataset.chip === 'all') { resetAll(); return; }
     chipActions[Number(b.dataset.chip)]?.fn();
-    changed();
+    update();
   });
 
   $('reset').addEventListener('click', () => { if (!$('reset').disabled) resetAll(); });
-
-  $('sort').addEventListener('change', e => { state.sort = e.target.value; changed(); });
-  document.querySelectorAll('.segmented button').forEach(b => b.addEventListener('click', () => { state.view = b.dataset.view; update(); }));
-  $('more').addEventListener('click', () => { state.shown += PAGE; renderCards(currentList, tokens()); });
-  $('export').addEventListener('click', exportCSV);
-
-  const listClick = e => {
-    const fav = e.target.closest('[data-fav]');
-    if (fav) { toggleFav(Number(fav.dataset.fav)); return; }
-    const open = e.target.closest('[data-open]');
-    if (open) { e.preventDefault(); openModal(Number(open.dataset.open)); return; }
-    const p = e.target.closest('button.pill[data-dim]');
-    if (p) { if (!$('modal').hidden) closeModal(); toggle(p.dataset.dim, p.dataset.val); return; }
-    if (e.target.closest('[data-act="reset"]')) resetAll();
-  };
-  $('articles').addEventListener('click', listClick);
-  $('tableWrap').addEventListener('click', listClick);
-  $('mBody').addEventListener('click', listClick);
 
   ['pivotX', 'pivotY'].forEach(id => $(id).addEventListener('change', e => {
     const other = id === 'pivotX' ? 'pivotY' : 'pivotX';
@@ -885,7 +699,6 @@ function bindEvents() {
   $('modal').addEventListener('click', e => { if (e.target.closest('[data-close]')) closeModal(); });
   $('mPrev').addEventListener('click', () => { if (modalIndex > 0) { modalIndex--; renderModal(); } });
   $('mNext').addEventListener('click', () => { if (modalIndex < currentList.length - 1) { modalIndex++; renderModal(); } });
-  $('mFav').addEventListener('click', () => { const a = currentList[modalIndex]; if (a) toggleFav(a.ID); });
   document.addEventListener('keydown', e => {
     if ($('modal').hidden) return;
     if (e.key === 'Escape') closeModal();
@@ -897,13 +710,6 @@ function bindEvents() {
     document.body.classList.toggle('light');
     localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
     setTimeout(update, 30);
-  });
-  $('share').addEventListener('click', () => {
-    writeHash();
-    const url = location.href;
-    (navigator.clipboard?.writeText(url) || Promise.reject())
-      .then(() => toast('当前视图链接已复制'))
-      .catch(() => window.prompt('复制以下链接：', url));
   });
   window.addEventListener('resize', debounce(() => cloudChart(A.filter(a => pass(a, null, tokens()))), 250));
 }
@@ -941,13 +747,10 @@ async function boot() {
     const { articles, journals } = await loadData();
     prepare(articles, journals);
   } catch (err) {
-    $('coverage').textContent = '数据载入失败';
     $('status').innerHTML = `无法读取 data/*.json（${esc(err.message)}）。请通过静态服务器或 GitHub Pages 访问，或先运行 tools/build_bundle.py 生成 data/bundle.js。`;
     return;
   }
-  $('coverage').textContent = `数据覆盖：${DATE_MIN} 至 ${DATE_MAX} · ${A.length} 篇 · ${W.length} 种期刊`;
   populateSelects();
-  readHash();
   bindEvents();
   update();
 }
